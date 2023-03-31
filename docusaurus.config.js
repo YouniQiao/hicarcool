@@ -45,8 +45,8 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          //editUrl:
-            //'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl:
+            'https://github.com/YouniQiao/hicartool/tree/master/',
         },
         blog: {
           showReadingTime: true,
@@ -54,8 +54,8 @@ const config = {
           blogSidebarCount: 'ALL',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          //editUrl:
-            //'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl:
+            'https://github.com/YouniQiao/hicartool/tree/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
