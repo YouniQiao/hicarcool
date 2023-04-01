@@ -46,7 +46,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/YouniQiao/hicartool/tree/master/',
+            'https://github.com/YouniQiao/hicarcool/tree/master/',
         },
         blog: {
           showReadingTime: true,
@@ -55,7 +55,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/YouniQiao/hicartool/tree/master/',
+            'https://github.com/YouniQiao/hicarcool/tree/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
