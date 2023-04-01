@@ -83,7 +83,7 @@ const config = {
             position: 'left',
             label: '教程',
           },
-          //{to: '/box', label: '周边', position: 'left'},
+          {to: '/box', label: '周边', position: 'left'},
           {to: '/blog', label: '最新消息', position: 'left'},
           {
             href: 'https://developer.huawei.com/consumer/cn/HiCar',
@@ -102,10 +102,10 @@ const config = {
                 label: '教程',
                 to: '/docs/intro',
               },
-              //{
-              //  label: '周边',
-              //  to: '/box',
-              //},
+              {
+                label: '周边',
+                to: '/box',
+              },
               {
                 label: '最新消息',
                 to: '/blog',
