@@ -90,6 +90,25 @@ const config = {
             label: 'HiCar官网',
             position: 'right',
           },
+          {
+            type: 'dropdown',
+            label: '支持情况',
+            position: 'right',
+            items: [
+              {
+                label: '支持的车型',
+                href: 'https://developer.huawei.com/consumer/cn/doc/development/HiCar-Guides/available-models-0000001226230373',
+              },
+              {
+                label: '支持的手机',
+                href: 'https://developer.huawei.com/consumer/cn/doc/development/HiCar-Guides/available-phones-0000001227954439',
+              },
+              {
+                label: '支持的应用',
+                href: 'https://developer.huawei.com/consumer/cn/doc/development/HiCar-Guides/available-apps-0000001180830678',
+              },
+            ],
+          },
         ],
       },
       footer: {
