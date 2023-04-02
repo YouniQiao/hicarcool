@@ -70,7 +70,7 @@ export default function HomepageFeatures() {
         <tr>
         <td>2023.03</td>
         <td><a href="https://1drv.ms/u/s!AjNBmOx9zvFooDwt5BKgGEVkJib0?e=v8yH0z" target="_blank">13.2.0.425</a></td>
-        <td></td>
+        <td><a href="https://1drv.ms/u/s!AjNBmOx9zvFooELyHnJzCzCi5Zro?e=lGhRQB" target="_blank">13.2.0.430</a></td>
         <td><a href="https://1drv.ms/u/s!AjNBmOx9zvFooEEzuIRVYa9eBXOY?e=txpoHW" target="_blank">13.2.0.431</a></td>
         </tr>
         <tr>
@@ -85,3 +85,4 @@ export default function HomepageFeatures() {
     </section>
   );
 }
+
