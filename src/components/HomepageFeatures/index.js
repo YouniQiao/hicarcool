@@ -51,7 +51,7 @@ function Feature({Svg, title, description}) {
 
 export default function HomepageFeatures() {
   return (
-    
+    <section>
     <section className={styles.features}>
       <div className="container">
         <h1>HUAWEI HiCar Apks</h1>
@@ -82,6 +82,16 @@ export default function HomepageFeatures() {
         </tbody>
         </table>
       </div>
+    </section>
+    <section>
+        <div className="container">
+        <div className="text--center padding-horiz--md">
+          <p>想尽快用上HUAWEI HiCar？<a href='/box'>点击了解HiCar 周边设备</a></p>
+          <p></p><p></p>
+        </div>
+        
+      </div>
+    </section>
     </section>
   );
 }
