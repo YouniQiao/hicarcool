@@ -1,3 +1,9 @@
+---
+last_update:
+  date: 2023-04-08
+  author: 油腻樵夫
+---
+
 # 唤醒语音
 
 <img

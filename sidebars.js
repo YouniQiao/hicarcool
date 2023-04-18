@@ -99,13 +99,14 @@ const sidebars = {
       ],
     },
     //{
-    //  type: 'category',
-    //  label: 'HiCar技术进阶',
-    //  items: [
-    //    'advanced/architecture',
-    //    'advanced/app-access',
-    //    'advanced/device-access',
-    //  ],
+      //type: 'category',
+      //label: 'HiCar技术进阶',
+      //items: [
+      //  'advanced/architecture',
+      //  'advanced/app-access',
+      //  'advanced/device-access',
+      //  'advanced/one-more-thing',
+      //],
     //},
     
   ],
