@@ -98,6 +98,13 @@ const sidebars = {
         },
       ],
     },
+    {
+      type: 'category',
+      label: 'HiCar设备猎奇',
+      items: [
+        'devices/box-hicar-pad',
+      ],
+    },
     //{
       //type: 'category',
       //label: 'HiCar技术进阶',
