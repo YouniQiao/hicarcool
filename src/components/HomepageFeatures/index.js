@@ -68,6 +68,12 @@ export default function HomepageFeatures() {
         <td>在正式版本之上额外开放花瓣地图以及微信投屏的版本。通过会员中心体验官下载。</td>
         </tr>
         <tr>
+        <td>2023.04</td>
+        <td><a href="https://1drv.ms/u/s!AjNBmOx9zvFooGDEtCW2nZHtzOro?e=WFcAQS" target="_blank">13.2.0.435</a></td>
+        <td></td>
+        <td></td>
+        </tr>
+        <tr>
         <td>2023.03</td>
         <td><a href="https://1drv.ms/u/s!AjNBmOx9zvFooDwt5BKgGEVkJib0?e=v8yH0z" target="_blank">13.2.0.425</a></td>
         <td><a href="https://1drv.ms/u/s!AjNBmOx9zvFooELyHnJzCzCi5Zro?e=lGhRQB" target="_blank">13.2.0.430</a></td>
