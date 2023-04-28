@@ -157,6 +157,10 @@ const config = {
                     <img src="https://hicar.cool/img/wechatcode.png" alt="微信公众号" width="270"  />
                   `,
               },
+              {
+                label: '本站点通过PC浏览效果更佳，牢记域名 hicar.cool',
+                href: 'https://hicar.cool',
+              },
           
             ],
           },
