@@ -1,6 +1,6 @@
 ---
 last_update:
-  date: 2023-04-08
+  date: 2023-04-28
   author: 油腻樵夫
 ---
 
@@ -56,6 +56,8 @@ last_update:
         width="400" 
     />
 
+
+
 ## 更多应用（手机应用直接投屏）
 
 从13.2.0.415版本开始，HiCar支持直接投屏部分手机版应用到车机侧使用。
@@ -90,6 +92,20 @@ last_update:
         src={require('./img/obtain-8.png').default}
         width="800" 
     />
+
+:::tip
+
+使用"更多应用"需要满足以下三个条件：
+
+1. 手机系统版本为HarmonyOS 3.0及以上。
+
+2. 车机屏幕为触摸屏。
+
+3. 车机屏幕高度至少为480dpi。
+
+更多说明可以参考[破案了，更新HiCar后不支持更多应用投屏的原因竟是它](https://mp.weixin.qq.com/s?__biz=MzU4ODg0MDI4Nw==&mid=2247484158&idx=1&sn=c646152feb79b365145fef4688ced987&chksm=fdd7eececaa067d8e01748c56492276ad528d856c14b4d671d92ffeb9ee0ebbe0d81979757b2&token=1422127125&lang=zh_CN#rd)。
+
+:::
 
 
 ## 彩蛋应用
