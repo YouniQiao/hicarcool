@@ -103,6 +103,8 @@ const sidebars = {
       label: 'HiCar设备猎奇',
       items: [
         'devices/box-hicar-pad',
+        'devices/aromatherapy-hicar',
+        'devices/vision-glass-hicar',
       ],
     },
     //{
