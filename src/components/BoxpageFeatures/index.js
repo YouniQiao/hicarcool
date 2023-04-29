@@ -26,10 +26,21 @@ const BoxList = [
     ),
   },
   {
+    title: '车连易（Android系统车机）',
+    Svg: require('@site/static/img/device/box-carlinkit-android.svg').default,
+    urlName:"京东链接",
+    url:"https://u.jd.com/qQvRj9M",
+    description: (
+      <>
+        车连易适用于Android车机的盒子（需支持自行安装软件）。也就是可以在平板上使用HiCar的盒子。
+      </>
+    ),
+  },
+  {
     title: '君用（CarPlay/CarLife转HiCar）',
     Svg: require('@site/static/img/device/box-junyong.svg').default,
     urlName:"京东链接",
-    url:"https://item.jd.com/10065160785793.html",
+    url:"https://u.jd.com/qqvRkeM",
     description: (
       <>
         君用的HiCar盒子。
