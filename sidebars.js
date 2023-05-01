@@ -84,6 +84,7 @@ const sidebars = {
             'guides/voice/wake-up',
             'guides/voice/timbre',
             'guides/voice/seen-and-said',
+            'guides/voice/voice-enhance',
             'guides/voice/commands',
           ],
         },
