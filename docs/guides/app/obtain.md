@@ -110,6 +110,8 @@ last_update:
 
 ## 彩蛋应用
 
+### 高德地图车机版
+
 HiCar还支持高德地图车机版。您可以自行在官网下载高德地图车机版，然后安装在手机上。
 
 
@@ -122,3 +124,14 @@ HiCar还支持高德地图车机版。您可以自行在官网下载高德地图
 
 如果需要，您可以通过这个地址下载[高德地图车机版下载地址](https://auto.amap.com/download)。
 
+### QQ音乐车机版
+
+HiCar也支持QQ音乐车机版。你能可以自行在官网下载QQ音乐车机版，然后安装在手机上。
+
+
+<img
+    src={require('./img/obtain-10.jpg').default}
+    width="800" 
+/>
+
+如果需要，您可以通过这个地址下载[QQ音乐车机版下载地址](https://y.qq.com/download/download.html)。
