@@ -118,7 +118,7 @@ const sidebars = {
       //  'advanced/one-more-thing',
       //],
     //},
-    
+    'update',
   ],
   
 };
