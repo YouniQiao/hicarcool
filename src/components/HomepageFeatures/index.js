@@ -94,6 +94,7 @@ export default function HomepageFeatures() {
         <div className="text--center padding-horiz--md">
           <p>想尽快用上HUAWEI HiCar？<a href='/box'>点击了解HiCar 周边设备</a></p>
           <p></p><p></p>
+          <p>本站非HiCar官方站点，但会随HiCar功能演进持续更新，<a href='/docs/update'>点击了解本站更新说明</a></p>
         </div>
         
       </div>
