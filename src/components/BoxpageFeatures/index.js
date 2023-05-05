@@ -32,7 +32,7 @@ const BoxList = [
     url:"https://u.jd.com/qQvRj9M",
     description: (
       <>
-        车连易适用于Android车机的盒子（需支持自行安装软件）。也就是可以在平板上使用HiCar的盒子。
+        车连易适用于Android车机的盒子（需支持自行安装软件）。也就是可以在平板上使用HiCar的盒子。<br/><a href='/docs/devices/box-hicar-pad'>使用说明</a>。
       </>
     ),
   },
@@ -99,7 +99,7 @@ const HiCarConnectDeviceList = [
     url:"https://u.jd.com/sqGinJa",
     description: (
       <>
-        车载香薰需绑定到智慧生活App，连接HiCar后，在HiCar界面显示香薰卡片，可对香薰开关、浓度、开启模式等进行控制。如果要买，建议选择元气风铃香味。
+        车载香薰需绑定到智慧生活App，连接HiCar后，在HiCar界面显示香薰卡片，可对香薰开关、浓度、开启模式等进行控制。如果要买，建议选择元气风铃香味。<br/><a href='/docs/devices/aromatherapy-hicar'>使用说明</a>。
       </>
     ),
   },
