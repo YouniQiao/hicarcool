@@ -7,6 +7,11 @@ last_update:
 
 记录本站内容以及功能上的一些更新说明，便于您快速了解。
 
+
+## 2023-05-06
+
+增加HiCar搭配Vision Glass智能观影眼镜实现车内虚拟影院的说明，详见[HiCar车内虚拟影院](devices/vision-glass-hicar.md)。
+
 ## 2023-05-03
 
 增加QQ音乐车机版的相关说明，详见[获取应用](guides/app/obtain.md)。
