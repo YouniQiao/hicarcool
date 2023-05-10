@@ -55,7 +55,8 @@ export default function HomepageFeatures() {
     <section className={styles.features}>
       <div className="container">
         <h1>HUAWEI HiCar Apks</h1>
-        <p>Download HUAWEI HiCar APK for Android</p><p>
+        <p>Download HUAWEI HiCar APK for Android</p>
+        <p>各文件下载密码：hicar</p><p>
         </p><p></p><p>
         </p>
         <table>
@@ -68,22 +69,22 @@ export default function HomepageFeatures() {
         <td>在正式版本之上额外开放花瓣地图以及微信投屏的版本。通过会员中心体验官下载。</td>
         </tr>
         <tr>
-        <td>2023.04</td>
-        <td><a href="https://1drv.ms/u/s!AjNBmOx9zvFooGDEtCW2nZHtzOro?e=WFcAQS" target="_blank">13.2.0.435</a></td>
+        <td>2023.04~05</td>
+        <td><a href="https://hicar.lanzoum.com/iyhD20v6mvja" target="_blank">13.2.0.435</a></td>
         <td></td>
         <td></td>
         </tr>
         <tr>
         <td>2023.03</td>
-        <td><a href="https://1drv.ms/u/s!AjNBmOx9zvFooDwt5BKgGEVkJib0?e=v8yH0z" target="_blank">13.2.0.425</a></td>
-        <td><a href="https://1drv.ms/u/s!AjNBmOx9zvFooELyHnJzCzCi5Zro?e=lGhRQB" target="_blank">13.2.0.430</a></td>
-        <td><a href="https://1drv.ms/u/s!AjNBmOx9zvFooEEzuIRVYa9eBXOY?e=txpoHW" target="_blank">13.2.0.431</a></td>
+        <td><a href="https://hicar.lanzoum.com/ir1HC0v6o78h" target="_blank">13.2.0.425</a></td>
+        <td><a href="https://hicar.lanzoum.com/ii7P80v6muje" target="_blank">13.2.0.430</a></td>
+        <td><a href="https://hicar.lanzoum.com/iMy5m0v6mv2d" target="_blank">13.2.0.431</a></td>
         </tr>
         <tr>
         <td>2023.02</td>
-        <td><a href="https://1drv.ms/u/s!AjNBmOx9zvFooD_GQiItjOFiWiRP?e=qEv0AR" target="_blank">13.2.0.415</a></td>
-        <td><a href="https://1drv.ms/u/s!AjNBmOx9zvFooD1Nt_E7nHEWTKxz?e=aeILTU" target="_blank">13.2.0.420</a></td>
-        <td><a href="https://1drv.ms/u/s!AjNBmOx9zvFooEAakxPR9OwvVCS9?e=F0rNjh" target="_blank">13.2.0.421</a></td>
+        <td><a href="https://hicar.lanzoum.com/iJIu90v6mx0d" target="_blank">13.2.0.415</a></td>
+        <td><a href="https://hicar.lanzoum.com/iiQN50v6mvvc" target="_blank">13.2.0.420</a></td>
+        <td><a href="https://hicar.lanzoum.com/iuRtW0v6mwcj" target="_blank">13.2.0.421</a></td>
         </tr>
         </tbody>
         </table>
