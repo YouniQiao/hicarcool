@@ -56,7 +56,7 @@ export default function HomepageFeatures() {
       <div className="container">
         <h1>HUAWEI HiCar Apks</h1>
         <p>Download HUAWEI HiCar APK for Android</p>
-        <p>各文件下载密码：hicar</p><p>
+        <p>各文件下载密码：<font color="red"><b>hicar</b></font></p><p>
         </p><p></p><p>
         </p>
         <table>
