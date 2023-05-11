@@ -4,32 +4,32 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'HUAWEI HiCar教程',
+    Svg: require('@site/static/img/undraw_tutorial.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        从HiCar是什么，到HiCar支持哪些手机、应用和车型，再到HiCar每个功能怎么用又有哪些注意事项，
+        教程里都有。您可以访问<a href='/docs/intro'>本站教程菜单</a>直接查看（手机访问本站时请从网站左上角菜单进入）。
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'HUAWEI HiCar设备',
+    Svg: require('@site/static/img/undraw_device.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        从各种转换盒，到车载智慧屏/智能后视镜，到后装车机，再到车载香薰机等跟HiCar相关的周边设备，
+        一网打尽。想尽快用上HUAWEI HiCar？<a href='/box'>请点击了解HiCar周边设备</a>。
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: '本站更新说明',
+    Svg: require('@site/static/img/undraw_update.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        本站并非HiCar官方站点，由HiCar粉丝搭建并维护，会随HiCar功能演进持续更新，<a href='/docs/update'>点击了解本站更新说明</a>。
+        同时欢迎各位有能力有意愿的各位HiCar粉丝共同参与本站内容建设，参与方式：在教程页面左下角“编辑此页”跳转到Github提交PR。
       </>
     ),
   },
@@ -90,14 +90,13 @@ export default function HomepageFeatures() {
         </table>
       </div>
     </section>
-    <section>
-        <div className="container">
-        <div className="text--center padding-horiz--md">
-          <p>想尽快用上HUAWEI HiCar？<a href='/box'>点击了解HiCar 周边设备</a></p>
-          <p></p><p></p>
-          <p>本站非HiCar官方站点，但会随HiCar功能演进持续更新，<a href='/docs/update'>点击了解本站更新说明</a></p>
+    <section className={styles.features}>
+      <div className="container">
+        <div className="row">
+          {FeatureList.map((props, idx) => (
+            <Feature key={idx} {...props} />
+          ))}
         </div>
-        
       </div>
     </section>
     </section>
