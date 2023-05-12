@@ -1,6 +1,6 @@
 ---
 last_update:
-  date: 2023-04-08
+  date: 2023-05-12
   author: 油腻樵夫
 ---
 
@@ -10,7 +10,7 @@ last_update:
 
 首先需要跟您明确的是，在车上使用HiCar可能会有很多方式，您可以根据您自己的情况，选择合适的形式使用HiCar。
 
-## 1.检查您的车是有直接支持HiCar
+## 1.检查您的车是否直接支持HiCar
 
 ### 适用场景
 
@@ -102,3 +102,14 @@ last_update:
 当然，这需要您稍微下定决心，来对您的车型进行部件替换，如果您可以接受的话，可以查看下后装车机对HiCar的支持情况。
 
 在HiCar支持的具体车型页面中，还介绍了一些支持HiCar的后装车机和车机平台，您可以了解一下[华为开发者联盟-HiCar支持的车型](https://developer.huawei.com/consumer/cn/doc/development/HiCar-Guides/)。
+
+## 6.确认你是否有手机支架
+
+如果以上5种情况，您都无法满足，也不要灰心，如果您车上有手机支架的话，您可以尝试使用最新版本HiCar提供的驾驶模式功能。只要您的手机支持HiCar就可以使用。
+
+<img
+  src={require('./img/car-5.jpg').default}
+  width="400" 
+/>
+
+更多有关驾驶模式的说明，可以参考[HiCar驾驶模式](../dmode/driving-mode)。

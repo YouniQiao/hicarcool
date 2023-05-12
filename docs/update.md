@@ -1,11 +1,15 @@
 ---
 last_update:
-  date: 2023-05-03
+  date: 2023-05-12
   author: 油腻樵夫
 ---
 # 本站更新说明
 
 记录本站内容以及功能上的一些更新说明，便于您快速了解。
+
+## 2023-05-12
+1. 增加13.2.0.450版本下载链接及众测消息说明，详见[首页](https://hicar.cool/)和[HiCar 13.2.0.450众测版本新驾驶模式](https://hicar.cool/blog/hicar-450)。
+2. 增加HiCar驾驶模式相关说明，详见[驾驶模式简介](dmode/driving-mode.md)、[进入驾驶模式](dmode/enter-driving-mode.md)、[功能与操作逻辑](dmode/function-and-operation.md)、[与HiCar联动](dmode/work-with-hicar.md)、[退出驾驶模式](dmode/exit-driving-mode.md)。
 
 
 ## 2023-05-06

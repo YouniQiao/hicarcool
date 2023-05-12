@@ -64,6 +64,7 @@ const sidebars = {
             'guides/ui/wallpaper',
             'guides/ui/dock',
             'guides/ui/display-mode',
+            'guides/ui/screenshot',
             'guides/ui/back-to-car',
             
           ],
@@ -94,6 +95,7 @@ const sidebars = {
           items: [
             'guides/function/set-home-and-work-address',
             'guides/function/shake-navigation',
+            'guides/function/mobile-linkage-navigation',
             'guides/function/switch-audio-device',
           ],
         },
@@ -106,6 +108,17 @@ const sidebars = {
         'devices/box-hicar-pad',
         'devices/aromatherapy-hicar',
         'devices/vision-glass-hicar',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'HiCar驾驶模式',
+      items: [
+        'dmode/driving-mode',
+        'dmode/enter-driving-mode',
+        'dmode/function-and-operation',
+        'dmode/work-with-hicar',
+        'dmode/exit-driving-mode',
       ],
     },
     //{
