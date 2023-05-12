@@ -8,8 +8,11 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_tutorial.svg').default,
     description: (
       <>
-        从HiCar是什么，到HiCar支持哪些手机、应用和车型，再到HiCar每个功能怎么用又有哪些注意事项，
-        教程里都有。您可以访问<a href='/docs/intro'>本站教程菜单</a>直接查看（手机访问本站时请从网站左上角菜单进入）。
+        HUAWEI HiCar具体是什么<br/>
+        HiCar支持的手机/应用/车型<br/>
+        HiCar每个功能详细指导说明<br/>
+        教程里都有。您可以访问<a href='/docs/intro'>教程菜单</a>直接查看<br/>
+        （手机访问本站时请从网站左上角菜单进入）
       </>
     ),
   },
@@ -18,8 +21,11 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_device.svg').default,
     description: (
       <>
-        从各种转换盒，到车载智慧屏/智能后视镜，到后装车机，再到车载香薰机等跟HiCar相关的周边设备，
-        一网打尽。想尽快用上HUAWEI HiCar？<a href='/box'>请点击了解HiCar周边设备</a>。
+        HiCar转换盒、车载智慧屏<br/>
+        智能后视镜、后装车机<br/>
+        车载香薰机、VR眼镜、儿童安全座椅<br/>
+        HiCar周边设备一网打尽<br/>
+        <a href='/box'>详情请点击HiCar周边设备</a>
       </>
     ),
   },
@@ -28,8 +34,10 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_update.svg').default,
     description: (
       <>
-        本站并非HiCar官方站点，由HiCar粉丝搭建并维护，会随HiCar功能演进持续更新，<a href='/docs/update'>点击了解本站更新说明</a>。
-        同时欢迎各位有能力有意愿的各位HiCar粉丝共同参与本站内容建设，参与方式：在教程页面左下角“编辑此页”跳转到Github提交PR。
+        本站并非HiCar官方站点<br/>
+        由HiCar粉丝搭建并维护<br/>
+        随HiCar功能演进持续更新<br/>
+        <a href='/docs/update'>点击了解本站更新说明</a>
       </>
     ),
   },
@@ -54,8 +62,8 @@ export default function HomepageFeatures() {
     <section>
     <section className={styles.features}>
       <div className="container">
-        <h1>HUAWEI HiCar Apks</h1>
-        <p>Download HUAWEI HiCar APK for Android</p>
+        <h1>HiCar Apks Download</h1>
+        <p>以下APK仅可安装在已经支持HiCar的华为手机上。</p>
         <p>各文件下载密码：<font color="red"><b>hicar</b></font></p><p>
         </p><p></p><p>
         </p>
@@ -92,10 +100,21 @@ export default function HomepageFeatures() {
     </section>
     <section className={styles.features}>
       <div className="container">
+      <h1>HiCar.Cool Overview</h1>
+      <p>hicar.cool 为 HiCar 非官方站点，由热爱驱动。</p>
         <div className="row">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
           ))}
+        </div>
+      </div>
+    </section>
+    <section>
+        <div className="container">
+        <div className="text--center padding-horiz--md">
+          <p>本站所有内容开源在Github，欢迎各位有能力有意愿的HiCar粉丝共同参与本站内容建设。</p>
+          <p>参与方式：在教程页面左下角“编辑此页”跳转到Github提交PR。</p>
+          <p></p>
         </div>
       </div>
     </section>
