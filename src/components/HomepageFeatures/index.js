@@ -70,7 +70,7 @@ export default function HomepageFeatures() {
         </tr>
         <tr>
         <td>2023.04~05</td>
-        <td><a href="https://hicar.lanzoum.com/iZ4ZR0vpw2ri" target="_blank">13.2.0.450 (new)</a><br /><a href="https://hicar.lanzoum.com/iyhD20v6mvja" target="_blank">13.2.0.435</a></td>
+        <td><a href="https://hicar.lanzoum.com/iZ4ZR0vpw2ri" target="_blank"><font color="red">13.2.0.450</font></a><br /><a href="https://hicar.lanzoum.com/iyhD20v6mvja" target="_blank">13.2.0.435</a></td>
         <td></td>
         <td></td>
         </tr>
