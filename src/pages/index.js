@@ -30,8 +30,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`HiCar Apk Download`}
-      description="Description will go into a meta tag in <head />">
+      title={`HiCar Cool`}
+      description="HUAWEI HiCar is so cool.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

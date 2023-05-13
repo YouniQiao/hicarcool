@@ -4,7 +4,7 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'HUAWEI HiCar教程',
+    title: 'HUAWEI HiCar 教程',
     Svg: require('@site/static/img/undraw_tutorial.svg').default,
     description: (
       <>
@@ -17,7 +17,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'HUAWEI HiCar设备',
+    title: 'HUAWEI HiCar 设备',
     Svg: require('@site/static/img/undraw_device.svg').default,
     description: (
       <>
@@ -63,7 +63,7 @@ export default function HomepageFeatures() {
     <section className={styles.features}>
       <div className="container">
         <h1>HiCar Apks Download</h1>
-        <p>以下APK仅可安装在已经支持HiCar的华为手机上。</p>
+        <p>以下 APK 仅可安装在已经支持 HiCar 的华为手机上。</p>
         <p>各文件下载密码：<font color="red"><b>hicar</b></font></p><p>
         </p><p></p><p>
         </p>
@@ -112,7 +112,7 @@ export default function HomepageFeatures() {
     <section>
         <div className="container">
         <div className="text--center padding-horiz--md">
-          <p>本站所有内容开源在Github，欢迎各位有能力有意愿的HiCar粉丝共同参与本站内容建设。</p>
+          <p>本站所有内容在Github开源，欢迎各位有能力有意愿的HiCar粉丝共同参与本站内容建设。</p>
           <p>参与方式：在教程页面左下角“编辑此页”跳转到Github提交PR。</p>
           <p></p>
         </div>
