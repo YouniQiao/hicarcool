@@ -42,7 +42,7 @@ const sidebars = {
     'version',
     {
       type: 'category',
-      label: 'HiCar使用方法',
+      label: 'HiCar使用方法 ★',
       items: [
         {
           type: 'category',
