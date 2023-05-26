@@ -4,14 +4,14 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'HUAWEI HiCar 教程',
+    title: 'HUAWEI HiCar 文档',
     Svg: require('@site/static/img/undraw_tutorial.svg').default,
     description: (
       <>
         HUAWEI HiCar具体是什么<br/>
         HiCar支持的手机/应用/车型<br/>
         HiCar每个功能详细指导说明<br/>
-        教程里都有。您可以访问<a href='/docs/intro'>教程菜单</a>直接查看<br/>
+        文档里都有。您可以访问<a href='/docs/intro'>文档菜单</a>直接查看<br/>
         （手机访问本站时请从网站左上角菜单进入）
       </>
     ),
@@ -64,7 +64,7 @@ export default function HomepageFeatures() {
         <div className="container">
         <div className="text--center padding-horiz--md">
           <p></p>
-          <p>HUAWEI HiCar是由华为提供的人车家互联解决方案。本站点为HiCar粉丝站点，提供HiCar相关的教程、设备信息、APK下载等内容。</p>
+          <p>HUAWEI HiCar是由华为提供的人车家互联解决方案。本站点为HiCar粉丝站点，提供HiCar相关的文档、设备信息、APK下载等内容。</p>
           <p>欢迎加入HiCar的大家庭，一起享受驾驶的乐趣。</p>
         </div>
       </div>
@@ -122,7 +122,7 @@ export default function HomepageFeatures() {
         <div className="container">
         <div className="text--center padding-horiz--md">
           <p>本站所有内容在Github开源，欢迎各位有能力有意愿的HiCar粉丝共同参与本站内容建设。</p>
-          <p>参与方式：在教程页面左下角“编辑此页”跳转到Github提交PR。</p>
+          <p>参与方式：在文档页面左下角“编辑此页”跳转到Github提交PR。</p>
           <p></p>
         </div>
       </div>

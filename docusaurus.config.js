@@ -82,7 +82,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: '教程',
+            label: '文档',
           },
           {to: '/box', label: '周边', position: 'left'},
           {to: '/blog', label: '最新消息', position: 'left'},
@@ -119,7 +119,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: '教程',
+                label: '文档',
                 to: '/docs/intro',
               },
               {
