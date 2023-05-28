@@ -131,6 +131,7 @@ const sidebars = {
       //  'advanced/one-more-thing',
       //],
     //},
+    'vehicle',
     'update',
   ],
   
