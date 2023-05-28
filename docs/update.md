@@ -1,6 +1,6 @@
 ---
 last_update:
-  date: 2023-05-18
+  date: 2023-05-28
   author: 油腻樵夫
 ---
 # 本站更新说明
@@ -9,6 +9,7 @@ last_update:
 
 ## 2023-05-28
 1. 增加HiCar车机版本的相关说明，解释了为什么不能通过安装车机侧HiCar应用让原本不支持HiCar的车用上HiCar的原因，详见[HiCar车机版本](vehicle.md)。
+2. 新增HiCar模拟器节点，将原有的在平板上使用HiCar的说明挂载到该节点，详见[在平板上使用HiCar](simulator/box-hicar-pad.md)。
 
 ## 2023-05-18
 增加13.2.0.451和13.2.0.455版本下载链接，详见[首页](https://hicar.cool/)。其中451版本为正式版本，455为紧跟正式版本的众测版本，在451基础上开放了花瓣地图和微信。
@@ -37,7 +38,7 @@ last_update:
 
 ## 2023-04-29
 
-1. 增加在平板上使用HiCar的说明，详见[在平板上使用HiCar](devices/box-hicar-pad.md)。
+1. 增加在平板上使用HiCar的说明，详见[在平板上使用HiCar](simulator/box-hicar-pad.md)。
 2. 增加一款可在平板上使用的车连易盒子连接，详见[周边](https://hicar.cool/box)。
 
 

@@ -105,7 +105,6 @@ const sidebars = {
       type: 'category',
       label: 'HiCar设备猎奇',
       items: [
-        'devices/box-hicar-pad',
         'devices/aromatherapy-hicar',
         'devices/vision-glass-hicar',
       ],
@@ -132,6 +131,13 @@ const sidebars = {
       //],
     //},
     'vehicle',
+    {
+      type: 'category',
+      label: 'HiCar模拟器',
+      items: [
+        'simulator/box-hicar-pad',
+      ],
+    },
     'update',
   ],
   

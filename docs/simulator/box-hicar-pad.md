@@ -4,7 +4,7 @@ last_update:
   author: 油腻樵夫
 ---
 
-# 在平板上使用HiCar
+# 模拟器一：在平板上使用HiCar
 目前市场上有一种让原车支持HiCar的特殊盒子，它不通过CarPlay或者CarLife转接的方式实现连接HiCar，而是依靠在车机上安装一款软件实现连接HiCar。它对车机的要求就是Android系统并且支持自行安装软件。那么泛化一下，也就是任何运行着Android系统并且支持安装应用的设备，都可以运行HiCar，比如Android平板、Android手机、Android电视等。
 
 ## 使用场景
