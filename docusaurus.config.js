@@ -85,7 +85,6 @@ const config = {
             label: '文档',
           },
           {to: '/box', label: '周边', position: 'left'},
-          {to: '/blog', label: '最新消息', position: 'left'},
           {
             href: 'https://developer.huawei.com/consumer/cn/HiCar',
             label: 'HiCar官网',
@@ -126,10 +125,7 @@ const config = {
                 label: '周边',
                 to: '/box',
               },
-              {
-                label: '最新消息',
-                to: '/blog',
-              },
+              
             ],
           },
           {
@@ -158,7 +154,7 @@ const config = {
                   `,
               },
               {
-                label: '本站点通过PC浏览效果更佳，牢记域名 hicar.cool',
+                label: '本站通过PC浏览效果更佳，域名 hicar.cool',
                 href: 'https://hicar.cool',
               },
           
