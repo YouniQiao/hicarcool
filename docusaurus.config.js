@@ -82,9 +82,10 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: '文档',
+            label: '用户手册',
           },
-          {to: '/box', label: '周边', position: 'left'},
+          {to: '/dev', label: '开发指南', position: 'left'},
+          {to: '/box', label: '周边设备', position: 'left'},
           {
             href: 'https://developer.huawei.com/consumer/cn/HiCar',
             label: 'HiCar官网',
@@ -118,11 +119,15 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: '文档',
+                label: '用户手册',
                 to: '/docs/intro',
               },
               {
-                label: '周边',
+                label: '开发指南',
+                to: '/dev',
+              },
+              {
+                label: '周边设备',
                 to: '/box',
               },
               
