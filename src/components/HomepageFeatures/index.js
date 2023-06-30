@@ -11,7 +11,7 @@ const FeatureList = [
         HUAWEI HiCar具体是什么<br/>
         HiCar支持的手机/应用/车型<br/>
         HiCar每个功能详细指导说明<br/>
-        文档里都有。您可以访问<a href='/docs/intro'>文档菜单</a>直接查看<br/>
+        文档里都有。您可以访问<a href='/docs/intro'>用户手册</a>直接查看<br/>
         （手机访问本站时请从网站左上角菜单进入）
       </>
     ),

@@ -32,7 +32,7 @@ const BoxList = [
     url:"https://u.jd.com/qQvRj9M",
     description: (
       <>
-        车连易适用于Android车机的盒子（需支持自行安装软件）。也就是可以在平板上使用HiCar的盒子。<br/><a href='/docs/devices/box-hicar-pad'>使用说明</a>。
+        车连易适用于Android车机的盒子（需支持自行安装软件）。也就是可以在平板上使用HiCar的盒子。<br/><a href='/docs/simulator/box-hicar-pad'>使用说明</a>。
       </>
     ),
   },
