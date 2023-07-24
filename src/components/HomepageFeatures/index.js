@@ -87,7 +87,7 @@ export default function HomepageFeatures() {
         </tr>
         <tr>
         <td>2023.07</td>
-        <td>掐指一算快更新了吧</td>
+        <td><a href="https://hicar.lanzouq.com/iauQY13dp9kh" target="_blank"><font color="red">13.2.0.506</font></a></td>
         <td></td>
         <td></td>
         </tr>
@@ -95,7 +95,7 @@ export default function HomepageFeatures() {
         <td>2023.06</td>
         <td><a href="https://hicar.lanzoum.com/ir0tA0ypsfve" target="_blank">13.2.0.500</a><br/><a href="https://hicar.lanzoum.com/iWP8n0ygtahc" target="_blank">13.2.0.457</a></td>
         <td><a href="https://hicar.lanzoum.com/iN1jz0z2xmha" target="_blank">13.2.0.501</a></td>
-        <td><a href="https://hicar.lanzoum.com/iLB9C0z41b9g" target="_blank"><font color="red">13.2.0.502</font></a></td>
+        <td><a href="https://hicar.lanzoum.com/iLB9C0z41b9g" target="_blank">13.2.0.502</a></td>
         </tr>
         <tr>
         <td>2023.04~05</td>
