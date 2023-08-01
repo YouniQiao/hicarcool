@@ -86,9 +86,9 @@ export default function HomepageFeatures() {
         <td>在正式版本之上额外开放花瓣地图以及微信投屏的版本。通过会员中心体验官下载。</td>
         </tr>
         <tr>
-        <td>2023.07</td>
-        <td><a href="https://hicar.lanzouq.com/iauQY13dp9kh" target="_blank"><font color="red">13.2.0.506</font></a></td>
-        <td></td>
+        <td>2023.07~08</td>
+        <td><a href="https://hicar.lanzouq.com/iauQY13dp9kh" target="_blank">13.2.0.506</a></td>
+        <td><a href="https://hicar.lanzouq.com/i5SIJ142yp6d" target="_blank"><font color="red">13.2.0.511</font></a></td>
         <td></td>
         </tr>
         <tr>
