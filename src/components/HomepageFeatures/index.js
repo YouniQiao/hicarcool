@@ -88,7 +88,7 @@ export default function HomepageFeatures() {
         <tr>
         <td>2023.07~08</td>
         <td><a href="https://hicar.lanzouq.com/iauQY13dp9kh" target="_blank">13.2.0.506</a></td>
-        <td><a href="https://hicar.lanzouq.com/i5SIJ142yp6d" target="_blank"><font color="red">13.2.0.511</font></a></td>
+        <td><a href="https://hicar.lanzouq.com/iTn2g14vrf6f" target="_blank"><font color="red">13.2.0.515</font></a><br/><a href="https://hicar.lanzouq.com/i5SIJ142yp6d" target="_blank">13.2.0.511</a></td>
         <td></td>
         </tr>
         <tr>
