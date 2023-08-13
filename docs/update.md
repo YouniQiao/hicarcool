@@ -1,49 +1,62 @@
 ---
+
 last_update:
-  date: 2023-07-24
+  date: 2023-08-13
   author: 油腻樵夫
+
 ---
+
 # 本站更新说明
 
 记录本站内容以及功能上的一些更新说明，便于您快速了解。
 
 ## 2023-08-13
+
 1. 刷新支持手机清单，详见[检查手机](/check/phone.md)。
 2. 增加语音截屏说明，详见[截屏](/guides/ui/screenshot.md)。
 
 ## 2023-08-09
+
 增加13.2.0.515版本下载链接，详见[首页](https://hicar.cool/)。
 
 ## 2023-08-01
+
 增加13.2.0.511版本下载链接，详见[首页](https://hicar.cool/)。
 
 ## 2023-07-24
+
 增加13.2.0.506版本下载链接，详见[首页](https://hicar.cool/)。
 
 ## 2023-06-16
+
 增加“开发指南”节点，罗列官方指南链接，便于快速查找，详见[开发指南](/dev)。
 
 ## 2023-06-13
+
 增加13.2.0.501版本下载链接，详见[首页](https://hicar.cool/)。
 
 ## 2023-06-09
+
 增加13.2.0.500版本下载链接，详见[首页](https://hicar.cool/)。
 
 ## 2023-06-06
+
 1. 增加13.2.0.457版本下载链接，详见[首页](https://hicar.cool/)。
 2. 去除“最新消息”版本，后续HiCar相关最新消息依旧在公众号“HiCar情报站”中提供。
 
 ## 2023-05-28
+
 1. 增加HiCar车机版本的相关说明，解释了为什么不能通过安装车机侧HiCar应用让原本不支持HiCar的车用上HiCar的原因，详见[HiCar车机版本](vehicle.md)。
 2. 新增HiCar模拟器节点，将原有的在平板上使用HiCar的说明挂载到该节点，详见[在平板上使用HiCar](simulator/box-hicar-pad.md)。
 
 ## 2023-05-18
+
 增加13.2.0.451和13.2.0.455版本下载链接，详见[首页](https://hicar.cool/)。其中451版本为正式版本，455为紧跟正式版本的众测版本，在451基础上开放了花瓣地图和微信。
 
 ## 2023-05-12
+
 1. 增加13.2.0.450版本下载链接及众测消息说明，详见[首页](https://hicar.cool/)和[HiCar 13.2.0.450众测版本新驾驶模式](https://hicar.cool/blog/hicar-450)。
 2. 增加HiCar驾驶模式相关说明，详见[驾驶模式简介](dmode/driving-mode.md)、[进入驾驶模式](dmode/enter-driving-mode.md)、[功能与操作逻辑](dmode/function-and-operation.md)、[与HiCar联动](dmode/work-with-hicar.md)、[退出驾驶模式](dmode/exit-driving-mode.md)。
-
 
 ## 2023-05-06
 
@@ -61,12 +74,10 @@ last_update:
 
 增加HiCar支持车载香薰机控制的说明，详见[HiCar控制车载香薰](devices/aromatherapy-hicar.md)。
 
-
 ## 2023-04-29
 
 1. 增加在平板上使用HiCar的说明，详见[在平板上使用HiCar](simulator/box-hicar-pad.md)。
 2. 增加一款可在平板上使用的车连易盒子连接，详见[周边](https://hicar.cool/box)。
-
 
 ## 2023-04-28
 
