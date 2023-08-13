@@ -1,6 +1,6 @@
 ---
 last_update:
-  date: 2023-04-08
+  date: 2023-08-13
   author: 油腻樵夫
 ---
 
@@ -30,15 +30,21 @@ last_update:
 | 系列   | 型号                                                                                                                                                                                                                                                                                                                                                                                     |
 | ---- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Mate | Mate X3、Mate X3 典藏版、Mate X2、Mate Xs2、Mate X、Mate Xs、Mate 50E、Mate 50、Mate 50 Pro、Mate 50 保时捷设计、Mate 40E Pro、Mate 40E、Mate 40E 4G版、Mate 40 Pro 4G版、Mate 40、Mate 40 Pro、Mate 40 Pro+、Mate 40 RS 保时捷设计、Mate 30 5G、Mate 30、Mate 30E Pro 5G、Mate 30 Pro 5G、Mate 30 Pro、Mate 30 RS 保时捷设计、Mate 20、Mate 20 RS 保时捷设计、Mate 20 Pro、Mate 20X、Mate 20X 5G、Mate RS、Mate 10 保时捷设计、Mate 10、Mate 10 Pro |
-| P    | P60 Art、P60 Pro、P60、Pocket S、P50 Pocket、P50 Pro、P50、P50E、P40 Pro+、P40 Pro、P40、P30 Pro、P30、P20 Pro、P20                                                                                                                                                                                                                                                                                  |
+| P    | P60 Art、P60 Pro、P60Pocket S、P50 Pocket、P50 Pro、P50、P50E、P40 Pro+、P40 Pro、P40P30 Pro、P30P20 Pro、P20                                                                                                                                                                                                                                                                                     |
 | nova | nova 11、nova 11 Pro、nova 11 Ultra、nova 10 SE、nova 10、nova 10 Pro、nova 10 青春版、nova 9 、nova 9 Pro、nova 9 SE、nova 8、nova 8 Pro 4G版、nova 8 Pro、nova 8 SE、nova7 SE 5G、nova7 SE 5G 乐活版、nova 7 SE、nova7 Pro 5G、nova 7 Pro、nova7 5G、nova 7、nova 6 SE、nova 6 5G、nova 6、nova 5i Pro、nova 5、nova 5 Pro                                                                                            |
-| 其它   | 华为畅享60X、华为畅享 50 Pro、华为畅享Z 5G、华为畅享20 Plus、华为畅享20 Pro、麦芒9 5G、荣耀 Play4T Pro、荣耀Play4 Pro、荣耀Play4、荣耀V30 Pro、荣耀V30、荣耀V20、荣耀X10、荣耀Magic2、荣耀30S、荣耀30 Pro+、荣耀30 Pro、荣耀30、荣耀30 青春版、荣耀9X Pro、荣耀9X、荣耀20 Pro、荣耀20S、荣耀20                                                                                                                                                                             |
+| 其它   | 华为畅享60 Pro、华为畅享60 X、华为畅享 50 Pro、华为畅享Z 5G、华为畅享20 Plus、华为畅享20 Pro、麦芒9 5G、荣耀 Play4T Pro、荣耀Play4 Pro、荣耀Play4、荣耀V30 Pro、荣耀V30、荣耀V20、荣耀X10、荣耀Magic2、荣耀30S、荣耀30 Pro+、荣耀30 Pro、荣耀30、荣耀30 青春版、荣耀9X Pro、荣耀9X、荣耀20 Pro、荣耀20S、荣耀20                                                                                                                                                                 |
 
 ### 仅支持无线方式连接
 
-| 系列  | 型号                                                                                                                                                                                                                                 |
-| --- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 其它  | 荣耀Magic 5、荣耀Magic 5 Pro、荣耀Magic 5 至臻版、荣耀Magic Vs、荣耀Magic 4 Pro、荣耀Magic 4 Pro 至臻版、荣耀Magic 4、荣耀Magic V、荣耀Magic 3、荣耀Magic 3 Pro、TD Tech P50、TD Tech M40、TD Tech N8 Pro、Hi Nova 9、Hi Nova 9 Pro、Hi Nova 9 se、Hi Nova 10、Hi Nova 10 pro |
+| 系列  | 型号                                                                                                                                                                                                                                                           |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 其它  | 荣耀Magic V2、荣耀Magic V2 至臻版、荣耀Magic 5、荣耀Magic 5 Pro、荣耀Magic 5 至臻版、荣耀Magic Vs、荣耀Magic 4 Pro、荣耀Magic 4 Pro 至臻版、荣耀Magic 4、荣耀Magic V、荣耀Magic 3、荣耀Magic 3 Pro、TD Tech P50、TD Tech M40、TD Tech N8 Pro、Hi Nova 9、Hi Nova 9 Pro、Hi Nova 9 se、Hi Nova 10、Hi Nova 10 pro |
+
+:::tip
+
+此处罗列的荣耀机型当前仅能支持12.2.0.448及以下版本的HiCar App，后续无法支持更高版本的HiCar App。其他机型由于系统版本原因，升级到最新版本HiCar后部分功能可能无法使用。
+
+:::
 
 ### 仅支持有线方式连接
 
@@ -46,6 +52,15 @@ last_update:
 | ---- | --------------------------------- |
 | nova | nova 7 SE 5G 活力版、nova 4           |
 | 其它   | 荣耀X10 MAX、荣耀V10、荣耀10、NZONE S7 Pro |
+
+:::tip
+
+1. 目前仅中国大陆地区销售的上述机型预置HUAWEI HiCar，港澳台及其它国家/地区销售的机型暂不支持HUAWEI HiCar。
+2. 后续在中国大陆上市的华为手机在满足HUAWEI HiCar资源规格的情况下都会支持HUAWEI HiCar。
+3. 存量手机升级支持和新手机的支持情况在研发过程中会有调整，请以实际支持情况为准。
+4. HUAWEI HiCar支持的手机系统版本为EMUI 10.0及以上版本，HarmonyOS 2.0及以上版本。
+
+:::
 
 以上信息来自[华为开发者联盟-HiCar支持的手机](https://developer.huawei.com/consumer/cn/doc/development/HiCar-Guides/available-phones-0000001227954439)。
 
