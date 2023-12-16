@@ -61,7 +61,6 @@ last_update:
 如果您的车型同时支持CarPlay和CarLife，建议您选择CarPlay转HiCar的产品。
 :::
 
-
 ## 3.检查您的车中控台是否平整
 
 如果您的车型既不支持原生的HiCar，也因为不支持CarPlay/CarLife而无法通过转接盒使用HiCar。您也不要气馁，还有一些方式可以使用HiCar。
@@ -78,7 +77,6 @@ last_update:
   src={require('./img/car-3.png').default}
   width="800" 
 />
-
 
 ## 4.检查您的车后视镜是否适合捆绑智能后视镜
 

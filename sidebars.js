@@ -140,6 +140,10 @@ const sidebars = {
     },
     'update',
   ],
+
+  faqSidebar: [
+    'faq/intro',
+  ],
   
 };
 

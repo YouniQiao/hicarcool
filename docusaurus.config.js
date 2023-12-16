@@ -87,6 +87,12 @@ const config = {
           {to: '/dev', label: '开发指南', position: 'left'},
           {to: '/box', label: '周边设备', position: 'left'},
           {
+            type: 'docSidebar',
+            sidebarId: 'faqSidebar',
+            position: 'left',
+            label: '常见问题',
+          },
+          {
             href: 'https://developer.huawei.com/consumer/cn/HiCar',
             label: 'HiCar官网',
             position: 'right',
@@ -130,6 +136,11 @@ const config = {
                 label: '周边设备',
                 to: '/box',
               },
+              {
+                label: '常见问题',
+                to: '/docs/faq/intro',
+              },
+              
               
             ],
           },
