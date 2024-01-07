@@ -86,10 +86,17 @@ export default function HomepageFeatures() {
         <td>在正式版本之上额外开放花瓣地图以及微信投屏的版本。通过会员中心体验官下载。</td>
         </tr>
         <tr>
-        <td>2023.11~12</td>
-        <td><a href="https://hicar.lanzouq.com/iE90g1i26ave" target="_blank">14.2.0.146</a><br/><a href="https://hicar.lanzouq.com/ifNnY1fkjcle" target="_blank">14.2.0.132</a></td>
+        <td>2024.01~02</td>
+        <td> - </td>
         <td><a href="https://hicar.lanzouq.com/iSYHB1jqmoud" target="_blank"><font color="red">14.2.0.150</font></a></td>
         <td></td>
+        </tr>
+        <tr></tr>
+        <tr>
+        <td>2023.11~12</td>
+        <td><a href="https://hicar.lanzouq.com/iE90g1i26ave" target="_blank">14.2.0.146</a><br/><a href="https://hicar.lanzouq.com/ifNnY1fkjcle" target="_blank">14.2.0.132</a></td>
+        <td> - </td>
+        <td> - </td>
         </tr>
         <tr>
         <td>2023.09~10</td>
@@ -101,7 +108,7 @@ export default function HomepageFeatures() {
         <td>2023.07~08</td>
         <td><a href="https://hicar.lanzouq.com/iauQY13dp9kh" target="_blank">13.2.0.506</a></td>
         <td><a href="https://hicar.lanzouq.com/iTn2g14vrf6f" target="_blank">13.2.0.515</a><br/><a href="https://hicar.lanzouq.com/i5SIJ142yp6d" target="_blank">13.2.0.511</a></td>
-        <td> - </td>
+        <td> 已取消 </td>
         </tr>
         <tr>
         <td>2023.06</td>
