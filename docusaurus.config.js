@@ -33,7 +33,12 @@ const config = {
   },
 
   scripts: [
-    {src: 'https://hm.baidu.com/hm.js?8e09897518f8bb3092c89749c21192b4',  async: true}
+    {src: 'https://hm.baidu.com/hm.js?8e09897518f8bb3092c89749c21192b4',  async: true},
+    {
+      src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2685463470534337',
+      async: true,
+      crossorigin: 'anonymous',
+    }
   ],
 
   presets: [
