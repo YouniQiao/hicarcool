@@ -87,9 +87,9 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: '用户手册',
+            label: '使用手册',
           },
-          {to: '/dev', label: '开发指南', position: 'left'},
+          //{to: '/dev', label: '开发指南', position: 'left'},
           {to: '/box', label: '周边设备', position: 'left'},
           {
             type: 'docSidebar',
@@ -130,13 +130,13 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: '用户手册',
+                label: '使用手册',
                 to: '/docs/intro',
               },
-              {
-                label: '开发指南',
-                to: '/dev',
-              },
+              //{
+              //  label: '开发指南',
+              //  to: '/dev',
+              //},
               {
                 label: '周边设备',
                 to: '/box',

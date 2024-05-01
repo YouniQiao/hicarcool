@@ -11,7 +11,7 @@ const FeatureList = [
         HUAWEI HiCar具体是什么<br/>
         HiCar支持的手机/应用/车型<br/>
         HiCar每个功能详细指导说明<br/>
-        文档里都有。您可以访问<a href='/docs/intro'>用户手册</a>直接查看<br/>
+        文档里都有。您可以访问<a href='/docs/intro'>使用手册</a>直接查看<br/>
         （手机访问本站时请从网站左上角菜单进入）
       </>
     ),
@@ -38,6 +38,43 @@ const FeatureList = [
         由HiCar粉丝搭建并维护<br/>
         随HiCar功能演进持续更新<br/>
         <a href='/docs/update'>点击了解本站更新说明</a>
+      </>
+    ),
+  },
+];
+
+
+const StepList = [
+  {
+    title: '检查车辆',
+    Svg: require('@site/static/img/1.svg').default,
+    description: (
+      <>
+        使用前确认您的车支持HiCar<br/>
+        或者通过转换盒或其他方式支持HiCar<br/>
+        具体说明请参见<a href='/docs/check/car'>检查车辆</a>
+      </>
+    ),
+  },
+  {
+    title: '检查手机',
+    Svg: require('@site/static/img/2.svg').default,
+    description: (
+      <>
+        只有部分华为手机以及荣耀手机支持HiCar<br/>
+        其他品牌手机并不支持HiCar<br/>
+        具体说明请参见<a href='/docs/check/phone'>检查手机</a>
+      </>
+    ),
+  },
+  {
+    title: '开始连接',
+    Svg: require('@site/static/img/3.svg').default,
+    description: (
+      <>
+        当车辆和手机都支持HiCar时<br/>
+        那就开始连接吧<br/>
+        具体连接操作请参见<a href='/docs/guides/connect/wireless'>连接</a>
       </>
     ),
   },
@@ -71,8 +108,8 @@ export default function HomepageFeatures() {
     </section>
     <section className={styles.features}>
       <div className="container">
-        <h1>HiCar Apks Download</h1>
-        <p>以下 APK 仅可安装在已经支持 HiCar 的华为手机上。</p>
+        <h1>下载手机端HiCar应用</h1>
+        <p>以下 APK 仅可安装在已经支持 HiCar 的华为手机上。如果您想下载车机端HiCar，这是不现实的，具体原因可以参考<a href='/docs/vehicle'>HiCar车机版本</a>。</p>
         <p>各文件下载密码：<font color="red"><b>hicar</b></font></p><p>
         </p><p></p><p>
         </p>
@@ -149,10 +186,23 @@ export default function HomepageFeatures() {
         </table>
       </div>
     </section>
+
     <section className={styles.features}>
       <div className="container">
-      <h1>HiCar.Cool Overview</h1>
-      <p>hicar.cool 为 HiCar 非官方站点，由热爱驱动。</p>
+      <h1>HiCar如何使用</h1>
+      <p>想使用HiCar简单一句话就是：使用支持HiCar的手机连上支持HiCar的车使用支持HiCar的应用。</p>
+        <div className="row">
+          {StepList.map((props, idx) => (
+            <Feature key={idx} {...props} />
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <section className={styles.features}>
+      <div className="container">
+      <h1>HiCar.Cool是什么</h1>
+      <p>hicar.cool 是 HiCar 非官方站点，由热爱驱动。</p>
         <div className="row">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
