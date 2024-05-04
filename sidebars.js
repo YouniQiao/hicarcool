@@ -141,6 +141,42 @@ const sidebars = {
     'update',
   ],
 
+  deviceSidebar: [
+    'device',
+    {
+      type: 'category',
+      label: '盒子设备',
+      items: [
+        'devices/carplay',
+        'devices/carlife',
+        'devices/android',
+      ],
+    },
+    {
+      type: 'category',
+      label: '后装简易屏幕',
+      items: [
+        'devices/smart-screen',
+        'devices/smart-mirror',
+      ],
+    },
+    {
+      type: 'category',
+      label: '后装车机',
+      items: [
+        'devices/screen-ddp',
+      ],
+    },
+    {
+      type: 'category',
+      label: '协同设备',
+      items: [
+        'devices/aromatherapy',
+        'devices/vision-glass',
+      ],
+    },
+  ],
+
   faqSidebar: [
     'faq/intro',
   ],
