@@ -18,7 +18,7 @@ last_update:
 
 ## 0.检查方法
 
-您可以通过我们在使用手册中提到的检查方法检查您的车辆，从而确认更合适的HiCar设备。参考链接：[检查车辆](./check/car) 。
+您可以通过我们在使用手册中提到的检查方法检查您的车辆，从而确认更合适的HiCar设备。参考链接：[检查车辆](/docs/check/car) 。
 
 ## 1.盒子设备
 
@@ -28,9 +28,9 @@ last_update:
 
 | 序号  | 场景                                          | 链接                                     |
 | --- | ------------------------------------------- | -------------------------------------- |
-| 1   | 原车支持苹果的有线CarPlay，可以使用转换盒子使用HiCar。           | [原车支持有线CarPlay](./devices/carplay)     |
-| 2   | 原车支持百度的有线CarLife，可以使用转换盒子使用HiCar。           | [原车支持有线CarLife](./devices/carlife)     |
-| 3   | 原车是Android系统并可以自行安装软件，可以使用盒子并安装个软件后使用HiCar。 | [原车Android系统可以安装软件](./devices/android) |
+| 1   | 原车支持苹果的有线CarPlay，可以使用转换盒子使用HiCar。           | [原车支持有线CarPlay](/docs/devices/carplay)     |
+| 2   | 原车支持百度的有线CarLife，可以使用转换盒子使用HiCar。           | [原车支持有线CarLife](/docs/devices/carlife)     |
+| 3   | 原车是Android系统并可以自行安装软件，可以使用盒子并安装个软件后使用HiCar。 | [原车Android系统可以安装软件](/docs/devices/android) |
 
 ## 2.后装简易屏幕
 
@@ -40,8 +40,8 @@ last_update:
 
 | 序号  | 场景                                           | 链接                              |
 | --- | -------------------------------------------- | ------------------------------- |
-| 1   | 如果您的中控屏幕比较平坦，可以考虑通过粘贴的方式放置一款车载智慧屏，从而使用HiCar。 | [车载智慧屏](./devices/smart-screen) |
-| 2   | 如果您接受智能后视镜的形式，可以考虑通过添加智能后视镜的方式使用HiCar。       | [智能后视镜](./devices/smart-mirror) |
+| 1   | 如果您的中控屏幕比较平坦，可以考虑通过粘贴的方式放置一款车载智慧屏，从而使用HiCar。 | [车载智慧屏](/docs/devices/smart-screen) |
+| 2   | 如果您接受智能后视镜的形式，可以考虑通过添加智能后视镜的方式使用HiCar。       | [智能后视镜](/docs/devices/smart-mirror) |
 
 ## 3.后装车机
 
@@ -51,7 +51,7 @@ last_update:
 
 | 序号  | 链接                               |
 | --- | -------------------------------- |
-| 1   | [盯盯拍智慧中控屏](./devices/screen-ddp) |
+| 1   | [盯盯拍智慧中控屏](/docs/devices/screen-ddp) |
 
 
 
@@ -63,5 +63,5 @@ last_update:
 
 | 序号  | 场景                    | 链接                                |
 | --- | --------------------- | --------------------------------- |
-| 1   | 通过HiCar控制香薰机。         | [智能香薰机](./devices/aromatherapy)   |
-| 2   | 在停车时，通过HiCar感受一把车内影院。 | [智能观影眼镜](./devices/vision-glass)  |
+| 1   | 通过HiCar控制香薰机。         | [智能香薰机](/docs/devices/aromatherapy)   |
+| 2   | 在停车时，通过HiCar感受一把车内影院。 | [智能观影眼镜](/docs/devices/vision-glass)  |
