@@ -69,15 +69,6 @@ const config = {
 
       }),
     ],
-    [
-      '@docusaurus/preset-classic',
-      {
-        gtag: {
-          trackingID: 'G-E9CNRTNYLT',
-          anonymizeIP: true,
-        },
-      },
-    ],
   ],
 
   themeConfig:
