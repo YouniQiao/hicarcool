@@ -80,6 +80,41 @@ const StepList = [
   },
 ];
 
+const DeviceList = [
+  {
+    title: '盒子设备',
+    Svg: require('@site/static/img/dongle.svg').default,
+    description: (
+      <>
+        <a href='/docs/devices/carplay'>CarPlay转HiCar的盒子</a><br/>
+        <a href='/docs/devices/carlife'>CarLife转HiCar的盒子</a><br/>
+        <a href='/docs/devices/android'>安卓车机盒子</a>
+      </>
+    ),
+  },
+  {
+    title: '车载智慧屏/后视镜/后装车机',
+    Svg: require('@site/static/img/screen.svg').default,
+    description: (
+      <>
+        <a href='/docs/devices/smart-screen'>车载智慧屏</a><br/>
+        <a href='/docs/devices/smart-mirror'>智能后视镜</a><br/>
+        <a href='/docs/devices/screen-ddp'>后装车机</a>
+      </>
+    ),
+  },
+  {
+    title: 'HiCar协同设备',
+    Svg: require('@site/static/img/connect.svg').default,
+    description: (
+      <>
+        <a href='/docs/devices/aromatherapy'>智能香薰机</a><br/>
+        <a href='/docs/devices/vision-glass'>智能观影眼镜</a><br/>
+      </>
+    ),
+  },
+];
+
 function Feature({Svg, title, description}) {
   return (
     <div className={clsx('col col--4')}>
@@ -193,6 +228,18 @@ export default function HomepageFeatures() {
       <p>想使用HiCar简单一句话就是：使用支持HiCar的手机连上支持HiCar的车使用支持HiCar的应用。</p>
         <div className="row">
           {StepList.map((props, idx) => (
+            <Feature key={idx} {...props} />
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <section className={styles.features}>
+      <div className="container">
+      <h1>HiCar相关设备有哪些</h1>
+      <p>通过这些设备可以让不支持HiCar的车也可以用上HiCar，以及在成功连接HiCar后可以使用各类新奇的HiCar协同设备。</p>
+        <div className="row">
+          {DeviceList.map((props, idx) => (
             <Feature key={idx} {...props} />
           ))}
         </div>
