@@ -25,7 +25,7 @@ const FeatureList = [
         智能后视镜、后装车机<br/>
         车载香薰机、VR眼镜、儿童安全座椅<br/>
         HiCar周边设备一网打尽<br/>
-        <a href='/box'>详情请点击HiCar周边设备</a>
+        <a href='/docs/device'>详情请点击HiCar周边设备</a>
       </>
     ),
   },
