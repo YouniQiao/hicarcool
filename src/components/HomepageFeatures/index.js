@@ -1,6 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
+import Link from '@docusaurus/Link';
 
 const FeatureList = [
   {
@@ -138,7 +139,16 @@ export default function HomepageFeatures() {
           <p></p>
           <p>HUAWEI HiCar是由华为提供的人车家互联解决方案。本站点为HiCar粉丝站点，提供HiCar相关的文档、设备信息、APK下载等内容。</p>
           <p>欢迎加入HiCar的大家庭，一起享受驾驶的乐趣。</p>
+          <div className={styles.buttons}>
+          <Link
+            className="button button--secondary "
+            to="https://news.hicar.cool/"
+            target="_blank">
+            没事来听我小声哔哔
+          </Link>
         </div>
+        </div>
+        
       </div>
     </section>
     <section className={styles.features}>

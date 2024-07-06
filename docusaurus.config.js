@@ -102,11 +102,16 @@ const config = {
             position: 'left',
             label: '周边设备',
           },
+          //{
+          //  type: 'docSidebar',
+          //  sidebarId: 'faqSidebar',
+          //  position: 'left',
+          //  label: '常见问题',
+          //},
           {
-            type: 'docSidebar',
-            sidebarId: 'faqSidebar',
+            href: 'https://news.hicar.cool/',
+            label: '哔哔',
             position: 'left',
-            label: '常见问题',
           },
           {
             href: 'https://developer.huawei.com/consumer/cn/HiCar',
@@ -152,10 +157,10 @@ const config = {
                 label: '周边设备',
                 to: '/box',
               },
-              {
-                label: '常见问题',
-                to: '/docs/faq/intro',
-              },
+              //{
+              //  label: '常见问题',
+              //  to: '/docs/faq/intro',
+              //},
               
               
             ],
