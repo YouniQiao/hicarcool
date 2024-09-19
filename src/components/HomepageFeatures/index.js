@@ -84,7 +84,7 @@ const StepList = [
 const DeviceList = [
   {
     title: '盒子设备',
-    Svg: require('@site/static/img/dongle.svg').default,
+    Svg: require('@site/static/img/undraw_dongle1.svg').default,
     description: (
       <>
         <a href='/docs/devices/carplay'>CarPlay转HiCar的盒子</a><br/>
@@ -95,7 +95,7 @@ const DeviceList = [
   },
   {
     title: '车载智慧屏/后视镜/后装车机',
-    Svg: require('@site/static/img/screen.svg').default,
+    Svg: require('@site/static/img/undraw_screen.svg').default,
     description: (
       <>
         <a href='/docs/devices/smart-screen'>车载智慧屏</a><br/>
@@ -106,11 +106,46 @@ const DeviceList = [
   },
   {
     title: 'HiCar协同设备',
-    Svg: require('@site/static/img/connect.svg').default,
+    Svg: require('@site/static/img/undraw_connect1.svg').default,
     description: (
       <>
         <a href='/docs/devices/aromatherapy'>智能香薰机</a><br/>
         <a href='/docs/devices/vision-glass'>智能观影眼镜</a><br/>
+      </>
+    ),
+  },
+];
+
+const WebsiteList = [
+  {
+    title: 'HiCar论坛',
+    Svg: require('@site/static/img/undraw_forum.svg').default,
+    description: (
+      <>
+        一个非官方论坛站点<br/>
+        为HiCar铁粉和开发者提供交流的角落<br/>
+        <a href='https://forum.hicar.cool/' target='_blank'>点击访问HiCar论坛</a>
+      </>
+    ),
+  },
+  {
+    title: 'HiCar最新消息',
+    Svg: require('@site/static/img/undraw_news.svg').default,
+    description: (
+      <>
+        一个微博形式的站点<br/>
+        第一时间汇报感知到HiCar最新消息<br/>
+        <a href='https://news.hicar.cool/' target='_blank'>点击查看HiCar最新消息</a>
+      </>
+    ),
+  },
+  {
+    title: '敬请期待',
+    Svg: require('@site/static/img/undraw_club.svg').default,
+    description: (
+      <>
+        一个新的HiCar资源站点<br/>
+        敬请期待<br/>
       </>
     ),
   },
@@ -144,7 +179,7 @@ export default function HomepageFeatures() {
             className="button button--secondary "
             to="https://news.hicar.cool/"
             target="_blank">
-            没事来听我小声哔哔
+            一些关于HiCar的最新消息
           </Link>
         </div>
         </div>
@@ -279,6 +314,19 @@ export default function HomepageFeatures() {
         </div>
       </div>
     </section>
+
+    <section className={styles.features}>
+      <div className="container">
+      <h1>HiCar其他站点</h1>
+      <p>一些或许有用或许无用的HiCar站点。</p>
+        <div className="row">
+          {WebsiteList.map((props, idx) => (
+            <Feature key={idx} {...props} />
+          ))}
+        </div>
+      </div>
+    </section>
+
     <section>
         <div className="container">
         <div className="text--center padding-horiz--md">

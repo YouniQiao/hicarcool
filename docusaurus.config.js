@@ -108,9 +108,15 @@ const config = {
           //  position: 'left',
           //  label: '常见问题',
           //},
+          
           {
             href: 'https://news.hicar.cool/',
-            label: '哔哔',
+            label: '最新消息',
+            position: 'left',
+          },
+          {
+            href: 'https://forum.hicar.cool/',
+            label: '论坛',
             position: 'left',
           },
           {
@@ -157,6 +163,15 @@ const config = {
                 label: '周边设备',
                 to: '/box',
               },
+              {
+                href: 'https://news.hicar.cool/',
+                label: '最新消息',
+              },
+              {
+                href: 'https://forum.hicar.cool/',
+                label: '论坛',
+              },
+              
               //{
               //  label: '常见问题',
               //  to: '/docs/faq/intro',
