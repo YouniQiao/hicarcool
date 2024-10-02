@@ -175,17 +175,40 @@ export default function HomepageFeatures() {
           <p>HUAWEI HiCar是由华为提供的人车家互联解决方案。本站点为HiCar粉丝站点，提供HiCar相关的文档、设备信息、APK下载等内容。</p>
           <p>欢迎加入HiCar的大家庭，一起享受驾驶的乐趣。</p>
           <div className={styles.buttons}>
-          <Link
-            className="button button--secondary "
-            to="https://news.hicar.cool/"
-            target="_blank">
-            一些关于HiCar的最新消息
-          </Link>
-        </div>
+            <Link
+              className="button button--secondary "
+              to="https://news.hicar.cool/"
+              target="_blank">
+              一些关于HiCar的最新消息
+            </Link>
+          </div>
         </div>
         
       </div>
     </section>
+
+    <section className={styles.features}>
+      <div className="container">
+      <h1>HarmonyOS NEXT上的HiCar</h1>
+      <p>纯血鸿蒙上的HiCar，带来了一些不同的功能。</p>
+      <div className="text--center padding-horiz--md">
+        <img
+          src={require('/img/nexthicar.jpg').default}
+          width="800" 
+        />
+        <p></p>
+        <div className={styles.buttons}>
+            <Link
+              className="button button--secondary "
+              to="/docs/next/hicar"
+              >
+              点击了解如何体验NEXT上的HiCar 
+            </Link>
+          </div>
+      </div>
+      </div>
+    </section>
+
     <section className={styles.features}>
       <div className="container">
         <h1>下载手机端HiCar应用</h1>

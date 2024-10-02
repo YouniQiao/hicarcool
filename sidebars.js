@@ -138,6 +138,17 @@ const sidebars = {
         'simulator/box-hicar-pad',
       ],
     },
+    {
+      type: 'category',
+      label: 'HiCar NEXT ★',
+      items: [
+        'next/hicar', 
+        'next/diff', 
+        'next/copilot',
+        'next/screen-split',
+        'next/transfer',
+      ],
+    },
     'update',
   ],
 
