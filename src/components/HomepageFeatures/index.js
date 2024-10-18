@@ -226,10 +226,16 @@ export default function HomepageFeatures() {
         <td>在正式版本之上额外开放花瓣地图以及微信投屏的版本。通过会员中心体验官下载。</td>
         </tr>
         <tr>
+        <td>2024.10</td>
+        <td><a href="https://hicar.lanzouq.com/iLHOq2cv18ej" target="_blank"><font color="red">14.2.0.245</font></a></td>
+        <td></td>
+        <td></td>
+        </tr>
+        <tr>
         <td>2024.09</td>
         <td><a href="https://hicar.lanzouq.com/iaMDs291tfif" target="_blank">14.2.0.230</a></td>
-        <td><a href="https://hicar.lanzouq.com/iN8Qd29w9v3c" target="_blank"><font color="red">14.2.0.235</font></a></td>
-        <td></td>
+        <td><a href="https://hicar.lanzouq.com/iN8Qd29w9v3c" target="_blank">14.2.0.235</a></td>
+        <td> - </td>
         </tr>
         <tr>
         <td>2024.06~07</td>
