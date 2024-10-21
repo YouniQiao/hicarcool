@@ -34,11 +34,11 @@ const config = {
 
   scripts: [
     {src: 'https://hm.baidu.com/hm.js?8e09897518f8bb3092c89749c21192b4',  async: true},
-    //{
-    //  src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2685463470534337',
-    //  async: true,
-    //  crossorigin: 'anonymous',
-    //}
+    {
+      src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2685463470534337',
+      async: true,
+      crossorigin: 'anonymous',
+    }
   ],
 
   presets: [
@@ -67,10 +67,10 @@ const config = {
           customCss: require.resolve('./src/css/custom.css'),
         },
 
-        gtag: {
-          trackingID: 'G-E9CNRTNYLT',
-          anonymizeIP: true,
-        },
+        //gtag: {
+        //  trackingID: 'G-E9CNRTNYLT',
+        //  anonymizeIP: true,
+        //},
 
       }),
     ],
