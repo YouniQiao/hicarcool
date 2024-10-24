@@ -120,7 +120,7 @@ const config = {
             position: 'left',
           },
           {
-            href: 'https://developer.huawei.com/consumer/cn/HiCar',
+            href: 'https://consumer.huawei.com/cn/phones/hicar/',
             label: 'HiCar官网',
             position: 'right',
           },
