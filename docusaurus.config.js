@@ -120,6 +120,11 @@ const config = {
             position: 'left',
           },
           {
+            href: 'https://hicar.club/',
+            label: 'HiCar资源',
+            position: 'left',
+          },
+          {
             href: 'https://consumer.huawei.com/cn/phones/hicar/',
             label: 'HiCar官网',
             position: 'right',
@@ -170,6 +175,10 @@ const config = {
               {
                 href: 'https://forum.hicar.cool/',
                 label: '论坛',
+              },
+              {
+                href: 'https://hicar.club/',
+                label: 'HiCar资源',
               },
               
               //{

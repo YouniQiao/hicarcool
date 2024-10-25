@@ -145,7 +145,8 @@ const WebsiteList = [
     description: (
       <>
         一个新的HiCar资源站点<br/>
-        敬请期待<br/>
+        网罗全网所有关于HiCar的资源<br/>
+        <a href='https://hicar.club/' target='_blank'>点击查看HiCar资源</a>
       </>
     ),
   },
