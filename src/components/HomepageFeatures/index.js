@@ -140,7 +140,7 @@ const WebsiteList = [
     ),
   },
   {
-    title: '敬请期待',
+    title: 'HiCar Club',
     Svg: require('@site/static/img/undraw_club.svg').default,
     description: (
       <>
