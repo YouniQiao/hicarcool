@@ -147,6 +147,7 @@ const sidebars = {
         'next/copilot',
         'next/screen-split',
         'next/transfer',
+        'next/remote-control',
       ],
     },
     'update',
