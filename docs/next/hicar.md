@@ -36,11 +36,7 @@ HiCar NEXT与现在大家在使用的HiCar，在功能上会有一些差异，�
 
 ### 支持机型
 
-首批公测的机型包括：
-
-* Mate 60 系列
-* Mate X5 系列
-* MatePad Pro 13.2系列（平板不支持HiCar）
+请访问[官方升级列表](https://consumer.huawei.com/cn/support/harmonyos/models-next/)。
 
 ## 体验HiCar NEXT
 
