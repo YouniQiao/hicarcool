@@ -116,6 +116,43 @@ const DeviceList = [
   },
 ];
 
+
+const BoxList = [
+  {
+    title: '车连易',
+    Svg: require('@site/static/img/device/box-carlinkit.svg').default,
+    description: (
+      <>
+        <a href='https://union-click.jd.com/jdc?e=618%7Cpc%7C&p=JF8BAMYJK1olXDYCVV5bC0wQAl9MRANLAjZbERscSkAJHT1YWAZNAlxaEUEGXVRFXTM4HiRPWEVXDQ09dBsQQxVqbF5HAlN_JFJROE4XAm8KGlgTXQUyVF9cCkwWB20KEmslXQcyFTBdCUkXAGsPHGsXXQcCVVtbCk8WM28OGFMcWgICV1lYCUInBG8BKwJMFF4LXG5tOEgnBG8BD11nHFQWUixtOEgnAF84GVoUWQ8yZIDTnCsUfDFDHzpLIloAFFY1C0zJjfs4K2s'>京东店铺</a><br/>
+        <br />
+        <p>直接把车型报给客服</p>
+      </>
+    ),
+  },
+  {
+    title: '君用',
+    Svg: require('@site/static/img/device/box-junyong.svg').default,
+    description: (
+      <>
+        <a href='https://union-click.jd.com/jdc?e=618%7Cpc%7C&p=JF8BANUJK1olXDYCVV1UD04RB19MRANLAjZbERscSkAJHTNYRgYKBlMdBgABFhNIVjtBB1sUXg8FUVhZFxJSXzI4fBpRGgR1Uhc_AClqAhJzXS5VR3YBNFJROE4XAm8KGlgTXQUyVF9cCkwWB20KEmslXQcyFTBdCU4fBGYBE2sXXQcCVVtbCk8WM28OGFMcWgMLUFZdAE0nBG8BKwJMFF4LXG5tOEgnBG8BD11nHFQWUixtOEgnAF84GVoUWQ8yZIDTnD8VQm1caDxRL3hkChcubA_Jjfs4K2s'>京东店铺</a><br/>
+        <br />
+        <p>直接把车型报给客服</p>
+      </>
+    ),
+  },
+  {
+    title: '喵驾',
+    Svg: require('@site/static/img/device/box-miudrive.svg').default,
+    description: (
+      <>
+        <a href='https://union-click.jd.com/jdc?e=618%7Cpc%7C&p=JF8BAMQJK1olXDYCV1tfCE4RAV9MRANLAjZbERscSkAJHTNQSwVOBVYdDwtCWhVLMzhqc1llOQNWNy0vWEpQZxlXHlt0ClAOWG5YCEoXAW4LHVsWbQYDVVxaCU8VAWY4K1sUbUdsVFxcCEsfBmc4GVsUXQcHUlxZCXsXBWwAElwRXwAGV1xcOEwXCl9RQhJNVA4yZG5eOEwXCnsOaRpHSQBwZG5eOEgnM20JGl8cbTbc2e4-Dj5BBWtUWSJAOk5_M1ok1sanM184'>京东店铺</a><br/>
+        <br />
+        <p>直接把车型报给客服</p>
+      </>
+    ),
+  },
+];
+
 const WebsiteList = [
   {
     title: 'HiCar论坛',
@@ -339,6 +376,18 @@ export default function HomepageFeatures() {
       <p>通过这些设备可以让不支持HiCar的车也可以用上HiCar，以及在成功连接HiCar后可以使用各类新奇的HiCar协同设备。</p>
         <div className="row">
           {DeviceList.map((props, idx) => (
+            <Feature key={idx} {...props} />
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <section className={styles.features}>
+      <div className="container">
+      <h1>HiCar转换盒推荐</h1>
+      <p>推荐一些口碑还不错的转换盒，可以让原本不支持HiCar的车也可以用上HiCar。</p>
+        <div className="row">
+          {BoxList.map((props, idx) => (
             <Feature key={idx} {...props} />
           ))}
         </div>
