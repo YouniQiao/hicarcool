@@ -79,6 +79,14 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      algolia: {
+        appId: '2WPYRLZSY3',
+        apiKey: '7b371f8df5772d8b54dea8c676e70f34',
+        indexName: 'hicar',
+        contextualSearch: true,
+        searchParameters: {},
+      },
+
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
@@ -147,6 +155,11 @@ const config = {
                 href: 'https://developer.huawei.com/consumer/cn/doc/development/HiCar-Guides/available-apps-0000001180830678',
               },
             ],
+          },
+
+          {
+            type: 'search',
+            position: 'right',
           },
         ],
       },
