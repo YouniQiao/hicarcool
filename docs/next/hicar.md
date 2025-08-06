@@ -1,6 +1,6 @@
 ---
 last_update:
-  date: 2024-10-01
+  date: 2025-08-06
   author: 油腻樵夫
 
 ---
@@ -54,3 +54,9 @@ HiCar NEXT与现在大家在使用的HiCar，在功能上会有一些差异，�
 HiCar NEXT更多是手机侧的功能升级，车机侧无论是原车支持HiCar，还是互联盒使用HiCar等，都不影响体验HiCar NEXT。
 
 但需要注意一点的是，如果之前只能通过有线连接方式使用HiCar，由于当前HiCar NEXT不支持有线连接，这部分用户无法在手机升级HarmonyOS NEXT后使用HiCar NEXT。
+
+:::tip
+
+手机系统升级至HarmonyOS 5版本后，如需通过有线连接方式使用HUAWEI HiCar，请将系统升级到5.0.0.126 SP8及以上版本。
+
+:::

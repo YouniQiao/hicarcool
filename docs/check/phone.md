@@ -1,6 +1,6 @@
 ---
 last_update:
-  date: 2023-08-13
+  date: 2025-08-06
   author: 油腻樵夫
 ---
 
@@ -29,9 +29,10 @@ last_update:
 
 | 系列   | 型号                                                                                                                                                                                                                                                                                                                                                                                     |
 | ---- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Mate | Mate X3、Mate X3 典藏版、Mate X2、Mate Xs2、Mate X、Mate Xs、Mate 50E、Mate 50、Mate 50 Pro、Mate 50 保时捷设计、Mate 40E Pro、Mate 40E、Mate 40E 4G版、Mate 40 Pro 4G版、Mate 40、Mate 40 Pro、Mate 40 Pro+、Mate 40 RS 保时捷设计、Mate 30 5G、Mate 30、Mate 30E Pro 5G、Mate 30 Pro 5G、Mate 30 Pro、Mate 30 RS 保时捷设计、Mate 20、Mate 20 RS 保时捷设计、Mate 20 Pro、Mate 20X、Mate 20X 5G、Mate RS、Mate 10 保时捷设计、Mate 10、Mate 10 Pro |
-| P    | P60 Art、P60 Pro、P60Pocket S、P50 Pocket、P50 Pro、P50、P50E、P40 Pro+、P40 Pro、P40P30 Pro、P30P20 Pro、P20                                                                                                                                                                                                                                                                                     |
-| nova | nova 11、nova 11 Pro、nova 11 Ultra、nova 10 SE、nova 10、nova 10 Pro、nova 10 青春版、nova 9 、nova 9 Pro、nova 9 SE、nova 8、nova 8 Pro 4G版、nova 8 Pro、nova 8 SE、nova7 SE 5G、nova7 SE 5G 乐活版、nova 7 SE、nova7 Pro 5G、nova 7 Pro、nova7 5G、nova 7、nova 6 SE、nova 6 5G、nova 6、nova 5i Pro、nova 5、nova 5 Pro                                                                                            |
+| Mate | Mate XT 非凡大师、Mate X6、Mate X5、Mate X5 典藏版、Mate X3、Mate X3 典藏版、Mate X2、Mate Xs2、Mate X、Mate Xs、Mate 70 Pro+、Mate 70 Pro、Mate 70、Mate 70 RS、Mate 60 Pro+、Mate 60 Pro、Mate 60、Mate 60 RS、Mate 50E、Mate 50、Mate 50 Pro、Mate 50 保时捷设计、Mate 40E Pro、Mate 40E、Mate 40E 4G版、Mate 40 Pro 4G版、Mate 40、Mate 40 Pro、Mate 40 Pro+、Mate 40 RS 保时捷设计、Mate 30 5G、Mate 30、Mate 30E Pro 5G、Mate 30 Pro 5G、Mate 30 Pro、Mate 30 RS 保时捷设计、Mate 20、Mate 20 RS 保时捷设计、Mate 20 Pro、Mate 20X、Mate 20X 5G、Mate RS、Mate 10 保时捷设计、Mate 10、Mate 10 Pro |
+| P    | Pura 80 Pro、Pura 80 Pro+、Pura 80 Ultra、Pura X、Pura70、Pura70 Pro、Pura70 Pro+、Pura70 Ultra、P60 Art、P60 Pro、P60、P50 Pocket、P50 Pro、P50、P50E、P40 Pro+、P40 Pro、P40、P30 Pro、P30、P20 Pro、P20   |
+| Pocket    |  Pocket 2、Pocket S  |
+| nova |nova 14、nova 14 Pro、nova 14 Ultra、nova 13、nova 13 Pro、nova Flip、nova 12、nova 12 Pro、nova 12 Ultra、nova 12 活力版、nova 12 Ultra 星耀版、 nova 11、nova 11 Pro、nova 11 Ultra、nova 11 SE、nova 10 SE、nova 10、nova 10 Pro、nova 10 青春版、nova 9 、nova 9 Pro、nova 9 SE、nova 8、nova 8 Pro 4G版、nova 8 Pro、nova 8 SE、nova7 SE 5G、nova7 SE 5G 乐活版、nova 7 SE、nova7 Pro 5G、nova 7 Pro、nova7 5G、nova 7、nova 6 SE、nova 6 5G、nova 6、nova 5i Pro、nova 5、nova 5 Pro                                                                                            |
 | 其它   | 华为畅享60 Pro、华为畅享60 X、华为畅享 50 Pro、华为畅享Z 5G、华为畅享20 Plus、华为畅享20 Pro、麦芒9 5G、荣耀 Play4T Pro、荣耀Play4 Pro、荣耀Play4、荣耀V30 Pro、荣耀V30、荣耀V20、荣耀X10、荣耀Magic2、荣耀30S、荣耀30 Pro+、荣耀30 Pro、荣耀30、荣耀30 青春版、荣耀9X Pro、荣耀9X、荣耀20 Pro、荣耀20S、荣耀20                                                                                                                                                                 |
 
 ### 仅支持无线方式连接
@@ -74,7 +75,8 @@ last_update:
 
 如果您手边正好有一部上述品牌或者上述支持列表中的手机，查看它是否支持HiCar的最爱的方式如下：
 
-打开手机“设置 > 更多连接”，如果能够看到HiCar智行”或“HUAWEI HiCar”菜单，就表示您这部手机是支持HiCar的。
+* HarmonyOS 4.X及以前系统：打开手机“设置 > 更多连接”，如果能够看到“HiCar智行”或“HUAWEI HiCar”菜单，就表示您这部手机是支持HiCar的。
+* HarmonyOS NEXT系统：打开手机“设置 > 多设备协同”，如果能够看到“HUAWEI HiCar”菜单，就表示您这部手机是支持HiCar的。
 
 <img
   src={require('./img/phone-1.jpg').default}
