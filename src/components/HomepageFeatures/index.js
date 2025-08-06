@@ -123,7 +123,7 @@ const BoxList = [
     Svg: require('@site/static/img/device/box-carlinkit.svg').default,
     description: (
       <>
-        <a href='https://union-click.jd.com/jdc?e=618%7Cpc%7C&p=JF8BAMYJK1olXDYCVV5bC0wQAl9MRANLAjZbERscSkAJHT1YWAZNAlxaEUEGXVRFXTM4HiRPWEVXDQ09dBsQQxVqbF5HAlN_JFJROE4XAm8KGlgTXQUyVF9cCkwWB20KEmslXQcyFTBdCUkXAGsPHGsXXQcCVVtbCk8WM28OGFMcWgICV1lYCUInBG8BKwJMFF4LXG5tOEgnBG8BD11nHFQWUixtOEgnAF84GVoUWQ8yZIDTnCsUfDFDHzpLIloAFFY1C0zJjfs4K2s'>京东店铺</a><br/>
+        <a href='https://hicar.club/sites/322.html'>京东店铺</a><br/>
         <br />
         <p>直接把车型报给客服</p>
       </>
@@ -134,7 +134,7 @@ const BoxList = [
     Svg: require('@site/static/img/device/box-junyong.svg').default,
     description: (
       <>
-        <a href='https://union-click.jd.com/jdc?e=618%7Cpc%7C&p=JF8BANUJK1olXDYCVV1UD04RB19MRANLAjZbERscSkAJHTNYRgYKBlMdBgABFhNIVjtBB1sUXg8FUVhZFxJSXzI4fBpRGgR1Uhc_AClqAhJzXS5VR3YBNFJROE4XAm8KGlgTXQUyVF9cCkwWB20KEmslXQcyFTBdCU4fBGYBE2sXXQcCVVtbCk8WM28OGFMcWgMLUFZdAE0nBG8BKwJMFF4LXG5tOEgnBG8BD11nHFQWUixtOEgnAF84GVoUWQ8yZIDTnD8VQm1caDxRL3hkChcubA_Jjfs4K2s'>京东店铺</a><br/>
+        <a href='https://hicar.club/sites/321.html'>京东店铺</a><br/>
         <br />
         <p>直接把车型报给客服</p>
       </>
@@ -145,7 +145,7 @@ const BoxList = [
     Svg: require('@site/static/img/device/box-miudrive.svg').default,
     description: (
       <>
-        <a href='https://union-click.jd.com/jdc?e=618%7Cpc%7C&p=JF8BAMQJK1olXDYCV1tfCE4RAV9MRANLAjZbERscSkAJHTNQSwVOBVYdDwtCWhVLMzhqc1llOQNWNy0vWEpQZxlXHlt0ClAOWG5YCEoXAW4LHVsWbQYDVVxaCU8VAWY4K1sUbUdsVFxcCEsfBmc4GVsUXQcHUlxZCXsXBWwAElwRXwAGV1xcOEwXCl9RQhJNVA4yZG5eOEwXCnsOaRpHSQBwZG5eOEgnM20JGl8cbTbc2e4-Dj5BBWtUWSJAOk5_M1ok1sanM184'>京东店铺</a><br/>
+        <a href='https://hicar.club/sites/323.html'>京东店铺</a><br/>
         <br />
         <p>直接把车型报给客服</p>
       </>
@@ -228,7 +228,7 @@ export default function HomepageFeatures() {
     <section className={styles.features}>
       <div className="container">
       <h1>HarmonyOS NEXT上的HiCar</h1>
-      <p>纯血鸿蒙上的HiCar，带来了一些不同的功能。</p>
+      <p>纯血鸿蒙（HarmonyOS NEXT）上的HiCar，带来了一些不同的功能。</p>
       <div className="text--center padding-horiz--md">
         <img
           src={require('/img/nexthicar.jpg').default}
@@ -240,7 +240,7 @@ export default function HomepageFeatures() {
               className="button button--secondary "
               to="/docs/next/hicar"
               >
-              点击了解如何体验NEXT上的HiCar 
+              点击了解如何体验HarmonyOS NEXT上的HiCar 
             </Link>
           </div>
       </div>
@@ -250,7 +250,7 @@ export default function HomepageFeatures() {
     <section className={styles.features}>
       <div className="container">
         <h1>下载手机端HiCar应用</h1>
-        <p>以下 APK 仅可安装在已经支持 HiCar 的华为手机上。如果您想下载车机端HiCar，这是不现实的，具体原因可以参考<a href='/docs/vehicle'>HiCar车机版本</a>。</p>
+        <p>以下 APK 仅可安装在已经支持 HiCar 的华为手机上（不包括HarmonyOS NEXT系统）。如果您想下载车机端HiCar，这是不现实的，具体原因可以参考<a href='/docs/vehicle'>HiCar车机版本</a>。</p>
         <p>各文件下载密码：<font color="red"><b>hicar</b></font></p><p>
         </p><p></p><p>
         </p>
@@ -261,13 +261,13 @@ export default function HomepageFeatures() {
         <td>说明</td>
         <td>新特性的首发测试版本。通过会员中心体验官下载。</td>
         <td>新特性的正式商用版本，会与众测版本有些细微的差别。通过应用市场下载。</td>
-        <td>在正式版本之上额外开放花瓣地图以及微信投屏的版本。通过会员中心体验官下载。</td>
+        <td>在正式版本之上额外开放花瓣地图以及微信投屏的版本。通过会员中心体验官下载。<br/>注意：23年7月已取消该类型版本</td>
         </tr>
         <tr>
         <td>2025.03~08</td>
         <td><a href="https://hicar.lanzouq.com/ihp4R32rn83c" target="_blank">14.2.0.330</a><br/><a href="https://hicar.lanzouq.com/i6uEO2wz9bbg" target="_blank">14.2.0.320</a><br/><a href="https://hicar.lanzouq.com/i3MXw2tw0svi" target="_blank">14.2.0.310</a></td>
         <td><a href="https://hicar.lanzouq.com/iFVzL2zhiluj" target="_blank"><font color="red">14.2.0.325</font></a></td>
-        <td></td>
+        <td> - </td>
         </tr>
         <tr>
         <td>2025.01~02</td>
