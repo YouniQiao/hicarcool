@@ -264,9 +264,15 @@ export default function HomepageFeatures() {
         <td>在正式版本之上额外开放花瓣地图以及微信投屏的版本。通过会员中心体验官下载。<br/>注意：23年7月已取消该类型版本</td>
         </tr>
         <tr>
-        <td>2025.03~08</td>
-        <td><a href="https://hicar.lanzouq.com/ihp4R32rn83c" target="_blank">14.2.0.330</a><br/><a href="https://hicar.lanzouq.com/i6uEO2wz9bbg" target="_blank">14.2.0.320</a><br/><a href="https://hicar.lanzouq.com/i3MXw2tw0svi" target="_blank">14.2.0.310</a></td>
-        <td><a href="https://hicar.lanzouq.com/iFVzL2zhiluj" target="_blank"><font color="red">14.2.0.325</font></a></td>
+        <td>2025.08</td>
+        <td><a href="https://hicar.lanzouq.com/ifVPY33kb0zi" target="_blank"><font color="red">14.2.0.335</font></a><br/><a href="https://hicar.lanzouq.com/ihp4R32rn83c" target="_blank">14.2.0.330</a></td>
+        <td></td>
+        <td></td>
+        </tr>
+        <tr>
+        <td>2025.03~07</td>
+        <td><a href="https://hicar.lanzouq.com/i6uEO2wz9bbg" target="_blank">14.2.0.320</a><br/><a href="https://hicar.lanzouq.com/i3MXw2tw0svi" target="_blank">14.2.0.310</a></td>
+        <td><a href="https://hicar.lanzouq.com/iFVzL2zhiluj" target="_blank">14.2.0.325</a></td>
         <td> - </td>
         </tr>
         <tr>
