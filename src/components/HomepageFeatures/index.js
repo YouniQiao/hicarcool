@@ -251,7 +251,7 @@ export default function HomepageFeatures() {
       <div className="container">
         <h1>下载手机端HiCar应用</h1>
         <p>以下 APK 仅可安装在已经支持 HiCar 的华为手机上（不包括HarmonyOS NEXT系统）。如果您想下载车机端HiCar，这是不现实的，具体原因可以参考<a href='/docs/vehicle'>HiCar车机版本</a>。</p>
-        <p>各文件下载密码：<font color="red"><b>hicar</b></font></p><p>
+        <p>如果需要密码：<font color="red"><b>hicar</b></font></p><p>
         </p><p></p><p>
         </p>
         <table>
