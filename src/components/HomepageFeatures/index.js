@@ -265,9 +265,9 @@ export default function HomepageFeatures() {
         </tr>
         <tr>
         <td>2025.09~11</td>
-        <td><a href="https://hicar.lanzouq.com/iZrdH39p9vud" target="_blank"><font color="red">14.2.0.350</font></a></td>
-        <td></td>
-        <td></td>
+        <td><a href="https://hicar.lanzouq.com/iZrdH39p9vud" target="_blank">14.2.0.350</a></td>
+        <td><a href="https://hicar.lanzouq.com/ic51f3azga4j" target="_blank"><font color="red">14.2.0.355</font></a></td>
+        <td> - </td>
         </tr>
         <tr>
         <td>2025.08</td>
