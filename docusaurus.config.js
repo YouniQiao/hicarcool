@@ -97,11 +97,25 @@ const config = {
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            type: 'dropdown',
             position: 'left',
-            label: '使用手册',
+            label: '指南',
+            items: [
+              {
+                type: 'docSidebar',
+                sidebarId: 'tutorialSidebar',
+                label: '经典 HiCar',
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'nextSidebar',
+                label: 'Next HiCar',
+              },
+              {to: '/docs/next-diff', label: '有何差异'},
+              
+          ],
           },
+          {to: '/download', label: '下载', position: 'left'},
           //{to: '/dev', label: '开发指南', position: 'left'},
           //{to: '/box', label: '周边设备', position: 'left'},
           {
@@ -110,6 +124,7 @@ const config = {
             position: 'left',
             label: '周边设备',
           },
+          {to: '/update', label: '更新记录', position: 'left'},
           //{
           //  type: 'docSidebar',
           //  sidebarId: 'faqSidebar',
@@ -117,21 +132,22 @@ const config = {
           //  label: '常见问题',
           //},
           
-          {
-            href: 'https://news.hicar.cool/',
-            label: '最新消息',
-            position: 'left',
-          },
-          {
-            href: 'https://forum.hicar.cool/',
-            label: '论坛',
-            position: 'left',
-          },
-          {
-            href: 'https://hicar.club/',
-            label: 'HiCar资源',
-            position: 'left',
-          },
+          // {
+          //   href: 'https://news.hicar.cool/',
+          //   label: '最新消息',
+          //   position: 'left',
+          // },
+          // {
+          //   href: 'https://forum.hicar.cool/',
+          //   label: '论坛',
+          //   position: 'left',
+          // },
+          // {
+          //   href: 'https://hicar.club/',
+          //   label: 'HiCar资源',
+          //   position: 'left',
+          // },
+          
           {
             href: 'https://consumer.huawei.com/cn/phones/hicar/',
             label: 'HiCar官网',

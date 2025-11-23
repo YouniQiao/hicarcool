@@ -1,0 +1,459 @@
+/* 主容器样式 */
+.heroSection {
+  position: relative;
+  background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+  padding: 100px 0 60px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.heroBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(circle at 20% 80%, rgba(0, 112, 245, 0.03) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(0, 189, 89, 0.03) 0%, transparent 50%);
+}
+
+.heroContent {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.heroTitle {
+  font-size: 3rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, #0070f3 0%, #00bd59 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 1rem;
+  letter-spacing: -0.02em;
+}
+
+.heroSubtitle {
+  font-size: 1.3rem;
+  color: #1a1a1a;
+  margin-bottom: 1.5rem;
+  font-weight: 300;
+}
+
+.heroDescription {
+  font-size: 1.1rem;
+  color: #666;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* 主要内容区域 */
+.mainContent {
+  background: #ffffff;
+  padding: 60px 0;
+}
+
+.updatesContainer {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 3rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* 时间线样式 */
+.monthSection {
+  margin-bottom: 3rem;
+}
+
+.monthTitle {
+  font-size: 1.8rem;
+  color: #1a1a1a;
+  margin-bottom: 2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #f0f0f0;
+  font-weight: 600;
+}
+
+.timeline {
+  position: relative;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 120px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(to bottom, #0070f3, #00bd59);
+  opacity: 0.3;
+}
+
+.timelineItem {
+  display: flex;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.timelineDate {
+  width: 140px;
+  padding-right: 20px;
+  text-align: right;
+  position: relative;
+}
+
+.dateCircle {
+  width: 12px;
+  height: 12px;
+  background: linear-gradient(135deg, #0070f3 0%, #00bd59 100%);
+  border-radius: 50%;
+  position: absolute;
+  right: -6px;
+  top: 6px;
+  z-index: 2;
+}
+
+.dateText {
+  font-weight: 600;
+  color: #1a1a1a;
+  font-size: 1rem;
+}
+
+.timelineContent {
+  flex: 1;
+  padding-left: 40px;
+}
+
+.updateCards {
+  display: grid;
+  gap: 1rem;
+}
+
+.updateCard {
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 1.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.updateCard::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: linear-gradient(to bottom, #0070f3, #00bd59);
+  opacity: 0.7;
+}
+
+.updateCard:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  background: white;
+}
+
+.cardHeader {
+  margin-bottom: 0.8rem;
+}
+
+.categoryTag {
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* 分类标签颜色 */
+.网站页面 {
+  background: rgba(0, 112, 243, 0.1);
+  color: #0070f3;
+}
+
+.经典HiCar {
+  background: rgba(0, 189, 89, 0.1);
+  color: #00bd59;
+}
+
+.NextHiCar {
+  background: rgba(155, 81, 224, 0.1);
+  color: #9b51e0;
+}
+
+.电脑内容 {
+  background: rgba(245, 166, 35, 0.1);
+  color: #f5a623;
+}
+
+.穿戴内容 {
+  background: rgba(108, 117, 125, 0.1);
+  color: #6c757d;
+}
+
+.智慧屏内容 {
+  background: rgba(220, 53, 69, 0.1);
+  color: #dc3545;
+}
+
+.智能座舱内容 {
+  background: rgba(32, 201, 151, 0.1);
+  color: #20c997;
+}
+
+.支持设备更新 {
+  background: rgba(13, 202, 240, 0.1);
+  color: #0dcaf0;
+}
+
+.规范文档 {
+  background: rgba(111, 66, 193, 0.1);
+  color: #6f42c1;
+}
+
+.设计指南 {
+  background: rgba(214, 51, 132, 0.1);
+  color: #d63384;
+}
+
+.工具文档 {
+  background: rgba(253, 126, 20, 0.1);
+  color: #fd7e14;
+}
+
+.架构文档 {
+  background: rgba(102, 16, 242, 0.1);
+  color: #6610f2;
+}
+
+.项目案例 {
+  background: rgba(32, 107, 196, 0.1);
+  color: #206bc4;
+}
+
+.基础文档 {
+  background: rgba(108, 117, 125, 0.1);
+  color: #6c757d;
+}
+
+.入门指南 {
+  background: rgba(40, 167, 69, 0.1);
+  color: #28a745;
+}
+
+.updateLink {
+  color: #1a1a1a;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  transition: color 0.2s ease;
+  display: block;
+}
+
+.updateLink:hover {
+  color: #0070f3;
+}
+
+/* 侧边栏样式 */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.sidebarCard {
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 1.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.sidebarCard h3 {
+  margin: 0 0 1.5rem 0;
+  color: #1a1a1a;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+/* 统计网格 */
+.statsGrid {
+  display: grid;
+  gap: 1rem;
+}
+
+.statItem {
+  text-align: center;
+  padding: 1rem;
+  background: white;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.statNumber {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #0070f3;
+  margin-bottom: 0.5rem;
+}
+
+.statLabel {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+/* 分类列表 */
+.categoriesList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.categoryItem {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 0.5rem 0;
+}
+
+.categoryDot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+/* 分类圆点颜色 */
+.网站页面 { background: #0070f3; }
+.经典HiCar { background: #00bd59; }
+.NextHiCar { background: #9b51e0; }
+.电脑内容 { background: #f5a623; }
+.穿戴内容 { background: #6c757d; }
+.智慧屏内容 { background: #dc3545; }
+.智能座舱内容 { background: #20c997; }
+.支持设备更新 { background: #0dcaf0; }
+.规范文档 { background: #6f42c1; }
+.设计指南 { background: #d63384; }
+.工具文档 { background: #fd7e14; }
+.架构文档 { background: #6610f2; }
+.项目案例 { background: #206bc4; }
+.基础文档 { background: #6c757d; }
+.入门指南 { background: #28a745; }
+
+.categoryName {
+  flex: 1;
+  color: #1a1a1a;
+  font-size: 0.9rem;
+}
+
+.categoryCount {
+  color: #666;
+  font-size: 0.8rem;
+}
+
+/* 订阅区域 */
+.subscribeText {
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+}
+
+.subscribeButton {
+  width: 100%;
+  padding: 0.8rem 1.5rem;
+  background: linear-gradient(135deg, #0070f3 0%, #00bd59 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.subscribeButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 112, 243, 0.3);
+}
+
+/* 响应式设计 */
+@media (max-width: 968px) {
+  .updatesContainer {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .sidebar {
+    order: -1;
+  }
+}
+
+@media (max-width: 768px) {
+  .heroTitle {
+    font-size: 2.5rem;
+  }
+  
+  .timeline::before {
+    left: 60px;
+  }
+  
+  .timelineDate {
+    width: 80px;
+  }
+  
+  .timelineContent {
+    padding-left: 30px;
+  }
+  
+  .monthTitle {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .heroSection {
+    padding: 80px 0 40px;
+  }
+  
+  .heroTitle {
+    font-size: 2rem;
+  }
+  
+  .mainContent {
+    padding: 40px 0;
+  }
+  
+  .timelineItem {
+    flex-direction: column;
+  }
+  
+  .timelineDate {
+    width: 100%;
+    text-align: left;
+    padding-right: 0;
+    margin-bottom: 1rem;
+  }
+  
+  .dateCircle {
+    display: none;
+  }
+  
+  .timelineContent {
+    padding-left: 0;
+  }
+  
+  .timeline::before {
+    display: none;
+  }
+}

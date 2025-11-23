@@ -1,0 +1,366 @@
+/* Hero区域样式 */
+.heroSection {
+  background: linear-gradient(135deg, #ffffff 0%, #f8faff 100%);
+  padding: 100px 0 80px;
+  position: relative;
+  overflow: hidden;
+}
+
+.heroSection::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -10%;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(0, 112, 243, 0.05) 0%, transparent 70%);
+  border-radius: 50%;
+}
+
+.heroContent {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.heroBadge {
+  display: inline-block;
+  background: linear-gradient(135deg, #0070f3, #00c6ff);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.heroTitle {
+  font-size: 4rem;
+  font-weight: 800;
+  color: #1a1a1a;
+  margin-bottom: 1rem;
+  line-height: 1.1;
+}
+
+.highlight {
+  background: linear-gradient(135deg, #0070f3, #00c6ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.heroSubtitle {
+  font-size: 1.5rem;
+  color: #666;
+  margin-bottom: 2rem;
+  font-weight: 400;
+}
+
+.heroDescription {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 3rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.heroStats {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  margin-top: 3rem;
+}
+
+.statItem {
+  text-align: center;
+}
+
+.statNumber {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #0070f3;
+  margin-bottom: 0.5rem;
+}
+
+.statLabel {
+  color: #666;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* 下载区域样式 */
+.downloadSection {
+  padding: 80px 0;
+  background: #fff;
+}
+
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.sectionTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 1rem;
+}
+
+.sectionSubtitle {
+  font-size: 1.1rem;
+  color: #666;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.tableContainer {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  border: 1px solid #f0f0f0;
+}
+
+.downloadTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.downloadTable th {
+  background: #f8f9fa;
+  padding: 1.2rem 1.5rem;
+  text-align: left;
+  font-weight: 600;
+  color: #333;
+  border-bottom: 1px solid #e9ecef;
+  font-size: 0.95rem;
+}
+
+.downloadTable td {
+  padding: 1.2rem 1.5rem;
+  border-bottom: 1px solid #f0f0f0;
+  color: #555;
+}
+
+.downloadTable tr:last-child td {
+  border-bottom: none;
+}
+
+.downloadTable tr:hover {
+  background: #f8faff;
+}
+
+.platformInfo {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-weight: 500;
+}
+
+.platformIcon {
+  font-size: 1.2rem;
+}
+
+.versionTag {
+  background: #e3f2fd;
+  color: #0070f3;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.downloadLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: linear-gradient(135deg, #0070f3, #00c6ff);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.downloadLink:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 112, 243, 0.3);
+  color: white;
+  text-decoration: none;
+}
+
+.downloadArrow {
+  font-size: 1rem;
+}
+
+/* 说明区域样式 */
+.instructionsSection {
+  padding: 80px 0;
+  background: linear-gradient(135deg, #f8faff 0%, #ffffff 100%);
+}
+
+.instructionsContent {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.instructionsTitle {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 3rem;
+}
+
+.instructionsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.instructionCard {
+  background: white;
+  padding: 2.5rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  border: 1px solid #f0f0f0;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.instructionCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+.instructionNumber {
+  position: absolute;
+  top: -15px;
+  left: 2rem;
+  background: linear-gradient(135deg, #0070f3, #00c6ff);
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.instructionCard h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.instructionCard ul,
+.instructionCard ol {
+  color: #555;
+  line-height: 1.7;
+  padding-left: 1.2rem;
+}
+
+.instructionCard li {
+  margin-bottom: 0.5rem;
+}
+
+.supportInfo {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  border-left: 4px solid #0070f3;
+}
+
+.supportInfo h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 1rem;
+}
+
+.supportInfo p {
+  color: #555;
+  line-height: 1.7;
+  font-size: 1.05rem;
+}
+
+.supportLink {
+  color: #0070f3;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.supportLink:hover {
+  color: #0051a8;
+  text-decoration: underline;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .heroTitle {
+    font-size: 2.5rem;
+  }
+  
+  .heroStats {
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .statNumber {
+    font-size: 2rem;
+  }
+  
+  .downloadTable {
+    display: block;
+    overflow-x: auto;
+  }
+  
+  .instructionsGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .heroDescription {
+    font-size: 1.1rem;
+  }
+  
+  .sectionTitle,
+  .instructionsTitle {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .heroSection {
+    padding: 60px 0 40px;
+  }
+  
+  .downloadSection,
+  .instructionsSection {
+    padding: 60px 0;
+  }
+  
+  .heroTitle {
+    font-size: 2rem;
+  }
+  
+  .heroSubtitle {
+    font-size: 1.2rem;
+  }
+  
+  .instructionCard {
+    padding: 2rem 1.5rem;
+  }
+}

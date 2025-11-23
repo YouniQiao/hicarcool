@@ -16,3 +16,123 @@
   padding: 0 var(--ifm-spacing-horizontal);
   width: 100%;
 }
+
+/* 说明区域样式 */
+.instructionsSection {
+  padding: 80px 0;
+  background: linear-gradient(135deg, #f8faff 0%, #ffffff 100%);
+}
+
+.instructionsContent {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.instructionsTitle {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 3rem;
+}
+
+.instructionsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.instructionCard {
+  background: white;
+  padding: 2.5rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  border: 1px solid #f0f0f0;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.instructionCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+.instructionNumber {
+  position: absolute;
+  top: -15px;
+  left: 2rem;
+  background: linear-gradient(135deg, #0070f3, #00c6ff);
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.instructionCard h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.instructionCard ul,
+.instructionCard ol {
+  color: #555;
+  line-height: 1.7;
+  padding-left: 1.2rem;
+}
+
+.instructionCard li {
+  margin-bottom: 0.5rem;
+}
+
+.supportInfo {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  border-left: 4px solid #0070f3;
+}
+
+.supportInfo h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 1rem;
+}
+
+.supportInfo p {
+  color: #555;
+  line-height: 1.7;
+  font-size: 1.05rem;
+}
+
+.supportLink {
+  color: #0070f3;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.supportLink:hover {
+  color: #0051a8;
+  text-decoration: underline;
+}
+
+.heroBadge {
+  display: inline-block;
+  background: linear-gradient(135deg, #0070f3, #00c6ff);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}

@@ -138,19 +138,76 @@ const sidebars = {
         'simulator/box-hicar-pad',
       ],
     },
+    
+  ],
+
+  nextSidebar: [
+    'next-intro',
     {
       type: 'category',
-      label: 'HiCar NEXT ★',
+      label: 'Next HiCar使用条件',
       items: [
-        'next/hicar', 
-        'next/diff', 
-        'next/copilot',
-        'next/screen-split',
-        'next/transfer',
-        'next/remote-control',
+        'next-check/phone',
+        'next-check/car',
       ],
     },
-    'update',
+    {
+      type: 'doc',
+      id:'next-diff',
+      label: 'Next HiCar差异',
+      
+    },
+    {
+      type: 'category',
+      label: 'Next HiCar连接',
+      items: [
+        'next-guides/connect/wireless',
+        'next-guides/connect/wired',
+        'next-guides/connect/auto',
+        'next-guides/connect/disconnect',
+        
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Next HiCar界面',
+      items: [
+        'next-guides/ui/desktop',
+        'next-guides/ui/card',
+        'next-guides/ui/wallpaper',
+        'next-guides/ui/dock',
+        'next-guides/ui/display-mode',
+        'next-guides/ui/always-display',
+        'next-guides/ui/back-to-car',
+        
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Next HiCar应用',
+      items: [
+        'next-guides/app/obtain',
+        'next-guides/app/restrictions',
+        'next-guides/app/ajust-order',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Next HiCar语音',
+      items: [
+        'next-guides/voice/wake-up',
+        'next-guides/voice/timbre',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Next HiCar功能',
+      items: [
+        'next-guides/function/shake-app',
+        'next-guides/function/mobile-linkage-navigation',
+        'next-guides/function/switch-audio-device',
+      ],
+    },
   ],
 
   deviceSidebar: [

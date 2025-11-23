@@ -20,4 +20,4 @@ last_update:
 
 ### 车连易
 
-<iframe src="https://omo-oss-video.thefastvideo.com/portal-saas/new2022022514431637379/cms/vedio/3472f310-2c82-4f51-8a4b-d133868bec08.mp4" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="800" height="480"> </iframe>
+<iframe src="https://omo-oss-video.thefastvideo.com/portal-saas/new2022022514431637379/cms/vedio/3472f310-2c82-4f51-8a4b-d133868bec08.mp4#toolbar=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="800" height="480"> </iframe>

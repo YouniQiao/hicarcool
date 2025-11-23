@@ -12,7 +12,7 @@ const FeatureList = [
         HUAWEI HiCar具体是什么<br/>
         HiCar支持的手机/应用/车型<br/>
         HiCar每个功能详细指导说明<br/>
-        文档里都有。您可以访问<a href='/docs/intro'>使用手册</a>直接查看<br/>
+        请访问<a href='/docs/intro'>经典HiCar指南</a>或<a href='/docs/next-intro'>Next HiCar指南</a>直接查看<br/>
         （手机访问本站时请从网站左上角菜单进入）
       </>
     ),
@@ -38,7 +38,7 @@ const FeatureList = [
         本站并非HiCar官方站点<br/>
         由HiCar粉丝搭建并维护<br/>
         随HiCar功能演进持续更新<br/>
-        <a href='/docs/update'>点击了解本站更新说明</a>
+        <a href='/update'>点击了解本站更新说明</a>
       </>
     ),
   },
@@ -53,7 +53,8 @@ const StepList = [
       <>
         使用前确认您的车支持HiCar<br/>
         或者通过转换盒或其他方式支持HiCar<br/>
-        具体说明请参见<a href='/docs/check/car'>检查车辆</a>
+        具体说明请参见指南中的“检查车辆”章节
+        {/* 具体说明请参见<a href='/docs/check/car'>检查车辆</a> */}
       </>
     ),
   },
@@ -64,7 +65,8 @@ const StepList = [
       <>
         只有部分华为手机以及荣耀手机支持HiCar<br/>
         其他品牌手机并不支持HiCar<br/>
-        具体说明请参见<a href='/docs/check/phone'>检查手机</a>
+        具体说明请参见指南中的“检查手机”章节
+        {/* 具体说明请参见<a href='/docs/check/phone'>检查手机</a> */}
       </>
     ),
   },
@@ -75,7 +77,8 @@ const StepList = [
       <>
         当车辆和手机都支持HiCar时<br/>
         那就开始连接吧<br/>
-        具体连接操作请参见<a href='/docs/guides/connect/wireless'>连接</a>
+        具体连接操作请参见指南中的“连接”章节
+        {/* 具体连接操作请参见<a href='/docs/guides/connect/wireless'>连接</a> */}
       </>
     ),
   },
@@ -170,7 +173,7 @@ const WebsiteList = [
     Svg: require('@site/static/img/undraw_news.svg').default,
     description: (
       <>
-        一个微博形式的站点<br/>
+        一个简单形式的站点<br/>
         第一时间汇报感知到HiCar最新消息<br/>
         <a href='https://news.hicar.cool/' target='_blank'>点击查看HiCar最新消息</a>
       </>
@@ -210,16 +213,16 @@ export default function HomepageFeatures() {
         <div className="container">
         <div className="text--center padding-horiz--md">
           <p></p>
-          <p>HUAWEI HiCar是由华为提供的人车家互联解决方案。本站点为HiCar粉丝站点，提供HiCar相关的文档、设备信息、APK下载等内容。</p>
+          <p>本站点为HiCar粉丝站点，提供HiCar相关的指南、设备信息、APK下载等内容。</p>
           <p>欢迎加入HiCar的大家庭，一起享受驾驶的乐趣。</p>
-          <div className={styles.buttons}>
+          {/* <div className={styles.buttons}>
             <Link
               className="button button--secondary "
               to="https://news.hicar.cool/"
               target="_blank">
               一些关于HiCar的最新消息
             </Link>
-          </div>
+          </div> */}
         </div>
         
       </div>
@@ -227,146 +230,47 @@ export default function HomepageFeatures() {
 
     <section className={styles.features}>
       <div className="container">
-      <h1>HarmonyOS NEXT上的HiCar</h1>
-      <p>纯血鸿蒙（HarmonyOS NEXT）上的HiCar，带来了一些不同的功能。</p>
-      <div className="text--center padding-horiz--md">
-        <img
-          src={require('/img/nexthicar.jpg').default}
-          width="800" 
-        />
-        <p></p>
-        <div className={styles.buttons}>
-            <Link
-              className="button button--secondary "
-              to="/docs/next/hicar"
-              >
-              点击了解如何体验HarmonyOS NEXT上的HiCar 
-            </Link>
-          </div>
-      </div>
-      </div>
-    </section>
+      <h1>HiCar是什么</h1>
+      <p>HUAWEI HiCar是华为打造的人-车-家全场景智慧互联解决方案，为您提供更便捷、更智能、更安全的出行服务新体⁠⁠验。</p>
+      <p>按照手机搭载的HarmonyOS系统版本区分，HiCar可以区分为经典HiCar和Next HiCar。</p>
+      <br/>
+      <div className={styles.instructionsGrid}>
+          <div className={styles.instructionCard}>
+            <div className={styles.instructionNumber}>01</div>
+            <h3>经典 HiCar</h3>
+            <ul>
+              <li>支持HarmonyOS 4.X及以下系统</li>
+              <li>手机上的HiCar应用是APK格式</li>
+            </ul>
 
-    <section className={styles.features}>
-      <div className="container">
-        <h1>下载手机端HiCar应用</h1>
-        <p>以下 APK 仅可安装在已经支持 HiCar 的华为手机上（不包括HarmonyOS NEXT系统）。如果您想下载车机端HiCar，这是不现实的，具体原因可以参考<a href='/docs/vehicle'>HiCar车机版本</a>。</p>
-        <p>如果需要密码：<font color="red"><b>hicar</b></font></p><p>
-        </p><p></p><p>
-        </p>
-        <table>
-        <thead><tr><th>Updated</th><th>众测版本</th><th>正式版本</th><th>紧跟正式版本的众测版本</th></tr></thead>
-        <tbody>
-        <tr>
-        <td>说明</td>
-        <td>新特性的首发测试版本。通过会员中心体验官下载。</td>
-        <td>新特性的正式商用版本，会与众测版本有些细微的差别。通过应用市场下载。</td>
-        <td>在正式版本之上额外开放花瓣地图以及微信投屏的版本。通过会员中心体验官下载。<br/>注意：23年7月已取消该类型版本</td>
-        </tr>
-        <tr>
-        <td>2025.09~11</td>
-        <td><a href="https://hicar.lanzouq.com/iZrdH39p9vud" target="_blank">14.2.0.350</a></td>
-        <td><a href="https://hicar.lanzouq.com/ic51f3azga4j" target="_blank"><font color="red">14.2.0.355</font></a></td>
-        <td> - </td>
-        </tr>
-        <tr>
-        <td>2025.08</td>
-        <td><a href="https://hicar.lanzouq.com/ifVPY33kb0zi" target="_blank">14.2.0.335</a><br/><a href="https://hicar.lanzouq.com/ihp4R32rn83c" target="_blank">14.2.0.330</a></td>
-        <td><a href="https://hicar.lanzouq.com/i1EFJ35pkldi" target="_blank">14.2.0.340</a></td>
-        <td> - </td>
-        </tr>
-        <tr>
-        <td>2025.03~07</td>
-        <td><a href="https://hicar.lanzouq.com/i6uEO2wz9bbg" target="_blank">14.2.0.320</a><br/><a href="https://hicar.lanzouq.com/i3MXw2tw0svi" target="_blank">14.2.0.310</a></td>
-        <td><a href="https://hicar.lanzouq.com/iFVzL2zhiluj" target="_blank">14.2.0.325</a></td>
-        <td> - </td>
-        </tr>
-        <tr>
-        <td>2025.01~02</td>
-        <td><a href="https://hicar.lanzouq.com/ibzuK2k8nrmd" target="_blank">14.2.0.295</a></td>
-        <td><a href="https://hicar.lanzouq.com/i2yHV2n6v90h" target="_blank">14.2.0.300</a></td>
-        <td> - </td>
-        </tr>
-        <tr>
-        <td>2024.10～11</td>
-        <td><a href="https://hicar.lanzouq.com/iLHOq2cv18ej" target="_blank">14.2.0.245</a></td>
-        <td><a href="https://hicar.lanzouq.com/isdn22edsbva" target="_blank">14.2.0.255</a></td>
-        <td> - </td>
-        </tr>
-        <tr>
-        <td>2024.09</td>
-        <td><a href="https://hicar.lanzouq.com/iaMDs291tfif" target="_blank">14.2.0.230</a></td>
-        <td><a href="https://hicar.lanzouq.com/iN8Qd29w9v3c" target="_blank">14.2.0.235</a></td>
-        <td> - </td>
-        </tr>
-        <tr>
-        <td>2024.06~07</td>
-        <td><a href="https://hicar.lanzouq.com/i2Uct231ey8d" target="_blank">14.2.0.200</a></td>
-        <td><a href="https://hicar.lanzouq.com/idapT2582nxe" target="_blank">14.2.0.205</a></td>
-        <td> - </td>
-        </tr>
-        <tr>
-        <td>2024.04~05</td>
-        <td><a href="https://hicar.lanzouq.com/icL7E1vegl0j" target="_blank">14.2.0.180</a></td>
-        <td><a href="https://hicar.lanzouq.com/is9gh1xiv87e" target="_blank">14.2.0.185</a></td>
-        <td> - </td>
-        </tr>
-        <tr>
-        <td>2024.03</td>
-        <td><a href="https://hicar.lanzouq.com/idSQI1r0f9xg" target="_blank">14.2.0.171</a></td>
-        <td><a href="https://hicar.lanzouq.com/i379I1sx5guj" target="_blank">14.2.0.175</a></td>
-        <td> - </td>
-        </tr>
-        <tr>
-        <td>2024.01~02</td>
-        <td> - </td>
-        <td><a href="https://hicar.lanzouq.com/iSYHB1jqmoud" target="_blank">14.2.0.150</a></td>
-        <td> - </td>
-        </tr>
-        <tr>
-        <td>2023.11~12</td>
-        <td><a href="https://hicar.lanzouq.com/iE90g1i26ave" target="_blank">14.2.0.146</a><br/><a href="https://hicar.lanzouq.com/ifNnY1fkjcle" target="_blank">14.2.0.132</a></td>
-        <td> - </td>
-        <td> - </td>
-        </tr>
-        <tr>
-        <td>2023.09~10</td>
-        <td><a href="https://hicar.lanzouq.com/i0880192j9gh" target="_blank">14.2.0.115</a></td>
-        <td><a href="https://hicar.lanzouq.com/ihTb81db1kna" target="_blank">14.2.0.131</a><br/><a href="https://hicar.lanzouq.com/iyVLx1bh5auf" target="_blank">14.2.0.121</a></td>
-        <td> - </td>
-        </tr>
-        <tr>
-        <td>2023.07~08</td>
-        <td><a href="https://hicar.lanzouq.com/iauQY13dp9kh" target="_blank">13.2.0.506</a></td>
-        <td><a href="https://hicar.lanzouq.com/iTn2g14vrf6f" target="_blank">13.2.0.515</a><br/><a href="https://hicar.lanzouq.com/i5SIJ142yp6d" target="_blank">13.2.0.511</a></td>
-        <td> 已取消 </td>
-        </tr>
-        <tr>
-        <td>2023.06</td>
-        <td><a href="https://hicar.lanzoum.com/ir0tA0ypsfve" target="_blank">13.2.0.500</a><br/><a href="https://hicar.lanzoum.com/iWP8n0ygtahc" target="_blank">13.2.0.457</a></td>
-        <td><a href="https://hicar.lanzoum.com/iN1jz0z2xmha" target="_blank">13.2.0.501</a></td>
-        <td><a href="https://hicar.lanzoum.com/iLB9C0z41b9g" target="_blank">13.2.0.502</a></td>
-        </tr>
-        <tr>
-        <td>2023.04~05</td>
-        <td><a href="https://hicar.lanzoum.com/iZ4ZR0vpw2ri" target="_blank">13.2.0.450</a><br /><a href="https://hicar.lanzoum.com/iyhD20v6mvja" target="_blank">13.2.0.435</a></td>
-        <td><a href="https://hicar.lanzoum.com/iAXU80whbl6d" target="_blank">13.2.0.451</a></td>
-        <td><a href="https://hicar.lanzoum.com/iC60G0whyykd" target="_blank">13.2.0.455</a></td>
-        </tr>
-        <tr>
-        <td>2023.03</td>
-        <td><a href="https://hicar.lanzoum.com/ir1HC0v6o78h" target="_blank">13.2.0.425</a></td>
-        <td><a href="https://hicar.lanzoum.com/ii7P80v6muje" target="_blank">13.2.0.430</a></td>
-        <td><a href="https://hicar.lanzoum.com/iMy5m0v6mv2d" target="_blank">13.2.0.431</a></td>
-        </tr>
-        <tr>
-        <td>2023.02</td>
-        <td><a href="https://hicar.lanzoum.com/iJIu90v6mx0d" target="_blank">13.2.0.415</a></td>
-        <td><a href="https://hicar.lanzoum.com/iiQN50v6mvvc" target="_blank">13.2.0.420</a></td>
-        <td><a href="https://hicar.lanzoum.com/iuRtW0v6mwcj" target="_blank">13.2.0.421</a></td>
-        </tr>
-        </tbody>
-        </table>
+            <div className={styles.buttons}>
+              <Link
+                className="button button--secondary button--lg"
+                to="/docs/intro">
+                经典 HiCar 快速入门
+              </Link>
+            </div>
+          </div>
+          
+          <div className={styles.instructionCard}>
+            <div className={styles.instructionNumber}>02</div>
+            <h3>Next HiCar</h3>
+            <ul>
+              <li>支持HarmonyOS 5及以上系统</li>
+              <li>手机上的HiCar应用是HAP格式</li>
+            </ul>
+
+            <div className={styles.buttons}>
+              <Link
+                className="button button--secondary button--lg"
+                to="/docs/next-intro">
+                Next HiCar 快速入门
+              </Link>
+            </div>
+          </div> 
+        </div>
+
+      
       </div>
     </section>
 
@@ -374,6 +278,19 @@ export default function HomepageFeatures() {
       <div className="container">
       <h1>HiCar如何使用</h1>
       <p>想使用HiCar简单一句话就是：使用支持HiCar的手机连上支持HiCar的车使用支持HiCar的应用。</p>
+
+      <div className="text--center padding-horiz--md">
+        <video 
+        controls 
+        width="800"
+        //poster="/img/nexthicar.jpg" // 可选：视频封面
+        >
+          
+        <source src="https://consumer.huawei.com/content/dam/huawei-cbg-site/cn/mkt/pdp/phones/hicar/250115/huawei-hicar-theme.mp4" type="video/mp4" />
+        您的浏览器不支持视频播放。
+        </video>
+      </div>
+
         <div className="row">
           {StepList.map((props, idx) => (
             <Feature key={idx} {...props} />
@@ -381,6 +298,26 @@ export default function HomepageFeatures() {
         </div>
       </div>
     </section>
+
+    {/* <section className={styles.features}>
+      <div className="container">
+        <h1>下载HiCar应用</h1>
+        <p>获取最新版本HiCar应用。</p>
+        <br/>
+        
+        <div className="text--center padding-horiz--md">
+          <div className={styles.buttons}>
+            <Link
+              className={styles.heroBadge}
+              to="/download"
+              >
+              立即下载 
+            </Link>
+          </div>
+        </div>  
+        
+      </div>
+    </section> */}
 
     <section className={styles.features}>
       <div className="container">
@@ -435,6 +372,7 @@ export default function HomepageFeatures() {
         <div className="text--center padding-horiz--md">
           <p>本站所有内容在Github开源，欢迎各位有能力有意愿的HiCar粉丝共同参与本站内容建设。</p>
           <p>参与方式：在文档页面左下角“编辑此页”跳转到Github提交PR。</p>
+          <p>支持方式：如果本站对您有所帮助，您可以通过以下方式请站长喝杯蜜雪冰城<a href='https://afdian.com/a/youniqiao' target='_blank'> 爱发电</a>。</p>
           <p></p>
         </div>
       </div>
