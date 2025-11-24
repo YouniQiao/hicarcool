@@ -25,7 +25,7 @@ export default function Home() {
   return (
     <Layout
       title={`HiCar 周边`}
-      description="Description will go into a meta tag in <head />">
+      description="HiCar周边设备">
         <BoxpageHeader />
       <main>
         <BoxpageFeatures />

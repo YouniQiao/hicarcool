@@ -7,6 +7,17 @@ export default function ContentUpdates() {
   const {siteConfig} = useDocusaurusContext();
 
   const updates = [
+{
+      date: "2025-11-23",
+      items: [
+        {
+          text: "增加设备列表页面",
+          link: "/box",
+          category: "网站页面"
+        },
+      ]
+    },
+
     {
       date: "2025-11-16",
       items: [

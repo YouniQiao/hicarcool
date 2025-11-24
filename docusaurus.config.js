@@ -115,15 +115,29 @@ const config = {
               
           ],
           },
-          {to: '/download', label: '下载', position: 'left'},
+          
           //{to: '/dev', label: '开发指南', position: 'left'},
           //{to: '/box', label: '周边设备', position: 'left'},
           {
-            type: 'docSidebar',
-            sidebarId: 'deviceSidebar',
+            type: 'dropdown',
             position: 'left',
-            label: '周边设备',
+            label: '设备',
+            items: [
+              {to: '/box', label: '设备列表'},
+              {
+                type: 'docSidebar',
+                sidebarId: 'deviceSidebar',
+                label: '设备说明',
+              },   
+            ],
           },
+          {to: '/download', label: '下载', position: 'left'},
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'deviceSidebar',
+          //   position: 'left',
+          //   label: '周边设备',
+          // },
           {to: '/update', label: '更新记录', position: 'left'},
           //{
           //  type: 'docSidebar',

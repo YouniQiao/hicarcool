@@ -7,7 +7,7 @@ const BoxList = [
     title: '喵驾（CarPlay/CarLife转HiCar）',
     Svg: require('@site/static/img/device/box-miudrive.svg').default,
     urlName:"京东链接",
-    url:"https://u.jd.com/s8G0ywz",
+    url:"https://hicar.club/sites/323.html",
     description: (
       <>
         喵驾的HiCar盒子。
@@ -18,7 +18,7 @@ const BoxList = [
     title: '车连易（CarPlay/CarLife转HiCar）',
     Svg: require('@site/static/img/device/box-carlinkit.svg').default,
     urlName:"京东链接",
-    url:"https://u.jd.com/suGj1Ec",
+    url:"https://hicar.club/sites/322.html",
     description: (
       <>
         车连易的HiCar盒子。
@@ -26,21 +26,10 @@ const BoxList = [
     ),
   },
   {
-    title: '车连易（Android系统车机）',
-    Svg: require('@site/static/img/device/box-carlinkit-android.svg').default,
-    urlName:"京东链接",
-    url:"https://u.jd.com/qQvRj9M",
-    description: (
-      <>
-        车连易适用于Android车机的盒子（需支持自行安装软件）。也就是可以在平板上使用HiCar的盒子。<br/><a href='/docs/simulator/box-hicar-pad'>使用说明</a>。
-      </>
-    ),
-  },
-  {
     title: '君用（CarPlay/CarLife转HiCar）',
     Svg: require('@site/static/img/device/box-junyong.svg').default,
     urlName:"京东链接",
-    url:"https://u.jd.com/qqvRkeM",
+    url:"https://hicar.club/sites/321.html",
     description: (
       <>
         君用的HiCar盒子。
@@ -56,8 +45,8 @@ const ExtraDeviceSimpleList = [
   {
     title: '盯盯拍车载智慧屏',
     Svg: require('@site/static/img/device/smart-screen-ddp.svg').default,
-    urlName:"京东链接",
-    url:"https://u.jd.com/sQGy7oO",
+    urlName:"已基本停售，可自行搜索",
+    url:"https://jd.com",
     description: (
       <>
         通过粘贴的方式安装在中控台，无线连接使用HiCar，声音可以通过智慧屏发出，也可以通过车载音响发出（需手机连接车载蓝牙）。
@@ -67,8 +56,8 @@ const ExtraDeviceSimpleList = [
   {
     title: '盯盯拍智慧后视镜',
     Svg: require('@site/static/img/device/car-mirror-ddp.svg').default,
-    urlName:"京东链接",
-    url:"https://u.jd.com/siG3MLq",
+    urlName:"已基本停售，可自行搜索",
+    url:"https://jd.com",
     description: (
       <>
         通过捆绑的方式安装在原车后视镜，无线连接使用HiCar，声音可以通过后视镜发出，也可以通过车载音响发出（需手机连接车载蓝牙）。
@@ -191,7 +180,7 @@ export default function BoxpageFeatures() {
     </div>
     </section>
 
-    <section className={styles.features}>
+    {/* <section className={styles.features}>
     <div className="container">
       <div className='text--center'> 
         <hr />
@@ -204,7 +193,7 @@ export default function BoxpageFeatures() {
         ))}
       </div>
     </div>
-    </section>
+    </section> */}
 
     </section>
     
