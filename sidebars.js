@@ -65,6 +65,7 @@ const sidebars = {
             'guides/ui/dock',
             'guides/ui/display-mode',
             'guides/ui/screenshot',
+            'guides/ui/always-display',
             'guides/ui/back-to-car',
             
           ],
@@ -175,6 +176,7 @@ const sidebars = {
         'next-guides/ui/desktop',
         'next-guides/ui/card',
         'next-guides/ui/wallpaper',
+        'next-guides/ui/screen-split',
         'next-guides/ui/dock',
         'next-guides/ui/display-mode',
         'next-guides/ui/always-display',

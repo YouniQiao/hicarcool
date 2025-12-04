@@ -7,7 +7,32 @@ export default function ContentUpdates() {
   const {siteConfig} = useDocusaurusContext();
 
   const updates = [
-{
+    {
+      date: "2025-12-04",
+      items: [
+        {
+          text: "增加Next HiCar应用分屏功能说明",
+          link: "/docs/next-guides/ui/screen-split",
+          category: "NextHiCar"
+        },
+        {
+          text: "增加Next HiCar DOCK区域支持滑动、播放播放时隐藏的说明",
+          link: "/docs/next-guides/ui/dock",
+          category: "NextHiCar"
+        },
+        {
+          text: "增加HiCar熄屏显示功能说明",
+          link: "/docs/guides/ui/always-display",
+          category: "经典HiCar"
+        },
+        {
+          text: "增加HiCar DOCK区域支持滑动、播放播放时隐藏的说明",
+          link: "/docs/guides/ui/dock",
+          category: "经典HiCar"
+        },
+      ]
+    },
+    {
       date: "2025-11-23",
       items: [
         {
@@ -23,7 +48,7 @@ export default function ContentUpdates() {
       items: [
         {
           text: "提供Next HiCar单独内容",
-          link: "/docs/next/intro",
+          link: "/docs/next-intro",
           category: "NextHiCar"
         },
         
