@@ -23,11 +23,11 @@ export default function HiCarDownload() {
               智能车载互联系统
             </p>
             <div className={styles.heroBadge}>
-              <span>最新版本 14.2.0.355</span> 
+              <span>最新版本 14.2.0.365</span> 
             </div>
              &nbsp;&nbsp;&nbsp;
             <div className={styles.heroBadge}>
-              <span>更新日期：2025.11.07</span> 
+              <span>更新日期：2026.01.23</span> 
             </div>
           </div> 
         </div> 
@@ -57,7 +57,13 @@ export default function HiCarDownload() {
               <td>在正式版本之上额外开放花瓣地图以及微信投屏的版本。通过会员中心体验官下载。<br/>注意：23年7月已取消该类型版本</td>
               </tr>
               <tr>
-              <td>2025.09~11</td>
+              <td>2026.01</td>
+              <td><a href="https://hicar.lanzouq.com/iVMHS3gxccda" target="_blank"><font color="red">14.2.0.365</font></a></td>
+              <td>  </td>
+              <td>  </td>
+              </tr>
+              <tr>
+              <td>2025.09~12</td>
               <td><a href="https://hicar.lanzouq.com/iZrdH39p9vud" target="_blank">14.2.0.350</a></td>
               <td><a href="https://hicar.lanzouq.com/ic51f3azga4j" target="_blank"><font color="red">14.2.0.355</font></a></td>
               <td> - </td>
