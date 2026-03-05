@@ -32,11 +32,11 @@ export default function HiCarDownload() {
             <h2 className={styles.instructionsTitle}>下载<span className={styles.highlight}>手机端Next HiCar</span>应用</h2>
             <div className={styles.heroContent}>
               <div className={styles.heroBadge}>
-                <span>最新版本 6.0.96.16</span> 
+                <span>最新版本 6.0.96.21</span> 
               </div>
               &nbsp;&nbsp;&nbsp;
               <div className={styles.heroBadge}>
-                <span>更新日期：2026.02.08</span> 
+                <span>更新日期：2026.02.27</span> 
               </div>
             </div> 
 
@@ -45,19 +45,25 @@ export default function HiCarDownload() {
               <tbody>
               <tr>
               <td>-</td>
-              <td>众测版本：需有测试权限。<br/>正式版本：系统支持即可安装使用</td>
+              <td>尝鲜版本：测试版本。<br/>正式版本：系统支持即可安装使用</td>
               <td>每次更新的特性说明。</td>
               <td>请在纯血鸿蒙系统中打开。</td>
               </tr>
               <tr>
+              <td>2026.02.27</td>
+              <td><font color="red">6.0.96.21 尝鲜版本</font></td>
+              <td>1.熄屏模式支持壁纸记忆。<br/>2.修复部分已知问题</td>
+              <td>华为应用市场-应用尝鲜</td>
+              </tr>
+              <tr>
               <td>2026.02.08</td>
-              <td><font color="red">6.0.96.16 众测版本</font></td>
+              <td>6.0.96.16 尝鲜版本</td>
               <td>1.新增自定义壁纸功能。<br/>2.新增智慧桌面深浅模式随车机设置功能。<br/>3.新增车机侧应用锁功能，您加锁后的应用只有在手机端解锁后才可使用。<br/>4.新增网易云音乐卡片。</td>
               <td><a href="https://appgallery.huawei.com/link/invite-test-wap?taskId=576090a51b66c5af8a75684209820c61" target="_blank">华为应用市场-测试任务</a></td>
               </tr>
               <tr>
               <td>2026.01.28</td>
-              <td>6.0.95.120 众测版本</td>
+              <td>6.0.95.120 尝鲜版本</td>
               <td>1.HarmonyOS NEXT纯血鸿蒙系统上首次独立更新。<br/>2.首次更新并新增特性。</td>
               <td><a href="https://appgallery.huawei.com/link/invite-test-wap?taskId=576090a51b66c5af8a75684209820c61" target="_blank">华为应用市场-测试任务</a></td>
               </tr>
@@ -70,9 +76,7 @@ export default function HiCarDownload() {
               <p>
                 1.当前独立更新的Next HiCar仅支持HarmonyOS 6.0及以上系统。<br />
 
-                2.众测版本仅限于此前通过“我的华为-活动-体验官”中报名HUAWEI HiCar体验官招募的人进行下载测试，其他人暂无权限。<br />
-
-                3.当前暂无有效方式提取HAP包供无权限手机绕过应用市场进行安装。
+                2.当前暂无有效方式提取HAP包供无权限手机绕过应用市场进行安装。
 
               </p>
             </div>
