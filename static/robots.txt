@@ -1,0 +1,9 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://hicar.cool/sitemap.xml
+
+# Crawl-delay (optional, some search engines respect this)
+Crawl-delay: 1
