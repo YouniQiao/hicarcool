@@ -32,11 +32,11 @@ export default function HiCarDownload() {
             <h2 className={styles.instructionsTitle}>下载<span className={styles.highlight}>手机端Next HiCar</span>应用</h2>
             <div className={styles.heroContent}>
               <div className={styles.heroBadge}>
-                <span>最新版本 6.0.96.21</span> 
+                <span>最新版本 6.1.33.203</span> 
               </div>
               &nbsp;&nbsp;&nbsp;
               <div className={styles.heroBadge}>
-                <span>更新日期：2026.02.27</span> 
+                <span>更新日期：2026.04.16</span> 
               </div>
             </div> 
 
@@ -50,8 +50,14 @@ export default function HiCarDownload() {
               <td>请在纯血鸿蒙系统中打开。</td>
               </tr>
               <tr>
+              <td>2026.04.16</td>
+              <td><font color="red">6.1.33.203 正式版本</font></td>
+              <td>1.优化听歌过程中来电挂断后的音频体验。<br/>2.优化部分场景下的连接稳定性。</td>
+              <td>华为应用市场</td>
+              </tr>
+              <tr>
               <td>2026.02.27</td>
-              <td><font color="red">6.0.96.21 尝鲜版本</font></td>
+              <td>6.0.96.21 尝鲜版本</td>
               <td>1.熄屏模式支持壁纸记忆。<br/>2.修复部分已知问题</td>
               <td>华为应用市场-应用尝鲜</td>
               </tr>
