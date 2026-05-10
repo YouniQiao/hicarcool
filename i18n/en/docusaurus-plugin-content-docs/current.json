@@ -1,0 +1,90 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.HiCar使用条件": {
+    "message": "HiCar Requirements",
+    "description": "The label for category HiCar使用条件 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.HiCar使用方法 ★": {
+    "message": "How to Use HiCar ★",
+    "description": "The label for category HiCar使用方法 ★ in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.连接": {
+    "message": "Connection",
+    "description": "The label for category 连接 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.界面": {
+    "message": "Interface",
+    "description": "The label for category 界面 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.应用": {
+    "message": "Apps",
+    "description": "The label for category 应用 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.语音": {
+    "message": "Voice",
+    "description": "The label for category 语音 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.功能": {
+    "message": "Features",
+    "description": "The label for category 功能 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.HiCar设备猎奇": {
+    "message": "HiCar Curious Devices",
+    "description": "The label for category HiCar设备猎奇 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.HiCar驾驶模式": {
+    "message": "HiCar Driving Mode",
+    "description": "The label for category HiCar驾驶模式 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.HiCar模拟器": {
+    "message": "HiCar Simulator",
+    "description": "The label for category HiCar模拟器 in sidebar tutorialSidebar"
+  },
+  "sidebar.nextSidebar.category.Next HiCar使用条件": {
+    "message": "Next HiCar Requirements",
+    "description": "The label for category Next HiCar使用条件 in sidebar nextSidebar"
+  },
+  "sidebar.nextSidebar.category.Next HiCar连接": {
+    "message": "Next HiCar Connection",
+    "description": "The label for category Next HiCar连接 in sidebar nextSidebar"
+  },
+  "sidebar.nextSidebar.category.Next HiCar界面": {
+    "message": "Next HiCar Interface",
+    "description": "The label for category Next HiCar界面 in sidebar nextSidebar"
+  },
+  "sidebar.nextSidebar.category.Next HiCar应用": {
+    "message": "Next HiCar Apps",
+    "description": "The label for category Next HiCar应用 in sidebar nextSidebar"
+  },
+  "sidebar.nextSidebar.category.Next HiCar语音": {
+    "message": "Next HiCar Voice",
+    "description": "The label for category Next HiCar语音 in sidebar nextSidebar"
+  },
+  "sidebar.nextSidebar.category.Next HiCar功能": {
+    "message": "Next HiCar Features",
+    "description": "The label for category Next HiCar功能 in sidebar nextSidebar"
+  },
+  "sidebar.nextSidebar.doc.Next HiCar差异": {
+    "message": "Next HiCar Differences",
+    "description": "The label for the doc item Next HiCar差异 in sidebar nextSidebar, linking to the doc next-diff"
+  },
+  "sidebar.deviceSidebar.category.盒子设备": {
+    "message": "Adapter Boxes",
+    "description": "The label for category 盒子设备 in sidebar deviceSidebar"
+  },
+  "sidebar.deviceSidebar.category.后装简易屏幕": {
+    "message": "Aftermarket Screens",
+    "description": "The label for category 后装简易屏幕 in sidebar deviceSidebar"
+  },
+  "sidebar.deviceSidebar.category.后装车机": {
+    "message": "Aftermarket Head Units",
+    "description": "The label for category 后装车机 in sidebar deviceSidebar"
+  },
+  "sidebar.deviceSidebar.category.协同设备": {
+    "message": "Collaborative Devices",
+    "description": "The label for category 协同设备 in sidebar deviceSidebar"
+  }
+}

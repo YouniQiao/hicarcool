@@ -3,6 +3,7 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
+import Translate from '@docusaurus/Translate';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import SwiperCarousel from '@site/src/components/HomepageFeatures/SwiperCarousel';
 
@@ -25,7 +26,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/download">
-            立即下载
+            <Translate>立即下载</Translate>
           </Link>
         </div>
       </div>

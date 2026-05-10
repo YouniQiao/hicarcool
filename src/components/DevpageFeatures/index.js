@@ -1,12 +1,13 @@
 import React from 'react';
 import clsx from 'clsx';
+import Translate, {translate} from '@docusaurus/Translate';
 import styles from './styles.module.css';
 
 const AppAccessDocsList = [
   {
-    title: '音频应用',
+    title: translate({message: '音频应用', description: 'App access doc title: Audio apps'}),
     Svg: require('@site/static/img/undraw_audio.svg').default,
-    urlName:"开发指南",
+    urlName:translate({message: '开发指南', description: 'Link text: Development Guide'}),
     url:"https://developer.huawei.com/consumer/cn/doc/development/HiCar-Guides/release-note-0000001221752649",
     description: (
       <>
@@ -15,24 +16,24 @@ const AppAccessDocsList = [
     ),
   },
   {
-    title: '地图应用',
+    title: translate({message: '地图应用', description: 'App access doc title: Map apps'}),
     Svg: require('@site/static/img/undraw_map.svg').default,
-    urlName:"开发指南",
+    urlName:translate({message: '开发指南', description: 'Link text: Development Guide'}),
     url:"https://developer.huawei.com/consumer/cn/doc/development/HiCar-Guides/docs-access-0000001111108710",
     description: (
       <>
-        非公开，需合作后开放权限。
+        <Translate>非公开，需合作后开放权限。</Translate>
       </>
     ),
   },
   {
-    title: '其它应用',
+    title: translate({message: '其它应用', description: 'App access doc title: Other apps'}),
     Svg: require('@site/static/img/undraw_other.svg').default,
-    urlName:"开发指南",
+    urlName:translate({message: '开发指南', description: 'Link text: Development Guide'}),
     url:"https://developer.huawei.com/consumer/cn/doc/development/HiCar-Guides/docs-access-0000001111108710",
     description: (
       <>
-        非公开，需合作后开放权限。
+        <Translate>非公开，需合作后开放权限。</Translate>
       </>
     ),
   },
@@ -42,9 +43,9 @@ const AppAccessDocsList = [
 
 const DevicesAccessDocsList = [
   {
-    title: 'UX设计规范',
+    title: translate({message: 'UX设计规范', description: 'Device access doc title: UX Design Guide'}),
     Svg: require('@site/static/img/undraw_design.svg').default,
-    urlName:"设计指南",
+    urlName:translate({message: '设计指南', description: 'Link text: Design Guide'}),
     url:"https://developer.huawei.com/consumer/cn/doc/development/HiCar-Guides/release-note-0000001176171086",
     description: (
       <>
@@ -53,20 +54,20 @@ const DevicesAccessDocsList = [
     ),
   },
   {
-    title: '集成开发',
+    title: translate({message: '集成开发', description: 'Device access doc title: Integration Development'}),
     Svg: require('@site/static/img/undraw_develop.svg').default,
-    urlName:"开发指南（Android）",
+    urlName:translate({message: '开发指南（Android）', description: 'Link text: Development Guide (Android)'}),
     url:"https://developer.huawei.com/consumer/cn/doc/development/HiCar-Guides/release-note-android-0000001176330960",
     description: (
       <>
-        <br/><a href='https://developer.huawei.com/consumer/cn/doc/development/HiCar-Guides/release-note-linux-0000001176490888' target="_blank">开发指南（Linux）</a>
+        <br/><a href='https://developer.huawei.com/consumer/cn/doc/development/HiCar-Guides/release-note-linux-0000001176490888' target="_blank"><Translate>开发指南（Linux）</Translate></a>
       </>
     ),
   },
   {
-    title: '认证测试',
+    title: translate({message: '认证测试', description: 'Device access doc title: Certification Test'}),
     Svg: require('@site/static/img/undraw_test.svg').default,
-    urlName:"认证指南",
+    urlName:translate({message: '认证指南', description: 'Link text: Certification Guide'}),
     url:"https://developer.huawei.com/consumer/cn/doc/development/HiCar-Guides/release-note-0000001589685257",
     description: (
       <>
@@ -99,9 +100,9 @@ export default function DevpageFeatures() {
       <div className="container">
         <div className='text--center'> 
           <hr />
-          <h2>应用接入HiCar</h2>
-          <p>将手机应用接入HiCar，在车机屏幕上使用。</p>
-          <p><a href='https://developer.huawei.com/consumer/cn/doc/development/HiCar-Guides/app-process-0000001056059155' target="_blank">应用接入流程</a></p>
+          <h2><Translate>应用接入HiCar</Translate></h2>
+          <p><Translate>将手机应用接入HiCar，在车机屏幕上使用。</Translate></p>
+          <p><a href='https://developer.huawei.com/consumer/cn/doc/development/HiCar-Guides/app-process-0000001056059155' target="_blank"><Translate>应用接入流程</Translate></a></p>
         </div>
         <div className="row">
           {AppAccessDocsList.map((props, idx) => (
@@ -115,9 +116,9 @@ export default function DevpageFeatures() {
     <div className="container">
       <div className='text--center'> 
         <hr />
-        <h2>设备接入HiCar</h2>
-        <p>将HiCar集成进车载设备，例如车机、车载智慧屏、盒子等。</p>
-        <p><a href='https://developer.huawei.com/consumer/cn/doc/development/HiCar-Guides/device-process-0000001052717625' target="_blank">设备接入流程</a></p>
+        <h2><Translate>设备接入HiCar</Translate></h2>
+        <p><Translate>将HiCar集成进车载设备，例如车机、车载智慧屏、盒子等。</Translate></p>
+        <p><a href='https://developer.huawei.com/consumer/cn/doc/development/HiCar-Guides/device-process-0000001052717625' target="_blank"><Translate>设备接入流程</Translate></a></p>
       </div>
       <div className="row">
         {DevicesAccessDocsList.map((props, idx) => (

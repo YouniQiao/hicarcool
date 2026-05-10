@@ -1,0 +1,66 @@
+{
+  "title": {
+    "message": "HUAWEI HiCar",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "My Site Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.指南": {
+    "message": "Guides",
+    "description": "Navbar item with label 指南"
+  },
+  "item.label.设备": {
+    "message": "Devices",
+    "description": "Navbar item with label 设备"
+  },
+  "item.label.下载": {
+    "message": "Download",
+    "description": "Navbar item with label 下载"
+  },
+  "item.label.更新记录": {
+    "message": "Changelog",
+    "description": "Navbar item with label 更新记录"
+  },
+  "item.label.HiCar官网": {
+    "message": "HiCar Official",
+    "description": "Navbar item with label HiCar官网"
+  },
+  "item.label.支持情况": {
+    "message": "Compatibility",
+    "description": "Navbar item with label 支持情况"
+  },
+  "item.label.经典 HiCar": {
+    "message": "Classic HiCar",
+    "description": "Navbar item with label 经典 HiCar"
+  },
+  "item.label.Next HiCar": {
+    "message": "Next HiCar",
+    "description": "Navbar item with label Next HiCar"
+  },
+  "item.label.有何差异": {
+    "message": "What's Different",
+    "description": "Navbar item with label 有何差异"
+  },
+  "item.label.设备列表": {
+    "message": "Device List",
+    "description": "Navbar item with label 设备列表"
+  },
+  "item.label.设备说明": {
+    "message": "Device Docs",
+    "description": "Navbar item with label 设备说明"
+  },
+  "item.label.支持的车型": {
+    "message": "Supported Vehicles",
+    "description": "Navbar item with label 支持的车型"
+  },
+  "item.label.支持的手机": {
+    "message": "Supported Phones",
+    "description": "Navbar item with label 支持的手机"
+  },
+  "item.label.支持的应用": {
+    "message": "Supported Apps",
+    "description": "Navbar item with label 支持的应用"
+  }
+}

@@ -56,7 +56,6 @@ const config = {
         },
         blog: {
           showReadingTime: true,
-          blogSidebarTitle: '全部消息',
           blogSidebarCount: 'ALL',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -185,6 +184,11 @@ const config = {
                 href: 'https://developer.huawei.com/consumer/cn/doc/development/HiCar-Guides/available-apps-0000001180830678',
               },
             ],
+          },
+
+          {
+            type: 'localeDropdown',
+            position: 'right',
           },
 
           {

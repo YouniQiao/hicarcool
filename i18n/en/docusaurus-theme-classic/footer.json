@@ -1,0 +1,54 @@
+{
+  "copyright": {
+    "message": "Copyright © {year} HiCar Info Station, Inc. Built with Docusaurus.",
+    "description": "The footer copyright"
+  },
+  "link.item.label.HiCar资源": {
+    "message": "HiCar Resources",
+    "description": "The label of footer link with label=HiCar资源 linking to https://hicar.club/"
+  },
+  "link.item.label.使用手册": {
+    "message": "User Manual",
+    "description": "The label of footer link with label=使用手册 linking to /docs/intro"
+  },
+  "link.item.label.周边设备": {
+    "message": "Peripheral Devices",
+    "description": "The label of footer link with label=周边设备 linking to /box"
+  },
+  "link.item.label.支持的应用": {
+    "message": "Supported Apps",
+    "description": "The label of footer link with label=支持的应用 linking to https://developer.huawei.com/consumer/cn/doc/development/HiCar-Guides/available-apps-0000001180830678"
+  },
+  "link.item.label.支持的手机": {
+    "message": "Supported Phones",
+    "description": "The label of footer link with label=支持的手机 linking to https://developer.huawei.com/consumer/cn/doc/development/HiCar-Guides/available-phones-0000001227954439"
+  },
+  "link.item.label.支持的车型": {
+    "message": "Supported Vehicles",
+    "description": "The label of footer link with label=支持的车型 linking to https://developer.huawei.com/consumer/cn/doc/development/HiCar-Guides/available-models-0000001226230373"
+  },
+  "link.item.label.最新消息": {
+    "message": "Latest News",
+    "description": "The label of footer link with label=最新消息 linking to https://news.hicar.cool/"
+  },
+  "link.item.label.本站通过PC浏览效果更佳，域名 hicar.cool": {
+    "message": "Best viewed on PC | hicar.cool",
+    "description": "Footer link: Best viewed on PC"
+  },
+  "link.item.label.论坛": {
+    "message": "Forum",
+    "description": "The label of footer link with label=论坛 linking to https://forum.hicar.cool/"
+  },
+  "link.title.Docs": {
+    "message": "Docs",
+    "description": "The title of the footer links column with title=Docs in the footer"
+  },
+  "link.title.More": {
+    "message": "More",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
+  "link.title.Support": {
+    "message": "Support",
+    "description": "The title of the footer links column with title=Support in the footer"
+  }
+}

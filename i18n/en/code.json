@@ -1,0 +1,1327 @@
+{
+  "navbar.title": {
+    "message": "HUAWEI HiCar",
+    "description": "The title in the navbar"
+  },
+  "navbar.dropdown.指南": {
+    "message": "Guides",
+    "description": "Navbar dropdown: Guides"
+  },
+  "navbar.item.经典 HiCar": {
+    "message": "Classic HiCar",
+    "description": "Navbar sidebar link label"
+  },
+  "navbar.item.Next HiCar": {
+    "message": "Next HiCar",
+    "description": "Navbar sidebar link label"
+  },
+  "navbar.item.有何差异": {
+    "message": "What's Different",
+    "description": "Navbar link"
+  },
+  "navbar.dropdown.设备": {
+    "message": "Devices",
+    "description": "Navbar dropdown: Devices"
+  },
+  "navbar.item.设备列表": {
+    "message": "Device List",
+    "description": "Navbar link"
+  },
+  "navbar.item.设备说明": {
+    "message": "Device Docs",
+    "description": "Navbar sidebar link label"
+  },
+  "navbar.item.下载": {
+    "message": "Download",
+    "description": "Navbar link"
+  },
+  "navbar.item.更新记录": {
+    "message": "Changelog",
+    "description": "Navbar link"
+  },
+  "navbar.item.HiCar官网": {
+    "message": "HiCar Official",
+    "description": "Navbar link"
+  },
+  "navbar.dropdown.支持情况": {
+    "message": "Compatibility",
+    "description": "Navbar dropdown"
+  },
+  "navbar.item.支持的车型": {
+    "message": "Supported Vehicles",
+    "description": "Navbar dropdown item"
+  },
+  "navbar.item.支持的手机": {
+    "message": "Supported Phones",
+    "description": "Navbar dropdown item"
+  },
+  "navbar.item.支持的应用": {
+    "message": "Supported Apps",
+    "description": "Navbar dropdown item"
+  },
+  "footer.link.使用手册": {
+    "message": "User Manual",
+    "description": "Footer link"
+  },
+  "footer.link.周边设备": {
+    "message": "Peripheral Devices",
+    "description": "Footer link"
+  },
+  "footer.link.最新消息": {
+    "message": "Latest News",
+    "description": "Footer link"
+  },
+  "footer.link.论坛": {
+    "message": "Forum",
+    "description": "Footer link"
+  },
+  "footer.link.HiCar资源": {
+    "message": "HiCar Resources",
+    "description": "Footer link"
+  },
+  "footer.link.支持的车型": {
+    "message": "Supported Vehicles",
+    "description": "Footer Support link"
+  },
+  "footer.link.支持的手机": {
+    "message": "Supported Phones",
+    "description": "Footer Support link"
+  },
+  "footer.link.支持的应用": {
+    "message": "Supported Apps",
+    "description": "Footer Support link"
+  },
+  "footer.copyright": {
+    "message": "Copyright © {year} HiCar Info Station, Inc. Built with Docusaurus.",
+    "description": "Footer copyright"
+  },
+  "sidebar.tutorialSidebar.category.HiCar使用条件": {
+    "message": "HiCar Requirements",
+    "description": "Sidebar category"
+  },
+  "sidebar.tutorialSidebar.category.HiCar使用方法 ★": {
+    "message": "How to Use HiCar ★",
+    "description": "Sidebar category"
+  },
+  "sidebar.tutorialSidebar.category.连接": {
+    "message": "Connection",
+    "description": "Sidebar subcategory"
+  },
+  "sidebar.tutorialSidebar.category.界面": {
+    "message": "Interface",
+    "description": "Sidebar subcategory"
+  },
+  "sidebar.tutorialSidebar.category.应用": {
+    "message": "Apps",
+    "description": "Sidebar subcategory"
+  },
+  "sidebar.tutorialSidebar.category.语音": {
+    "message": "Voice",
+    "description": "Sidebar subcategory"
+  },
+  "sidebar.tutorialSidebar.category.功能": {
+    "message": "Features",
+    "description": "Sidebar subcategory"
+  },
+  "sidebar.tutorialSidebar.category.HiCar设备猎奇": {
+    "message": "HiCar Curious Devices",
+    "description": "Sidebar category"
+  },
+  "sidebar.tutorialSidebar.category.HiCar驾驶模式": {
+    "message": "HiCar Driving Mode",
+    "description": "Sidebar category"
+  },
+  "sidebar.tutorialSidebar.category.HiCar模拟器": {
+    "message": "HiCar Simulator",
+    "description": "Sidebar category"
+  },
+  "sidebar.nextSidebar.category.Next HiCar使用条件": {
+    "message": "Next HiCar Requirements",
+    "description": "Sidebar category"
+  },
+  "sidebar.nextSidebar.link.Next HiCar差异": {
+    "message": "Next HiCar Differences",
+    "description": "Sidebar link"
+  },
+  "sidebar.nextSidebar.category.Next HiCar连接": {
+    "message": "Next HiCar Connection",
+    "description": "Sidebar category"
+  },
+  "sidebar.nextSidebar.category.Next HiCar界面": {
+    "message": "Next HiCar Interface",
+    "description": "Sidebar category"
+  },
+  "sidebar.nextSidebar.category.Next HiCar应用": {
+    "message": "Next HiCar Apps",
+    "description": "Sidebar category"
+  },
+  "sidebar.nextSidebar.category.Next HiCar语音": {
+    "message": "Next HiCar Voice",
+    "description": "Sidebar category"
+  },
+  "sidebar.nextSidebar.category.Next HiCar功能": {
+    "message": "Next HiCar Features",
+    "description": "Sidebar category"
+  },
+  "sidebar.deviceSidebar.category.盒子设备": {
+    "message": "Adapter Boxes",
+    "description": "Sidebar category"
+  },
+  "sidebar.deviceSidebar.category.后装简易屏幕": {
+    "message": "Aftermarket Screens",
+    "description": "Sidebar category"
+  },
+  "sidebar.deviceSidebar.category.后装车机": {
+    "message": "Aftermarket Head Units",
+    "description": "Sidebar category"
+  },
+  "sidebar.deviceSidebar.category.协同设备": {
+    "message": "Collaborative Devices",
+    "description": "Sidebar category"
+  },
+  "theme.blog.sidebarTitle": {
+    "message": "All posts",
+    "description": "Blog sidebar title"
+  },
+  "立即下载": {
+    "message": "Download Now"
+  },
+  "周边设备": {
+    "message": "Peripheral Devices"
+  },
+  "HiCar 周边": {
+    "message": "HiCar Peripheral"
+  },
+  "音频应用": {
+    "message": "Audio Apps",
+    "description": "App access doc title: Audio apps"
+  },
+  "地图应用": {
+    "message": "Map Apps",
+    "description": "App access doc title: Map apps"
+  },
+  "其它应用": {
+    "message": "Other Apps",
+    "description": "App access doc title: Other apps"
+  },
+  "开发指南": {
+    "message": "Development Guide",
+    "description": "Link text: Development Guide"
+  },
+  "非公开，需合作后开放权限。": {
+    "message": "Not public, access requires partnership."
+  },
+  "UX设计规范": {
+    "message": "UX Design Guide",
+    "description": "Device access doc title: UX Design Guide"
+  },
+  "设计指南": {
+    "message": "Design Guide",
+    "description": "Link text: Design Guide"
+  },
+  "集成开发": {
+    "message": "Integration Development",
+    "description": "Device access doc title: Integration Development"
+  },
+  "开发指南（Android）": {
+    "message": "Development Guide (Android)",
+    "description": "Link text: Development Guide (Android)"
+  },
+  "开发指南（Linux）": {
+    "message": "Development Guide (Linux)"
+  },
+  "认证测试": {
+    "message": "Certification Test",
+    "description": "Device access doc title: Certification Test"
+  },
+  "认证指南": {
+    "message": "Certification Guide",
+    "description": "Link text: Certification Guide"
+  },
+  "应用接入HiCar": {
+    "message": "Add Apps to HiCar"
+  },
+  "将手机应用接入HiCar，在车机屏幕上使用。": {
+    "message": "Integrate phone apps into HiCar for use on the car screen."
+  },
+  "应用接入流程": {
+    "message": "App Integration Process"
+  },
+  "设备接入HiCar": {
+    "message": "Add Devices to HiCar"
+  },
+  "将HiCar集成进车载设备，例如车机、车载智慧屏、盒子等。": {
+    "message": "Integrate HiCar into in-vehicle devices such as head units, smart screens, boxes, etc."
+  },
+  "设备接入流程": {
+    "message": "Device Integration Process"
+  },
+  "喵驾（CarPlay/CarLife转HiCar）": {
+    "message": "MiaoDrive (CarPlay/CarLife to HiCar)"
+  },
+  "京东链接": {
+    "message": "JD.com Link"
+  },
+  "喵驾的HiCar盒子。": {
+    "message": "MiaoDrive's HiCar adapter box."
+  },
+  "车连易（CarPlay/CarLife转HiCar）": {
+    "message": "Carlinkit (CarPlay/CarLife to HiCar)"
+  },
+  "车连易的HiCar盒子。": {
+    "message": "Carlinkit's HiCar adapter box."
+  },
+  "君用（CarPlay/CarLife转HiCar）": {
+    "message": "JunYong (CarPlay/CarLife to HiCar)"
+  },
+  "君用的HiCar盒子。": {
+    "message": "JunYong's HiCar adapter box."
+  },
+  "盯盯拍车载智慧屏": {
+    "message": "DDPai Dashcam Smart Screen"
+  },
+  "已基本停售，可自行搜索": {
+    "message": "Mostly discontinued, search online"
+  },
+  "通过粘贴的方式安装在中控台，无线连接使用HiCar，声音可以通过智慧屏发出，也可以通过车载音响发出（需手机连接车载蓝牙）。": {
+    "message": "Mount on the dashboard with adhesive, connect to HiCar wirelessly. Sound can play through the smart screen or car speakers (requires phone connected to car Bluetooth)."
+  },
+  "盯盯拍智慧后视镜": {
+    "message": "DDPai Smart Rearview Mirror"
+  },
+  "通过捆绑的方式安装在原车后视镜，无线连接使用HiCar，声音可以通过后视镜发出，也可以通过车载音响发出（需手机连接车载蓝牙）。": {
+    "message": "Mount on the original rearview mirror with straps, connect to HiCar wirelessly. Sound can play through the mirror or car speakers (requires phone connected to car Bluetooth)."
+  },
+  "盯盯拍智慧中控屏": {
+    "message": "DDPai Smart Center Console Screen"
+  },
+  "盯盯拍推出的智慧中控屏，感觉比较通用，没有实际使用过，具体情况需要咨询客服。": {
+    "message": "A smart center console screen by DDPai. Seems quite universal, haven't personally used it. Please consult customer service for details."
+  },
+  "香百年智能车载香薰": {
+    "message": "Carori Smart Car Aromatherapy"
+  },
+  "车载香薰需绑定到智慧生活App，连接HiCar后，在HiCar界面显示香薰卡片，可对香薰开关、浓度、开启模式等进行控制。如果要买，建议选择元气风铃香味。<br/><a href='/en/docs/devices/aromatherapy-hicar'>使用说明</a>。": {
+    "message": "Bind the aromatherapy device to the Smart Life App. After connecting to HiCar, an aromatherapy card appears on the HiCar interface, allowing control of power, concentration, and modes. If buying, we recommend the 'Yuanqi Fengling' scent.<br/><a href='/en/docs/devices/aromatherapy-hicar'>Instructions</a>.",
+    "description": "Boxpage features: description of aromatherapy device with link"
+  },
+  "360智能儿童安全座椅": {
+    "message": "360 Smart Child Safety Seat"
+  },
+  "Vmall链接": {
+    "message": "Vmall Link"
+  },
+  "儿童安全座椅需绑定到智慧生活App，连接HiCar后，在HiCar界面显示儿童安全座椅卡片，可对座椅开关、通风、播放音乐等进行控制。目前HiCar中使用可能不太稳定。": {
+    "message": "Bind the child safety seat to the Smart Life App. After connecting to HiCar, a safety seat card appears on the HiCar interface, allowing control of power, ventilation, music playback, etc. May be unstable in HiCar currently."
+  },
+  "HUAWEI Vision Glass 智能观影眼镜": {
+    "message": "HUAWEI Vision Glass Smart Glasses"
+  },
+  "有线连接手机使用，如果此时手机同时连接了HiCar，声音可以通过车内的音响发出，车内观影效果如同影院。": {
+    "message": "Connect to phone via cable. If the phone is also connected to HiCar, sound can play through the car's speakers, creating a cinema-like viewing experience."
+  },
+  "转换盒": {
+    "message": "Adapter Boxes"
+  },
+  "适用于原车有CarPlay、CarLife的车型": {
+    "message": "For vehicles with factory CarPlay or CarLife"
+  },
+  "后装简易屏幕（可自行安装）": {
+    "message": "Aftermarket Simple Screen (DIY Install)"
+  },
+  "适用于原车无中控屏幕或不计划更换中控的车型": {
+    "message": "For vehicles without a factory screen or not planning to replace the head unit"
+  },
+  "后装中控车机（需专业安装）": {
+    "message": "Aftermarket Head Unit (Professional Install)"
+  },
+  "适用于计划更换中控车机的车型": {
+    "message": "For vehicles planning to replace the head unit"
+  },
+  "HiCar协同设备": {
+    "message": "HiCar Collaborative Devices",
+    "description": "Homepage device category: collaborative devices"
+  },
+  "可以与HiCar一同使用的新奇玩意": {
+    "message": "Cool gadgets that work with HiCar",
+    "description": "Boxpage features: description of collaborative devices section (commented out)"
+  },
+  "HUAWEI HiCar 文档": {
+    "message": "HUAWEI HiCar Documentation",
+    "description": "Homepage feature: HiCar docs title"
+  },
+  "HUAWEI HiCar具体是什么": {
+    "message": "What is HUAWEI HiCar"
+  },
+  "HiCar支持的手机/应用/车型": {
+    "message": "HiCar Supported Phones/Apps/Vehicles"
+  },
+  "HiCar每个功能详细指导说明": {
+    "message": "Detailed guides for each HiCar feature"
+  },
+  "请访问": {
+    "message": "Visit "
+  },
+  "经典HiCar指南": {
+    "message": "Classic HiCar Guide"
+  },
+  "或": {
+    "message": " or "
+  },
+  "Next HiCar指南": {
+    "message": "Next HiCar Guide"
+  },
+  "直接查看": {
+    "message": " directly"
+  },
+  "（手机访问本站时请从网站左上角菜单进入）": {
+    "message": "(On mobile, use the menu at the top-left corner)"
+  },
+  "HUAWEI HiCar 设备": {
+    "message": "HUAWEI HiCar Devices",
+    "description": "Homepage feature: HiCar devices title"
+  },
+  "HiCar转换盒、车载智慧屏": {
+    "message": "HiCar Adapter Boxes, Smart Screens"
+  },
+  "智能后视镜、后装车机": {
+    "message": "Smart Rearview Mirrors, Aftermarket Head Units"
+  },
+  "车载香薰机、VR眼镜、儿童安全座椅": {
+    "message": "Car Aromatherapy, VR Glasses, Child Safety Seats"
+  },
+  "HiCar周边设备一网打尽": {
+    "message": "All HiCar peripheral devices in one place"
+  },
+  "详情请点击HiCar周边设备": {
+    "message": "Click for details on HiCar peripheral devices"
+  },
+  "本站更新说明": {
+    "message": "Site Update Notes",
+    "description": "Homepage feature: update notes title"
+  },
+  "本站并非HiCar官方站点": {
+    "message": "This site is not an official HiCar site"
+  },
+  "由HiCar粉丝搭建并维护": {
+    "message": "Built and maintained by HiCar fans"
+  },
+  "随HiCar功能演进持续更新": {
+    "message": "Continuously updated as HiCar evolves"
+  },
+  "点击了解本站更新说明": {
+    "message": "Click to learn about site updates"
+  },
+  "检查车辆": {
+    "message": "Check Your Vehicle",
+    "description": "Homepage step: check vehicle"
+  },
+  "使用前确认您的车支持HiCar": {
+    "message": "Confirm your vehicle supports HiCar before use"
+  },
+  "或者通过转换盒或其他方式支持HiCar": {
+    "message": "Or enable HiCar via an adapter box or other means"
+  },
+  "具体说明请参见指南中的\"检查车辆\"章节": {
+    "message": "See the \"Check Vehicle\" section in the guide for details",
+    "description": "Homepage step description"
+  },
+  "检查手机": {
+    "message": "Check Your Phone",
+    "description": "Homepage step: check phone"
+  },
+  "只有部分华为手机以及荣耀手机支持HiCar": {
+    "message": "Only some Huawei and Honor phones support HiCar"
+  },
+  "其他品牌手机并不支持HiCar": {
+    "message": "Phones from other brands do not support HiCar"
+  },
+  "具体说明请参见指南中的\"检查手机\"章节": {
+    "message": "See the \"Check Phone\" section in the guide for details",
+    "description": "Homepage step description"
+  },
+  "开始连接": {
+    "message": "Start Connection",
+    "description": "Homepage step: start connection"
+  },
+  "当车辆和手机都支持HiCar时": {
+    "message": "When both your vehicle and phone support HiCar"
+  },
+  "那就开始连接吧": {
+    "message": "It's time to connect!"
+  },
+  "具体连接操作请参见指南中的\"连接\"章节": {
+    "message": "See the \"Connection\" section in the guide for details",
+    "description": "Homepage step description"
+  },
+  "盒子设备": {
+    "message": "Adapter Boxes",
+    "description": "Homepage device category: adapter boxes"
+  },
+  "CarPlay转HiCar的盒子": {
+    "message": "CarPlay to HiCar Adapter"
+  },
+  "CarLife转HiCar的盒子": {
+    "message": "CarLife to HiCar Adapter"
+  },
+  "安卓车机盒子": {
+    "message": "Android Head Unit Box"
+  },
+  "车载智慧屏/后视镜/后装车机": {
+    "message": "Smart Screen / Rearview Mirror / Aftermarket Head Unit",
+    "description": "Homepage device category: screens/mirrors/head units"
+  },
+  "车载智慧屏": {
+    "message": "Smart Car Screen"
+  },
+  "智能后视镜": {
+    "message": "Smart Rearview Mirror"
+  },
+  "后装车机": {
+    "message": "Aftermarket Head Unit"
+  },
+  "智能香薰机": {
+    "message": "Smart Aromatherapy Diffuser"
+  },
+  "智能观影眼镜": {
+    "message": "Smart Vision Glasses"
+  },
+  "车连易": {
+    "message": "Carlinkit",
+    "description": "Homepage box brand: Carlinkit"
+  },
+  "京东店铺": {
+    "message": "JD.com Store"
+  },
+  "直接把车型报给客服": {
+    "message": "Tell customer service your vehicle model directly"
+  },
+  "君用": {
+    "message": "JunYong",
+    "description": "Homepage box brand: JunYong"
+  },
+  "喵驾": {
+    "message": "MiaoDrive",
+    "description": "Homepage box brand: MiaoDrive"
+  },
+  "HiCar论坛": {
+    "message": "HiCar Forum",
+    "description": "Homepage website link: forum"
+  },
+  "一个非官方论坛站点": {
+    "message": "An unofficial forum site"
+  },
+  "为HiCar铁粉和开发者提供交流的角落": {
+    "message": "A corner for HiCar fans and developers to exchange ideas"
+  },
+  "点击访问HiCar论坛": {
+    "message": "Visit HiCar Forum"
+  },
+  "HiCar最新消息": {
+    "message": "HiCar Latest News",
+    "description": "Homepage website link: latest news"
+  },
+  "一个简单形式的站点": {
+    "message": "A simple-form site"
+  },
+  "第一时间汇报感知到HiCar最新消息": {
+    "message": "Reporting HiCar latest news as soon as it's perceived"
+  },
+  "点击查看HiCar最新消息": {
+    "message": "View HiCar Latest News"
+  },
+  "HiCar Club": {
+    "message": "HiCar Club",
+    "description": "Homepage website link: HiCar Club"
+  },
+  "一个新的HiCar资源站点": {
+    "message": "A new HiCar resource site"
+  },
+  "网罗全网所有关于HiCar的资源": {
+    "message": "Gathering all HiCar resources from across the web"
+  },
+  "点击查看HiCar资源": {
+    "message": "View HiCar Resources"
+  },
+  "本站点为HiCar粉丝站点，提供HiCar相关的指南、设备信息、APK下载等内容。": {
+    "message": "This is a fan site for HiCar, providing guides, device information, APK downloads, and more."
+  },
+  "欢迎加入HiCar的大家庭，一起享受驾驶的乐趣。": {
+    "message": "Welcome to the HiCar family and enjoy the joy of driving together."
+  },
+  "一些关于HiCar的最新消息": {
+    "message": "Some latest news about HiCar",
+    "description": "Homepage commented-out button text"
+  },
+  "HiCar是什么": {
+    "message": "What is HiCar"
+  },
+  "HUAWEI HiCar是华为打造的人-车-家全场景智慧互联解决方案，为您提供更便捷、更智能、更安全的出行服务新体验。": {
+    "message": "HUAWEI HiCar is Huawei's human-car-home all-scenario smart connectivity solution, providing you with a more convenient, intelligent, and safer travel experience."
+  },
+  "按照手机搭载的HarmonyOS系统版本区分，HiCar可以区分为经典HiCar和Next HiCar。": {
+    "message": "Based on the HarmonyOS version on your phone, HiCar can be classified into Classic HiCar and Next HiCar."
+  },
+  "经典 HiCar": {
+    "message": "Classic HiCar"
+  },
+  "支持HarmonyOS 4.X及以下系统": {
+    "message": "Supports HarmonyOS 4.X and below"
+  },
+  "手机上的HiCar应用是APK格式": {
+    "message": "HiCar app on phone is in APK format"
+  },
+  "经典 HiCar 快速入门": {
+    "message": "Classic HiCar Quick Start"
+  },
+  "Next HiCar": {
+    "message": "Next HiCar"
+  },
+  "支持HarmonyOS 5及以上系统": {
+    "message": "Supports HarmonyOS 5 and above"
+  },
+  "手机上的HiCar应用是HAP格式": {
+    "message": "HiCar app on phone is in HAP format"
+  },
+  "Next HiCar 快速入门": {
+    "message": "Next HiCar Quick Start"
+  },
+  "HiCar如何使用": {
+    "message": "How to Use HiCar"
+  },
+  "想使用HiCar简单一句话就是：使用支持HiCar的手机连上支持HiCar的车使用支持HiCar的应用。": {
+    "message": "Using HiCar is simple: connect a HiCar-supported phone to a HiCar-supported vehicle and use HiCar-supported apps."
+  },
+  "您的浏览器不支持视频播放。": {
+    "message": "Your browser does not support video playback."
+  },
+  "下载HiCar应用": {
+    "message": "Download HiCar App",
+    "description": "Homepage commented-out section heading"
+  },
+  "获取最新版本HiCar应用。": {
+    "message": "Get the latest version of the HiCar app.",
+    "description": "Homepage commented-out section description"
+  },
+  "HiCar相关设备有哪些": {
+    "message": "What HiCar Devices Are Available"
+  },
+  "通过这些设备可以让不支持HiCar的车也可以用上HiCar，以及在成功连接HiCar后可以使用各类新奇的HiCar协同设备。": {
+    "message": "These devices let vehicles without HiCar support also use HiCar, and allow you to use various novel HiCar collaborative devices once connected."
+  },
+  "HiCar转换盒推荐": {
+    "message": "Recommended HiCar Adapter Boxes"
+  },
+  "推荐一些口碑还不错的转换盒，可以让原本不支持HiCar的车也可以用上HiCar。": {
+    "message": "Recommended well-reviewed adapter boxes that let vehicles without HiCar support also use HiCar."
+  },
+  "HiCar.Cool是什么": {
+    "message": "What is HiCar.Cool"
+  },
+  "hicar.cool 是 HiCar 非官方站点，由热爱驱动。": {
+    "message": "hicar.cool is an unofficial HiCar site, driven by passion."
+  },
+  "HiCar其他站点": {
+    "message": "Other HiCar Sites"
+  },
+  "一些或许有用或许无用的HiCar站点。": {
+    "message": "Some HiCar sites that may or may not be useful."
+  },
+  "本站所有内容在Github开源，欢迎各位有能力有意愿的HiCar粉丝共同参与本站内容建设。": {
+    "message": "All content on this site is open source on Github. HiCar fans with the ability and willingness are welcome to participate in building this site."
+  },
+  "参与方式：在文档页面左下角\"编辑此页\"跳转到Github提交PR。": {
+    "message": "How to contribute: Click \"Edit this page\" at the bottom-left of any doc page to submit a PR on Github."
+  },
+  "支持方式：如果本站对您有所帮助，您可以通过以下方式请站长喝杯蜜雪冰城": {
+    "message": "Support: If this site helps you, you can buy the site owner a cup of Mixue ice cream via"
+  },
+  " 爱发电": {
+    "message": " Aidian (Love Power)",
+    "description": "Homepage footer link text"
+  },
+  "。": {
+    "message": "."
+  },
+  "HiCar下载": {
+    "message": "HiCar Download"
+  },
+  "下载华为HiCar智能车载互联系统，体验智慧出行": {
+    "message": "Download HUAWEI HiCar Smart Vehicle Connectivity System, Experience Smart Travel"
+  },
+  "智能车载互联系统": {
+    "message": "Smart Vehicle Connectivity System"
+  },
+  "手机端Next HiCar": {
+    "message": "Phone-side Next HiCar"
+  },
+  "手机端经典HiCar": {
+    "message": "Phone-side Classic HiCar"
+  },
+  "车机端HiCar": {
+    "message": "Head Unit Side HiCar"
+  },
+  "下载": {
+    "message": "Download"
+  },
+  "应用": {
+    "message": "App"
+  },
+  "最新版本": {
+    "message": "Latest Version"
+  },
+  "更新日期": {
+    "message": "Update Date"
+  },
+  "版本号及类型": {
+    "message": "Version & Type"
+  },
+  "更新说明": {
+    "message": "Changelog"
+  },
+  "下载地址": {
+    "message": "Download Link"
+  },
+  "尝鲜版本：测试版本。": {
+    "message": "Trial Version: Beta version."
+  },
+  "正式版本：系统支持即可安装使用": {
+    "message": "Stable Version: Can be installed if the system supports it."
+  },
+  "每次更新的特性说明。": {
+    "message": "Changelog for each update."
+  },
+  "请在纯血鸿蒙系统中打开。": {
+    "message": "Please open in HarmonyOS NEXT system."
+  },
+  "正式版本": {
+    "message": "Stable Version"
+  },
+  "尝鲜版本": {
+    "message": "Trial Version"
+  },
+  "众测版本": {
+    "message": "Beta Version"
+  },
+  "紧跟正式版本的众测版本": {
+    "message": "Beta Version Following Stable"
+  },
+  "1.优化听歌过程中来电挂断后的音频体验。": {
+    "message": "1. Optimized audio experience after incoming calls during music playback."
+  },
+  "2.优化部分场景下的连接稳定性。": {
+    "message": "2. Improved connection stability in certain scenarios."
+  },
+  "华为应用市场": {
+    "message": "Huawei AppGallery"
+  },
+  "1.熄屏模式支持壁纸记忆。": {
+    "message": "1. Screen-off mode supports wallpaper memory."
+  },
+  "2.修复部分已知问题": {
+    "message": "2. Fixed some known issues."
+  },
+  "华为应用市场-应用尝鲜": {
+    "message": "Huawei AppGallery - App Trial"
+  },
+  "1.新增自定义壁纸功能。": {
+    "message": "1. Added custom wallpaper feature."
+  },
+  "2.新增智慧桌面深浅模式随车机设置功能。": {
+    "message": "2. Added Smart Desktop light/dark mode following car settings."
+  },
+  "3.新增车机侧应用锁功能，您加锁后的应用只有在手机端解锁后才可使用。": {
+    "message": "3. Added car-side app lock; locked apps can only be used after unlocking on the phone."
+  },
+  "4.新增网易云音乐卡片。": {
+    "message": "4. Added NetEase Music card."
+  },
+  "华为应用市场-测试任务": {
+    "message": "Huawei AppGallery - Test Task"
+  },
+  "1.HarmonyOS NEXT纯血鸿蒙系统上首次独立更新。": {
+    "message": "1. First independent update on HarmonyOS NEXT system."
+  },
+  "2.首次更新并新增特性。": {
+    "message": "2. First update with new features."
+  },
+  "说明": {
+    "message": "Notes"
+  },
+  "1.当前独立更新的Next HiCar仅支持HarmonyOS 6.0及以上系统。": {
+    "message": "1. The current independently updated Next HiCar only supports HarmonyOS 6.0 and above."
+  },
+  "2.当前暂无有效方式提取HAP包供无权限手机绕过应用市场进行安装。": {
+    "message": "2. There is currently no effective way to extract HAP packages for installation on non-whitelisted phones without AppGallery."
+  },
+  "经典HiCar仅支持部分华为手机，不支持小米、OPPO、VIVO等": {
+    "message": "Classic HiCar only supports some Huawei phones, not Xiaomi, OPPO, VIVO, etc."
+  },
+  "以下 APK 仅可安装在已经支持 HiCar 的华为手机上（不包括HarmonyOS 5及以上版本的HarmonyOS NEXT系统）。": {
+    "message": "The following APKs can only be installed on Huawei phones that already support HiCar (excluding HarmonyOS NEXT systems with HarmonyOS 5 and above)."
+  },
+  "如果需要密码：": {
+    "message": "Password if needed:"
+  },
+  "新特性的首发测试版本。通过会员中心体验官下载。": {
+    "message": "First test version of new features. Download via Members Center Experience Officer."
+  },
+  "新特性的正式商用版本，会与众测版本有些细微的差别。通过应用市场下载。": {
+    "message": "Official commercial version of new features, with slight differences from beta. Download via AppGallery."
+  },
+  "在正式版本之上额外开放花瓣地图以及微信投屏的版本。通过会员中心体验官下载。": {
+    "message": "Version with additional Petal Maps and WeChat screen projection on top of stable. Download via Members Center Experience Officer."
+  },
+  "注意：23年7月已取消该类型版本": {
+    "message": "Note: This version type was discontinued in July 2023."
+  },
+  "已取消": {
+    "message": "Discontinued"
+  },
+  "如果您想下载车机端HiCar，这是不现实的，具体原因可以参考": {
+    "message": "If you want to download the head unit HiCar, it's not feasible. For details, please refer to"
+  },
+  "HiCar车机版本": {
+    "message": "HiCar Head Unit Version"
+  },
+  "本页面仅罗列应用/设备接入HiCar的文档链接，至于所需的SDK及相关工具官方并未开放，如需要请按照合作流程向官方申请。": {
+    "message": "This page only lists documentation links for app/device integration with HiCar. The required SDKs and tools have not been publicly released. Please follow the partnership process to apply to Huawei if needed."
+  },
+  "HiCar开发指导": {
+    "message": "HiCar Development Guide"
+  },
+  "版本更新": {
+    "message": "Version Updates"
+  },
+  "NextHiCar": {
+    "message": "NextHiCar"
+  },
+  "经典HiCar": {
+    "message": "Classic HiCar"
+  },
+  "网站页面": {
+    "message": "Site Pages"
+  },
+  "Next HiCar正式版本更新，更新至6.1.33.203正式版本": {
+    "message": "Next HiCar Stable Update: Version 6.1.33.203"
+  },
+  "Next HiCar尝鲜版本更新，更新至6.0.96.21尝鲜版本": {
+    "message": "Next HiCar Trial Update: Version 6.0.96.21"
+  },
+  "Next HiCar众测版本更新，更新至6.0.96.16测试版本": {
+    "message": "Next HiCar Beta Update: Version 6.0.96.16"
+  },
+  "Next HiCar版本首次独立更新，更新至6.0.95.120测试版本": {
+    "message": "Next HiCar First Independent Update: Version 6.0.95.120 Beta"
+  },
+  "经典HiCar版本更新至14.2.0.365测试版本": {
+    "message": "Classic HiCar Update: Version 14.2.0.365 Beta"
+  },
+  "增加Next HiCar应用分屏功能说明": {
+    "message": "Added Next HiCar split-screen app feature description"
+  },
+  "增加Next HiCar DOCK区域支持滑动、播放播放时隐藏的说明": {
+    "message": "Added Next HiCar DOCK sliding and auto-hide during playback"
+  },
+  "增加HiCar熄屏显示功能说明": {
+    "message": "Added HiCar screen-off display feature"
+  },
+  "增加HiCar DOCK区域支持滑动、播放播放时隐藏的说明": {
+    "message": "Added HiCar DOCK sliding and auto-hide during playback"
+  },
+  "增加设备列表页面": {
+    "message": "Added device list page"
+  },
+  "提供Next HiCar单独内容": {
+    "message": "Added dedicated Next HiCar content section"
+  },
+  "新增下载页面": {
+    "message": "Added download page"
+  },
+  "新增更新记录，记录网站更新": {
+    "message": "Added changelog for site updates"
+  },
+  "2026年12月": {
+    "message": "December 2026"
+  },
+  "2026年11月": {
+    "message": "November 2026"
+  },
+  "2026年10月": {
+    "message": "October 2026"
+  },
+  "2026年09月": {
+    "message": "September 2026"
+  },
+  "2026年08月": {
+    "message": "August 2026"
+  },
+  "2026年07月": {
+    "message": "July 2026"
+  },
+  "2026年06月": {
+    "message": "June 2026"
+  },
+  "2026年05月": {
+    "message": "May 2026"
+  },
+  "2026年04月": {
+    "message": "April 2026"
+  },
+  "2026年03月": {
+    "message": "March 2026"
+  },
+  "2026年02月": {
+    "message": "February 2026"
+  },
+  "2026年01月": {
+    "message": "January 2026"
+  },
+  "2025年12月": {
+    "message": "December 2025"
+  },
+  "2025年11月": {
+    "message": "November 2025"
+  },
+  "站点更新记录": {
+    "message": "Site Changelog"
+  },
+  "网站内容更新历史记录": {
+    "message": "Content Update History"
+  },
+  "页面及内容更新历史": {
+    "message": "Page & Content Update History"
+  },
+  "记录网站所有页面及内容的更新情况，帮助您了解最新变化": {
+    "message": "Track all page and content updates to stay informed about the latest changes."
+  },
+  "📊 更新统计": {
+    "message": "📊 Update Stats"
+  },
+  "更新天数": {
+    "message": "Days of Updates"
+  },
+  "内容条目": {
+    "message": "Content Entries"
+  },
+  "内容分类": {
+    "message": "Content Categories"
+  },
+  "🏷️ 内容分类": {
+    "message": "🏷️ Content Categories"
+  },
+  "具体说明请参见指南中的“检查车辆”章节": {
+    "message": "See the “Check Vehicle” section in the guide for details"
+  },
+  "具体说明请参见指南中的“检查手机”章节": {
+    "message": "See the “Check Phone” section in the guide for details"
+  },
+  "具体连接操作请参见指南中的“连接”章节": {
+    "message": "See the “Connection” section in the guide for details"
+  },
+  "爱发电": {
+    "message": "Aifadian (Love Power)"
+  },
+  "theme.ErrorPageContent.title": {
+    "message": "This page crashed.",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.NotFound.title": {
+    "message": "Page Not Found",
+    "description": "The title of the 404 page"
+  },
+  "theme.NotFound.p1": {
+    "message": "We could not find what you were looking for.",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "Please contact the owner of the site that linked you to the original URL and let them know their link is broken.",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.admonition.note": {
+    "message": "note",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "tip",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.danger": {
+    "message": "danger",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "info",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.caution": {
+    "message": "caution",
+    "description": "The default label used for the Caution admonition (:::caution)"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "Scroll back to top",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.blog.archive.title": {
+    "message": "Archive",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "Archive",
+    "description": "The page & hero description of the blog archive page"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "Blog list page navigation",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "Newer Entries",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "Older Entries",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "Blog post page navigation",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "Newer Post",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "Older Post",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.blog.post.plurals": {
+    "message": "One post|{count} posts",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} tagged with \"{tagName}\"",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "View All Tags",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "Switch between dark and light mode (currently {mode})",
+    "description": "The ARIA label for the navbar color mode toggle"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "dark mode",
+    "description": "The name for the dark color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "light mode",
+    "description": "The name for the light color mode"
+  },
+  "theme.docs.DocCard.categoryDescription": {
+    "message": "{count} items",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "Breadcrumbs",
+    "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "Docs pages navigation",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "Previous",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "Next",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "One doc tagged|{count} docs tagged",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "{nDocsTagged} with \"{tagName}\"",
+    "description": "The title of the page for a docs tag"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "Version: {versionLabel}"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "This is unreleased documentation for {siteTitle} {versionLabel} version.",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "This is documentation for {siteTitle} {versionLabel}, which is no longer actively maintained.",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "For up-to-date documentation, see the {latestVersionLink} ({versionLabel}).",
+    "description": "The label used to tell the user to check the latest version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "latest version",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.common.editThisPage": {
+    "message": "Edit this page",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "Direct link to {heading}",
+    "description": "Title for link to heading"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": " on {date}",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": " by {user}",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "Last updated{atDate}{byUser}",
+    "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "Versions",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "Tags:",
+    "description": "The label alongside a tag list"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "Close",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "Blog recent posts navigation",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "Copied",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "Copy code to clipboard",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "Copy",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "Toggle word wrap",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.DocSidebarItem.toggleCollapsedCategoryAriaLabel": {
+    "message": "Toggle the collapsible sidebar category '{label}'",
+    "description": "The ARIA label to toggle the collapsible sidebar category"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "Main",
+    "description": "The ARIA label for the main navigation"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "Languages",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "On this page",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "One min read|{readingTime} min read",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.post.readMore": {
+    "message": "Read More",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "Read more about {title}",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "Home page",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "Collapse sidebar",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "Collapse sidebar",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "Docs sidebar",
+    "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "Close navigation bar",
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← Back to main menu",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "Toggle navigation bar",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "Expand sidebar",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "Expand sidebar",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.SearchPage.documentsFound.plurals": {
+    "message": "One document found|{count} documents found",
+    "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.SearchPage.existingResultsTitle": {
+    "message": "Search results for \"{query}\"",
+    "description": "The search page title for non-empty query"
+  },
+  "theme.SearchPage.emptyResultsTitle": {
+    "message": "Search the documentation",
+    "description": "The search page title for empty query"
+  },
+  "theme.SearchPage.inputPlaceholder": {
+    "message": "Type your search here",
+    "description": "The placeholder for search page input"
+  },
+  "theme.SearchPage.inputLabel": {
+    "message": "Search",
+    "description": "The ARIA label for search page input"
+  },
+  "theme.SearchPage.algoliaLabel": {
+    "message": "Search by Algolia",
+    "description": "The ARIA label for Algolia mention"
+  },
+  "theme.SearchPage.noResultsText": {
+    "message": "No results were found",
+    "description": "The paragraph for empty search result"
+  },
+  "theme.SearchPage.fetchingNewResults": {
+    "message": "Fetching new results...",
+    "description": "The paragraph for fetching new search results"
+  },
+  "theme.SearchBar.seeAll": {
+    "message": "See all {count} results"
+  },
+  "theme.SearchBar.label": {
+    "message": "Search",
+    "description": "The ARIA label and placeholder for search button"
+  },
+  "theme.SearchModal.searchBox.resetButtonTitle": {
+    "message": "Clear the query",
+    "description": "The label and ARIA label for search box reset button"
+  },
+  "theme.SearchModal.searchBox.cancelButtonText": {
+    "message": "Cancel",
+    "description": "The label and ARIA label for search box cancel button"
+  },
+  "theme.SearchModal.startScreen.recentSearchesTitle": {
+    "message": "Recent",
+    "description": "The title for recent searches"
+  },
+  "theme.SearchModal.startScreen.noRecentSearchesText": {
+    "message": "No recent searches",
+    "description": "The text when no recent searches"
+  },
+  "theme.SearchModal.startScreen.saveRecentSearchButtonTitle": {
+    "message": "Save this search",
+    "description": "The label for save recent search button"
+  },
+  "theme.SearchModal.startScreen.removeRecentSearchButtonTitle": {
+    "message": "Remove this search from history",
+    "description": "The label for remove recent search button"
+  },
+  "theme.SearchModal.startScreen.favoriteSearchesTitle": {
+    "message": "Favorite",
+    "description": "The title for favorite searches"
+  },
+  "theme.SearchModal.startScreen.removeFavoriteSearchButtonTitle": {
+    "message": "Remove this search from favorites",
+    "description": "The label for remove favorite search button"
+  },
+  "theme.SearchModal.errorScreen.titleText": {
+    "message": "Unable to fetch results",
+    "description": "The title for error screen of search modal"
+  },
+  "theme.SearchModal.errorScreen.helpText": {
+    "message": "You might want to check your network connection.",
+    "description": "The help text for error screen of search modal"
+  },
+  "theme.SearchModal.footer.selectText": {
+    "message": "to select",
+    "description": "The explanatory text of the action for the enter key"
+  },
+  "theme.SearchModal.footer.selectKeyAriaLabel": {
+    "message": "Enter key",
+    "description": "The ARIA label for the Enter key button that makes the selection"
+  },
+  "theme.SearchModal.footer.navigateText": {
+    "message": "to navigate",
+    "description": "The explanatory text of the action for the Arrow up and Arrow down key"
+  },
+  "theme.SearchModal.footer.navigateUpKeyAriaLabel": {
+    "message": "Arrow up",
+    "description": "The ARIA label for the Arrow up key button that makes the navigation"
+  },
+  "theme.SearchModal.footer.navigateDownKeyAriaLabel": {
+    "message": "Arrow down",
+    "description": "The ARIA label for the Arrow down key button that makes the navigation"
+  },
+  "theme.SearchModal.footer.closeText": {
+    "message": "to close",
+    "description": "The explanatory text of the action for Escape key"
+  },
+  "theme.SearchModal.footer.closeKeyAriaLabel": {
+    "message": "Escape key",
+    "description": "The ARIA label for the Escape key button that close the modal"
+  },
+  "theme.SearchModal.footer.searchByText": {
+    "message": "Search by",
+    "description": "The text explain that the search is making by Algolia"
+  },
+  "theme.SearchModal.noResultsScreen.noResultsText": {
+    "message": "No results for",
+    "description": "The text explains that there are no results for the following search"
+  },
+  "theme.SearchModal.noResultsScreen.suggestedQueryText": {
+    "message": "Try searching for",
+    "description": "The text for the suggested query when no results are found for the following search"
+  },
+  "theme.SearchModal.noResultsScreen.reportMissingResultsText": {
+    "message": "Believe this query should return results?",
+    "description": "The text for the question where the user thinks there are missing results"
+  },
+  "theme.SearchModal.noResultsScreen.reportMissingResultsLinkText": {
+    "message": "Let us know.",
+    "description": "The text for the link to report missing results"
+  },
+  "theme.SearchModal.placeholder": {
+    "message": "Search docs",
+    "description": "The placeholder of the input of the DocSearch pop-up modal"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "Try again",
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "Skip to main content",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "Tags",
+    "description": "The title of the tag list page"
+  }
+}

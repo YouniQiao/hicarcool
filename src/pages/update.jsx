@@ -1,17 +1,25 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import Translate, {translate} from '@docusaurus/Translate';
 import styles from './content-updates.module.css';
 
 export default function ContentUpdates() {
   const {siteConfig} = useDocusaurusContext();
+
+  const categoryLabels = {
+    "版本更新": translate({message: "版本更新"}),
+    "NextHiCar": translate({message: "NextHiCar"}),
+    "经典HiCar": translate({message: "经典HiCar"}),
+    "网站页面": translate({message: "网站页面"}),
+  };
 
   const updates = [
     {
       date: "2026-04-16",
       items: [
         {
-          text: "Next HiCar正式版本更新，更新至6.1.33.203正式版本",
+          text: translate({message: "Next HiCar正式版本更新，更新至6.1.33.203正式版本"}),
           link: "/download",
           category: "版本更新"
         },
@@ -23,7 +31,7 @@ export default function ContentUpdates() {
       date: "2026-03-05",
       items: [
         {
-          text: "Next HiCar尝鲜版本更新，更新至6.0.96.21尝鲜版本",
+          text: translate({message: "Next HiCar尝鲜版本更新，更新至6.0.96.21尝鲜版本"}),
           link: "/download",
           category: "版本更新"
         },
@@ -35,7 +43,7 @@ export default function ContentUpdates() {
       date: "2026-02-08",
       items: [
         {
-          text: "Next HiCar众测版本更新，更新至6.0.96.16测试版本",
+          text: translate({message: "Next HiCar众测版本更新，更新至6.0.96.16测试版本"}),
           link: "/download",
           category: "版本更新"
         },
@@ -47,7 +55,7 @@ export default function ContentUpdates() {
       date: "2026-01-28",
       items: [
         {
-          text: "Next HiCar版本首次独立更新，更新至6.0.95.120测试版本",
+          text: translate({message: "Next HiCar版本首次独立更新，更新至6.0.95.120测试版本"}),
           link: "/download",
           category: "版本更新"
         },
@@ -59,7 +67,7 @@ export default function ContentUpdates() {
       date: "2026-01-24",
       items: [
         {
-          text: "经典HiCar版本更新至14.2.0.365测试版本",
+          text: translate({message: "经典HiCar版本更新至14.2.0.365测试版本"}),
           link: "/download",
           category: "版本更新"
         },
@@ -72,22 +80,22 @@ export default function ContentUpdates() {
       date: "2025-12-04",
       items: [
         {
-          text: "增加Next HiCar应用分屏功能说明",
+          text: translate({message: "增加Next HiCar应用分屏功能说明"}),
           link: "/docs/next-guides/ui/screen-split",
           category: "NextHiCar"
         },
         {
-          text: "增加Next HiCar DOCK区域支持滑动、播放播放时隐藏的说明",
+          text: translate({message: "增加Next HiCar DOCK区域支持滑动、播放播放时隐藏的说明"}),
           link: "/docs/next-guides/ui/dock",
           category: "NextHiCar"
         },
         {
-          text: "增加HiCar熄屏显示功能说明",
+          text: translate({message: "增加HiCar熄屏显示功能说明"}),
           link: "/docs/guides/ui/always-display",
           category: "经典HiCar"
         },
         {
-          text: "增加HiCar DOCK区域支持滑动、播放播放时隐藏的说明",
+          text: translate({message: "增加HiCar DOCK区域支持滑动、播放播放时隐藏的说明"}),
           link: "/docs/guides/ui/dock",
           category: "经典HiCar"
         },
@@ -97,7 +105,7 @@ export default function ContentUpdates() {
       date: "2025-11-23",
       items: [
         {
-          text: "增加设备列表页面",
+          text: translate({message: "增加设备列表页面"}),
           link: "/box",
           category: "网站页面"
         },
@@ -108,7 +116,7 @@ export default function ContentUpdates() {
       date: "2025-11-16",
       items: [
         {
-          text: "提供Next HiCar单独内容",
+          text: translate({message: "提供Next HiCar单独内容"}),
           link: "/docs/next-intro",
           category: "NextHiCar"
         },
@@ -121,15 +129,16 @@ export default function ContentUpdates() {
       date: "2025-11-15",
       items: [
         {
-          text: "新增下载页面",
+          text: translate({message: "新增下载页面"}),
           link: "/download",
           category: "网站页面"
         },
         {
-          text: "新增更新记录，记录网站更新",
+          text: translate({message: "新增更新记录，记录网站更新"}),
           link: "/update",
           category: "网站页面"
         },
+        
         
       ]
     },
@@ -147,33 +156,33 @@ export default function ContentUpdates() {
   }, {});
 
   const monthNames = {
-    "2026-12": "2026年12月",
-    "2026-11": "2026年11月",
-    "2026-10": "2026年10月",
-    "2026-09": "2026年09月",
-    "2026-08": "2026年08月",
-    "2026-07": "2026年07月",
-    "2026-06": "2026年06月",
-    "2026-05": "2026年05月",
-    "2026-04": "2026年04月",
-    "2026-03": "2026年03月",
-    "2026-02": "2026年02月",
-    "2026-01": "2026年01月",
-    "2025-12": "2025年12月",
-    "2025-11": "2025年11月",
+    "2026-12": translate({message: "2026年12月"}),
+    "2026-11": translate({message: "2026年11月"}),
+    "2026-10": translate({message: "2026年10月"}),
+    "2026-09": translate({message: "2026年09月"}),
+    "2026-08": translate({message: "2026年08月"}),
+    "2026-07": translate({message: "2026年07月"}),
+    "2026-06": translate({message: "2026年06月"}),
+    "2026-05": translate({message: "2026年05月"}),
+    "2026-04": translate({message: "2026年04月"}),
+    "2026-03": translate({message: "2026年03月"}),
+    "2026-02": translate({message: "2026年02月"}),
+    "2026-01": translate({message: "2026年01月"}),
+    "2025-12": translate({message: "2025年12月"}),
+    "2025-11": translate({message: "2025年11月"}),
 
   };
 
   return (
     <Layout
-      title={`站点更新记录 - ${siteConfig.title}`}
-      description="网站内容更新历史记录">
+      title={`${translate({message: '站点更新记录'})} - ${siteConfig.title}`}
+      description={translate({message: '网站内容更新历史记录'})}>
       <div className={styles.heroSection}>
         <div className={styles.heroContent}>
-          <h1 className={styles.heroTitle}>站点更新记录</h1>
-          <p className={styles.heroSubtitle}>页面及内容更新历史</p>
+          <h1 className={styles.heroTitle}><Translate>站点更新记录</Translate></h1>
+          <p className={styles.heroSubtitle}><Translate>页面及内容更新历史</Translate></p>
           <p className={styles.heroDescription}>
-            记录网站所有页面及内容的更新情况，帮助您了解最新变化
+            <Translate>记录网站所有页面及内容的更新情况，帮助您了解最新变化</Translate>
           </p>
         </div>
         <div className={styles.heroBackground}></div>
@@ -198,7 +207,7 @@ export default function ContentUpdates() {
                             <div key={itemIndex} className={styles.updateCard}>
                               <div className={styles.cardHeader}>
                                 <span className={`${styles.categoryTag} ${styles[item.category]}`}>
-                                  {item.category}
+                                  {categoryLabels[item.category] || item.category}
                                 </span>
                               </div>
                               <div className={styles.cardContent}>
@@ -219,36 +228,36 @@ export default function ContentUpdates() {
 
           <div className={styles.sidebar}>
             <div className={styles.sidebarCard}>
-              <h3>📊 更新统计</h3>
+              <h3><Translate>📊 更新统计</Translate></h3>
               <div className={styles.statsGrid}>
                 <div className={styles.statItem}>
                   <div className={styles.statNumber}>{updates.length}</div>
-                  <div className={styles.statLabel}>更新天数</div>
+                  <div className={styles.statLabel}><Translate>更新天数</Translate></div>
                 </div>
                 <div className={styles.statItem}>
                   <div className={styles.statNumber}>
                     {updates.reduce((total, update) => total + update.items.length, 0)}
                   </div>
-                  <div className={styles.statLabel}>内容条目</div>
+                  <div className={styles.statLabel}><Translate>内容条目</Translate></div>
                 </div>
                 <div className={styles.statItem}>
                   <div className={styles.statNumber}>
                     {new Set(updates.flatMap(update => update.items.map(item => item.category))).size}
                   </div>
-                  <div className={styles.statLabel}>内容分类</div>
+                  <div className={styles.statLabel}><Translate>内容分类</Translate></div>
                 </div>
               </div>
             </div>
 
             <div className={styles.sidebarCard}>
-              <h3>🏷️ 内容分类</h3>
+              <h3><Translate>🏷️ 内容分类</Translate></h3>
               <div className={styles.categoriesList}>
                 {Array.from(new Set(updates.flatMap(update => update.items.map(item => item.category)))).map(category => {
                   const count = updates.flatMap(update => update.items).filter(item => item.category === category).length;
                   return (
                     <div key={category} className={styles.categoryItem}>
                       <span className={`${styles.categoryDot} ${styles[category]}`}></span>
-                      <span className={styles.categoryName}>{category}</span>
+                      <span className={styles.categoryName}>{categoryLabels[category] || category}</span>
                       <span className={styles.categoryCount}>({count})</span>
                     </div>
                   );

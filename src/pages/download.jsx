@@ -1,16 +1,19 @@
 import React from 'react';
 import Layout from '@theme/Layout';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import Translate, {translate} from '@docusaurus/Translate';
 import styles from './hicar-download.module.css';
 
 export default function HiCarDownload() {
   const {siteConfig} = useDocusaurusContext();
+  const docsVehicleUrl = useBaseUrl('/docs/vehicle');
 
   
   return (
     <Layout
-      title={`HiCar下载 - ${siteConfig.title}`}
-      description="下载华为HiCar智能车载互联系统，体验智慧出行">
+      title={`${translate({message: 'HiCar下载'})} - ${siteConfig.title}`}
+      description={translate({message: '下载华为HiCar智能车载互联系统，体验智慧出行'})}>
       
       {/* Hero区域 */}
       <div className={styles.heroSection}>
@@ -20,7 +23,7 @@ export default function HiCarDownload() {
               HUAWEI <span className={styles.highlight}>HiCar</span>
             </h1>
             <p className={styles.heroSubtitle}>
-              智能车载互联系统
+              <Translate>智能车载互联系统</Translate>
             </p>
           </div> 
         </div> 
@@ -29,60 +32,60 @@ export default function HiCarDownload() {
       <div className={styles.instructionsSection}>
         <div className="container">
           <div className={styles.instructionsContent}>
-            <h2 className={styles.instructionsTitle}>下载<span className={styles.highlight}>手机端Next HiCar</span>应用</h2>
+            <h2 className={styles.instructionsTitle}><Translate>下载</Translate><span className={styles.highlight}><Translate>手机端Next HiCar</Translate></span><Translate>应用</Translate></h2>
             <div className={styles.heroContent}>
               <div className={styles.heroBadge}>
-                <span>最新版本 6.1.33.203</span> 
+                <span><Translate>最新版本</Translate> 6.1.33.203</span> 
               </div>
               &nbsp;&nbsp;&nbsp;
               <div className={styles.heroBadge}>
-                <span>更新日期：2026.04.16</span> 
+                <span><Translate>更新日期</Translate>：2026.04.16</span> 
               </div>
             </div> 
 
             <table>
-              <thead><tr><th>更新日期</th><th>版本号及类型</th><th>更新说明</th><th>下载地址</th></tr></thead>
+              <thead><tr><th><Translate>更新日期</Translate></th><th><Translate>版本号及类型</Translate></th><th><Translate>更新说明</Translate></th><th><Translate>下载地址</Translate></th></tr></thead>
               <tbody>
               <tr>
               <td>-</td>
-              <td>尝鲜版本：测试版本。<br/>正式版本：系统支持即可安装使用</td>
-              <td>每次更新的特性说明。</td>
-              <td>请在纯血鸿蒙系统中打开。</td>
+              <td><Translate>尝鲜版本：测试版本。</Translate><br/><Translate>正式版本：系统支持即可安装使用</Translate></td>
+              <td><Translate>每次更新的特性说明。</Translate></td>
+              <td><Translate>请在纯血鸿蒙系统中打开。</Translate></td>
               </tr>
               <tr>
               <td>2026.04.16</td>
-              <td><font color="red">6.1.33.203 正式版本</font></td>
-              <td>1.优化听歌过程中来电挂断后的音频体验。<br/>2.优化部分场景下的连接稳定性。</td>
-              <td>华为应用市场</td>
+              <td><font color="red">6.1.33.203 <Translate>正式版本</Translate></font></td>
+              <td><Translate>1.优化听歌过程中来电挂断后的音频体验。</Translate><br/><Translate>2.优化部分场景下的连接稳定性。</Translate></td>
+              <td><Translate>华为应用市场</Translate></td>
               </tr>
               <tr>
               <td>2026.02.27</td>
-              <td>6.0.96.21 尝鲜版本</td>
-              <td>1.熄屏模式支持壁纸记忆。<br/>2.修复部分已知问题</td>
-              <td>华为应用市场-应用尝鲜</td>
+              <td>6.0.96.21 <Translate>尝鲜版本</Translate></td>
+              <td><Translate>1.熄屏模式支持壁纸记忆。</Translate><br/><Translate>2.修复部分已知问题</Translate></td>
+              <td><Translate>华为应用市场-应用尝鲜</Translate></td>
               </tr>
               <tr>
               <td>2026.02.08</td>
-              <td>6.0.96.16 尝鲜版本</td>
-              <td>1.新增自定义壁纸功能。<br/>2.新增智慧桌面深浅模式随车机设置功能。<br/>3.新增车机侧应用锁功能，您加锁后的应用只有在手机端解锁后才可使用。<br/>4.新增网易云音乐卡片。</td>
-              <td><a href="https://appgallery.huawei.com/link/invite-test-wap?taskId=576090a51b66c5af8a75684209820c61" target="_blank">华为应用市场-测试任务</a></td>
+              <td>6.0.96.16 <Translate>尝鲜版本</Translate></td>
+              <td><Translate>1.新增自定义壁纸功能。</Translate><br/><Translate>2.新增智慧桌面深浅模式随车机设置功能。</Translate><br/><Translate>3.新增车机侧应用锁功能，您加锁后的应用只有在手机端解锁后才可使用。</Translate><br/><Translate>4.新增网易云音乐卡片。</Translate></td>
+              <td><a href="https://appgallery.huawei.com/link/invite-test-wap?taskId=576090a51b66c5af8a75684209820c61" target="_blank"><Translate>华为应用市场-测试任务</Translate></a></td>
               </tr>
               <tr>
               <td>2026.01.28</td>
-              <td>6.0.95.120 尝鲜版本</td>
-              <td>1.HarmonyOS NEXT纯血鸿蒙系统上首次独立更新。<br/>2.首次更新并新增特性。</td>
-              <td><a href="https://appgallery.huawei.com/link/invite-test-wap?taskId=576090a51b66c5af8a75684209820c61" target="_blank">华为应用市场-测试任务</a></td>
+              <td>6.0.95.120 <Translate>尝鲜版本</Translate></td>
+              <td><Translate>1.HarmonyOS NEXT纯血鸿蒙系统上首次独立更新。</Translate><br/><Translate>2.首次更新并新增特性。</Translate></td>
+              <td><a href="https://appgallery.huawei.com/link/invite-test-wap?taskId=576090a51b66c5af8a75684209820c61" target="_blank"><Translate>华为应用市场-测试任务</Translate></a></td>
               </tr>
               
               
               </tbody>
               </table>
             <div className={styles.supportInfo}>
-              <h3>说明</h3>
+              <h3><Translate>说明</Translate></h3>
               <p>
-                1.当前独立更新的Next HiCar仅支持HarmonyOS 6.0及以上系统。<br />
+                <Translate>1.当前独立更新的Next HiCar仅支持HarmonyOS 6.0及以上系统。</Translate><br />
 
-                2.当前暂无有效方式提取HAP包供无权限手机绕过应用市场进行安装。
+                <Translate>2.当前暂无有效方式提取HAP包供无权限手机绕过应用市场进行安装。</Translate>
 
               </p>
             </div>
@@ -94,31 +97,31 @@ export default function HiCarDownload() {
       <div className={styles.downloadSection}>
         <div className="container">
           <div className={styles.sectionHeader}>
-            <h2 className={styles.sectionTitle}>下载<span className={styles.highlight}>手机端经典HiCar</span>应用</h2>
+            <h2 className={styles.sectionTitle}><Translate>下载</Translate><span className={styles.highlight}><Translate>手机端经典HiCar</Translate></span><Translate>应用</Translate></h2>
             <div className={styles.heroBadge}>
-              <span>最新版本 14.2.0.365</span> 
+              <span><Translate>最新版本</Translate> 14.2.0.365</span> 
             </div>
              &nbsp;&nbsp;&nbsp;
             <div className={styles.heroBadge}>
-              <span>更新日期：2026.01.23</span> 
+              <span><Translate>更新日期</Translate>：2026.01.23</span> 
             </div>
-            <p className={styles.sectionSubtitle}>经典HiCar仅支持部分华为手机，不支持小米、OPPO、VIVO等</p>
+            <p className={styles.sectionSubtitle}><Translate>经典HiCar仅支持部分华为手机，不支持小米、OPPO、VIVO等</Translate></p>
             
           </div>
           
           
           <div className={styles.tableContainer}>
             <div className="container">
-              <p>以下 APK 仅可安装在已经支持 HiCar 的华为手机上（不包括HarmonyOS 5及以上版本的HarmonyOS NEXT系统）。</p>
-              <p>如果需要密码：<font color="red"><b>hicar</b></font></p>
+              <p><Translate>以下 APK 仅可安装在已经支持 HiCar 的华为手机上（不包括HarmonyOS 5及以上版本的HarmonyOS NEXT系统）。</Translate></p>
+              <p><Translate>如果需要密码：</Translate><font color="red"><b>hicar</b></font></p>
               <table>
-              <thead><tr><th>Updated</th><th>众测版本</th><th>正式版本</th><th>紧跟正式版本的众测版本</th></tr></thead>
+              <thead><tr><th>Updated</th><th><Translate>众测版本</Translate></th><th><Translate>正式版本</Translate></th><th><Translate>紧跟正式版本的众测版本</Translate></th></tr></thead>
               <tbody>
               <tr>
-              <td>说明</td>
-              <td>新特性的首发测试版本。通过会员中心体验官下载。</td>
-              <td>新特性的正式商用版本，会与众测版本有些细微的差别。通过应用市场下载。</td>
-              <td>在正式版本之上额外开放花瓣地图以及微信投屏的版本。通过会员中心体验官下载。<br/>注意：23年7月已取消该类型版本</td>
+              <td><Translate>说明</Translate></td>
+              <td><Translate>新特性的首发测试版本。通过会员中心体验官下载。</Translate></td>
+              <td><Translate>新特性的正式商用版本，会与众测版本有些细微的差别。通过应用市场下载。</Translate></td>
+              <td><Translate>在正式版本之上额外开放花瓣地图以及微信投屏的版本。通过会员中心体验官下载。</Translate><br/><Translate>注意：23年7月已取消该类型版本</Translate></td>
               </tr>
               <tr>
               <td>2026.01</td>
@@ -202,7 +205,7 @@ export default function HiCarDownload() {
               <td>2023.07~08</td>
               <td><a href="https://hicar.lanzouq.com/iauQY13dp9kh" target="_blank">13.2.0.506</a></td>
               <td><a href="https://hicar.lanzouq.com/iTn2g14vrf6f" target="_blank">13.2.0.515</a><br/><a href="https://hicar.lanzouq.com/i5SIJ142yp6d" target="_blank">13.2.0.511</a></td>
-              <td> 已取消 </td>
+              <td><Translate>已取消</Translate></td>
               </tr>
               <tr>
               <td>2023.06</td>
@@ -238,14 +241,14 @@ export default function HiCarDownload() {
       <div className={styles.instructionsSection}>
         <div className="container">
           <div className={styles.instructionsContent}>
-            <h2 className={styles.instructionsTitle}>下载<span className={styles.highlight}>车机端HiCar</span>应用</h2>
+            <h2 className={styles.instructionsTitle}><Translate>下载</Translate><span className={styles.highlight}><Translate>车机端HiCar</Translate></span><Translate>应用</Translate></h2>
             
             
             
             <div className={styles.supportInfo}>
-              <h3>说明</h3>
+              <h3><Translate>说明</Translate></h3>
               <p>
-                如果您想下载车机端HiCar，这是不现实的，具体原因可以参考<a href='/docs/vehicle' className={styles.supportLink}>HiCar车机版本</a>。
+                <Translate>如果您想下载车机端HiCar，这是不现实的，具体原因可以参考</Translate><a href={docsVehicleUrl} className={styles.supportLink}><Translate>HiCar车机版本</Translate></a>。
               </p>
             </div>
           </div>
