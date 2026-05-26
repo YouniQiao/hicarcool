@@ -99,11 +99,11 @@ export default function HiCarDownload() {
           <div className={styles.sectionHeader}>
             <h2 className={styles.sectionTitle}><Translate>下载</Translate><span className={styles.highlight}><Translate>手机端经典HiCar</Translate></span><Translate>应用</Translate></h2>
             <div className={styles.heroBadge}>
-              <span><Translate>最新版本</Translate> 14.2.0.370</span> 
+              <span><Translate>最新版本</Translate> 14.2.0.380</span> 
             </div>
              &nbsp;&nbsp;&nbsp;
             <div className={styles.heroBadge}>
-              <span><Translate>更新日期</Translate>：2026.04.30</span> 
+              <span><Translate>更新日期</Translate>：2026.05.20</span> 
             </div>
             <p className={styles.sectionSubtitle}><Translate>经典HiCar仅支持部分华为手机，不支持小米、OPPO、VIVO等</Translate></p>
             
@@ -125,8 +125,8 @@ export default function HiCarDownload() {
               </tr>
               <tr>
               <td>2026.01~05</td>
-              <td><a href="https://hicar.lanzouq.com/i0NHj3pazu9i" target="_blank"><font color="red">14.2.0.370</font></a><br/><a href="https://hicar.lanzouq.com/iVMHS3gxccda" target="_blank">14.2.0.365</a></td>
-              <td>  </td>
+              <td><a href="https://hicar.lanzouq.com/i0NHj3pazu9i" target="_blank">14.2.0.370</a><br/><a href="https://hicar.lanzouq.com/iVMHS3gxccda" target="_blank">14.2.0.365</a></td>
+              <td><a href="https://hicar.lanzouq.com/iL66D3qexhdc" target="_blank"><font color="red">14.2.0.380</font></a> </td>
               <td>  </td>
               </tr>
               <tr>
