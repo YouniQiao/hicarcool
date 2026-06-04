@@ -35,11 +35,11 @@ export default function HiCarDownload() {
             <h2 className={styles.instructionsTitle}><Translate>下载</Translate><span className={styles.highlight}><Translate>手机端Next HiCar</Translate></span><Translate>应用</Translate></h2>
             <div className={styles.heroContent}>
               <div className={styles.heroBadge}>
-                <span><Translate>最新版本</Translate> 6.1.33.203</span> 
+                <span><Translate>最新版本</Translate> 6.1.37.203</span> 
               </div>
               &nbsp;&nbsp;&nbsp;
               <div className={styles.heroBadge}>
-                <span><Translate>更新日期</Translate>：2026.04.16</span> 
+                <span><Translate>更新日期</Translate>：2026.05.31</span> 
               </div>
             </div> 
 
@@ -53,8 +53,14 @@ export default function HiCarDownload() {
               <td><Translate>请在纯血鸿蒙系统中打开。</Translate></td>
               </tr>
               <tr>
+              <td>2026.05.31</td>
+              <td><font color="red">6.1.37.203 <Translate>尝鲜版本</Translate></font></td>
+              <td><Translate>1.智慧桌面支持微信通话通知。</Translate><br/><Translate>2.智慧桌面支持应用中心长按图标移除应用。</Translate><br/><Translate>3.智慧桌面支持分屏音乐大卡片显示多行歌词。</Translate></td>
+              <td><Translate>华为应用市场-应用尝鲜</Translate></td>
+              </tr>
+              <tr>
               <td>2026.04.16</td>
-              <td><font color="red">6.1.33.203 <Translate>正式版本</Translate></font></td>
+              <td>6.1.33.203 <Translate>正式版本</Translate></td>
               <td><Translate>1.优化听歌过程中来电挂断后的音频体验。</Translate><br/><Translate>2.优化部分场景下的连接稳定性。</Translate></td>
               <td><Translate>华为应用市场</Translate></td>
               </tr>
