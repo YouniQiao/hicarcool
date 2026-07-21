@@ -1341,5 +1341,14 @@
   },
   "3.更多应用支持摇一摇导航流转。": {
     "message": "3. More apps support shake-to-transfer navigation."
+  },
+  "Next HiCar版本更新至7.0.0.206尝鲜版本": {
+    "message": "Next HiCar updated to version 7.0.0.206 (Beta)"
+  },
+  "Next HiCar版本更新至6.1.37.203尝鲜版本": {
+    "message": "Next HiCar updated to version 6.1.37.203 (Beta)"
+  },
+  "经典HiCar版本更新至14.2.0.380正式版本": {
+    "message": "Classic HiCar updated to version 14.2.0.380 (Stable)"
   }
 }
