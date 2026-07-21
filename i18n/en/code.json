@@ -1323,5 +1323,23 @@
   "theme.tags.tagsPageTitle": {
     "message": "Tags",
     "description": "The title of the tag list page"
+  },
+  "1.手机支持驾驶模式，可通过\"设置-多设备系统-HUAWEI HiCar-驾驶模式\"打开。": {
+    "message": "1. Phone supports Driving Mode. Enable via Settings > Multi-Device System > HUAWEI HiCar > Driving Mode."
+  },
+  "1.智慧桌面支持微信通话通知。": {
+    "message": "1. Smart Desktop supports WeChat call notifications."
+  },
+  "2.智慧桌面支持应用中心长按图标移除应用。": {
+    "message": "2. Smart Desktop supports removing apps by long-pressing icons in App Center."
+  },
+  "2.智慧桌面新增桌面布局（仅部分车机支持）。": {
+    "message": "2. Smart Desktop adds new desktop layout (only supported on some head units)."
+  },
+  "3.智慧桌面支持分屏音乐大卡片显示多行歌词。": {
+    "message": "3. Smart Desktop split-screen music card now supports multi-line lyrics display."
+  },
+  "3.更多应用支持摇一摇导航流转。": {
+    "message": "3. More apps support shake-to-transfer navigation."
   }
 }
