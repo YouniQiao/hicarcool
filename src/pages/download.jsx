@@ -35,11 +35,11 @@ export default function HiCarDownload() {
             <h2 className={styles.instructionsTitle}><Translate>下载</Translate><span className={styles.highlight}><Translate>手机端Next HiCar</Translate></span><Translate>应用</Translate></h2>
             <div className={styles.heroContent}>
               <div className={styles.heroBadge}>
-                <span><Translate>最新版本</Translate> 6.1.37.203</span> 
+                <span><Translate>最新版本</Translate> 7.0.0.206</span> 
               </div>
               &nbsp;&nbsp;&nbsp;
               <div className={styles.heroBadge}>
-                <span><Translate>更新日期</Translate>：2026.05.31</span> 
+                <span><Translate>更新日期</Translate>：2026.07.18</span> 
               </div>
             </div> 
 
@@ -53,8 +53,14 @@ export default function HiCarDownload() {
               <td><Translate>请在纯血鸿蒙系统中打开。</Translate></td>
               </tr>
               <tr>
+              <td>2026.07.18</td>
+              <td><font color="red">7.0.0.206 <Translate>尝鲜版本</Translate></font></td>
+              <td><Translate>1.手机支持驾驶模式，可通过"设置-多设备系统-HUAWEI HiCar-驾驶模式"打开。</Translate><br/><Translate>2.智慧桌面新增桌面布局（仅部分车机支持）。</Translate><br/><Translate>3.更多应用支持摇一摇导航流转。</Translate></td>
+              <td><Translate>华为应用市场-应用尝鲜</Translate></td>
+              </tr>
+              <tr>
               <td>2026.05.31</td>
-              <td><font color="red">6.1.37.203 <Translate>尝鲜版本</Translate></font></td>
+              <td>6.1.37.203 <Translate>尝鲜版本</Translate></td>
               <td><Translate>1.智慧桌面支持微信通话通知。</Translate><br/><Translate>2.智慧桌面支持应用中心长按图标移除应用。</Translate><br/><Translate>3.智慧桌面支持分屏音乐大卡片显示多行歌词。</Translate></td>
               <td><Translate>华为应用市场-应用尝鲜</Translate></td>
               </tr>
