@@ -1345,6 +1345,12 @@
   "Next HiCar版本更新至7.0.0.206尝鲜版本": {
     "message": "Next HiCar updated to version 7.0.0.206 (Beta)"
   },
+  "Next HiCar版本更新至7.0.0.306正式版本": {
+    "message": "Next HiCar updated to version 7.0.0.306 (Stable)"
+  },
+  "1.优化部分场景下的连接稳定性。": {
+    "message": "1. Optimized connection stability in certain scenarios."
+  },
   "Next HiCar版本更新至6.1.37.203尝鲜版本": {
     "message": "Next HiCar updated to version 6.1.37.203 (Beta)"
   },

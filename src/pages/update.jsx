@@ -16,6 +16,18 @@ export default function ContentUpdates() {
 
   const updates = [
     {
+      date: "2026-09-12",
+      items: [
+        {
+          text: translate({message: "Next HiCar版本更新至7.0.0.306正式版本"}),
+          link: "/download",
+          category: "版本更新"
+        },
+        
+        
+      ]
+    },
+    {
       date: "2026-07-18",
       items: [
         {
