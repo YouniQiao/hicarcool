@@ -28,6 +28,18 @@ export default function ContentUpdates() {
       ]
     },
     {
+      date: "2026-08-28",
+      items: [
+        {
+          text: translate({message: "经典HiCar版本更新至14.2.0.400正式版本"}),
+          link: "/download",
+          category: "版本更新"
+        },
+        
+        
+      ]
+    },
+    {
       date: "2026-07-18",
       items: [
         {
