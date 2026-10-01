@@ -443,9 +443,8 @@ export default function SupportPage() {
                             <TrimRow
                               key={r[3]}
                               it={r}
-                              protos={protos}
                               badges={badges}
-                              api={api}
+                              yearMap={yearMap}
                             />
                           ))}
                         </tbody>
