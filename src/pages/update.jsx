@@ -16,6 +16,18 @@ export default function ContentUpdates() {
 
   const updates = [
     {
+      date: "2026-10-01",
+      items: [
+        {
+          text: translate({message: "新增「车型查询」页面：可查询任意车型的手机互联支持情况（HiCar、CarPlay、CarLife、Android Auto 等），支持搜索、按品牌/车系/车型查找与协议筛选，已停售年款也可查询"}),
+          link: "/support",
+          category: "网站页面"
+        },
+        
+        
+      ]
+    },
+    {
       date: "2026-09-12",
       items: [
         {

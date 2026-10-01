@@ -504,32 +504,6 @@
     "message": "MiaoDrive",
     "description": "Homepage box brand: MiaoDrive"
   },
-  "HiCar论坛": {
-    "message": "HiCar Forum",
-    "description": "Homepage website link: forum"
-  },
-  "一个非官方论坛站点": {
-    "message": "An unofficial forum site"
-  },
-  "为HiCar铁粉和开发者提供交流的角落": {
-    "message": "A corner for HiCar fans and developers to exchange ideas"
-  },
-  "点击访问HiCar论坛": {
-    "message": "Visit HiCar Forum"
-  },
-  "HiCar最新消息": {
-    "message": "HiCar Latest News",
-    "description": "Homepage website link: latest news"
-  },
-  "一个简单形式的站点": {
-    "message": "A simple-form site"
-  },
-  "第一时间汇报感知到HiCar最新消息": {
-    "message": "Reporting HiCar latest news as soon as it's perceived"
-  },
-  "点击查看HiCar最新消息": {
-    "message": "View HiCar Latest News"
-  },
   "HiCar Club": {
     "message": "HiCar Club",
     "description": "Homepage website link: HiCar Club"
@@ -1523,5 +1497,8 @@
   },
   "按互联协议筛选": {
     "message": "Filter by connectivity protocol"
+  },
+  "新增「车型查询」页面：可查询任意车型的手机互联支持情况（HiCar、CarPlay、CarLife、Android Auto 等），支持搜索、按品牌/车系/车型查找与协议筛选，已停售年款也可查询": {
+    "message": "New \"Vehicle Lookup\" page: check phone-projection support for any vehicle model (HiCar, CarPlay, CarLife, Android Auto, etc.). Search, browse by brand/series/model and filter by protocol; discontinued model years are covered too."
   }
 }
