@@ -15,6 +15,10 @@
     "message": "Devices",
     "description": "Navbar item with label 设备"
   },
+  "item.label.车型查询": {
+    "message": "Vehicle Lookup",
+    "description": "Navbar item with label 车型查询"
+  },
   "item.label.下载": {
     "message": "Download",
     "description": "Navbar item with label 下载"

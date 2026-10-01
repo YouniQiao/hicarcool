@@ -1359,5 +1359,169 @@
   },
   "经典HiCar版本更新至14.2.0.400正式版本": {
     "message": "Classic HiCar updated to version 14.2.0.400 (Stable)"
+  },
+  "车型查询": {
+    "message": "Vehicle Lookup"
+  },
+  "查询任意车型的手机互联支持情况 —— HUAWEI HiCar、CarPlay、CarLife、Android Auto 与厂商自有互联": {
+    "message": "Check phone-projection support for any vehicle model — HUAWEI HiCar, CarPlay, CarLife, Android Auto and manufacturer systems"
+  },
+  "查询车型的手机互联支持情况：HUAWEI HiCar、CarPlay、CarLife、Android Auto 等": {
+    "message": "Look up phone-projection support (HUAWEI HiCar, CarPlay, CarLife, Android Auto and more) by vehicle model"
+  },
+  "数据加载中…": {
+    "message": "Loading data…"
+  },
+  "数据加载失败：": {
+    "message": "Failed to load data: "
+  },
+  "接口地址": {
+    "message": "API endpoint"
+  },
+  "清空": {
+    "message": "Clear"
+  },
+  "搜索结果": {
+    "message": "Search results"
+  },
+  "款车型": {
+    "message": " trims"
+  },
+  "没有匹配的车型，试试更短的关键词": {
+    "message": "No matching vehicles — try a shorter keyword"
+  },
+  "显示更多": {
+    "message": "Show more"
+  },
+  "按品牌查找": {
+    "message": "Browse by brand"
+  },
+  "品牌": {
+    "message": "Brand"
+  },
+  "筛选品牌": {
+    "message": "Filter brands"
+  },
+  "车系": {
+    "message": "Series"
+  },
+  "车型": {
+    "message": "Trims"
+  },
+  "← 先选品牌": {
+    "message": "← Pick a brand first"
+  },
+  "← 再选车系，即可看到该车系下每款车型的互联支持": {
+    "message": "← Pick a series to see per-trim support"
+  },
+  "未提及": {
+    "message": "Not specified"
+  },
+  "数据口径": {
+    "message": "Data notes"
+  },
+  "数据来自汽车之家车型参配表「互联/智能化 → 手机互联/映射」，每月更新一次；点每行的「原文」可看到原始取值并跳转核对": {
+    "message": "Source: Autohome spec tables (Connectivity → Phone projection), refreshed monthly. Click “Source” in a row to see the raw value and verify it on Autohome."
+  },
+  "表示汽车之家该格未填写，不代表不支持；「仅原厂互联/映射」按本站口径计为不支持": {
+    "message": " means Autohome left this cell empty — it does not mean unsupported. “Manufacturer projection only” counts as unsupported on this site."
+  },
+  "停售车系多数没有参配数据，因此其车型多为「未提及」": {
+    "message": "Discontinued series usually have no spec data, so their trims are mostly “Not specified”."
+  },
+  "其他协议": {
+    "message": "More protocols"
+  },
+  "收起其他协议": {
+    "message": "Hide other protocols"
+  },
+  "原文": {
+    "message": "Source"
+  },
+  "收起": {
+    "message": "Hide"
+  },
+  "汽车之家参配页": {
+    "message": "Autohome spec page"
+  },
+  "筛选结果": {
+    "message": "Filtered results"
+  },
+  "数据版本": {
+    "message": "Data version"
+  },
+  "更新于": {
+    "message": "Updated"
+  },
+  "停售": {
+    "message": "Discontinued",
+    "description": "车型查询页"
+  },
+  "（在售": {
+    "message": " (on sale: ",
+    "description": "车型查询页"
+  },
+  "· 停售年款": {
+    "message": " · discontinued-year trims: ",
+    "description": "车型查询页"
+  },
+  "）": {
+    "message": ")",
+    "description": "车型查询页"
+  },
+  "该年款已停售": {
+    "message": "This model year is discontinued",
+    "description": "车型查询页"
+  },
+  "该车系已停售": {
+    "message": "This series is discontinued",
+    "description": "车型查询页"
+  },
+  "已停售年款（老款车型）也已收录，行上标浅灰「停售」；在售车型看当年在售的年款": {
+    "message": "Discontinued model years are included too and marked with a grey “Discontinued” tag; for on-sale series the current model years are the ones still sold.",
+    "description": "车型查询页"
+  },
+  "个品牌": {
+    "message": " brands",
+    "description": "车型查询页统计行"
+  },
+  "个车系": {
+    "message": " series",
+    "description": "车型查询页统计行"
+  },
+  "支持 HiCar": {
+    "message": "HiCar support:",
+    "description": "车型查询页统计行"
+  },
+  "款": {
+    "message": "trims",
+    "description": "车型查询页统计行"
+  },
+  "车型索引加载中…": {
+    "message": "Loading vehicle index…"
+  },
+  "收录车型较多，首次约 1MB，之后走浏览器缓存": {
+    "message": "Large dataset: ~1 MB on first visit, then served from browser cache"
+  },
+  "车型索引加载失败：": {
+    "message": "Failed to load vehicle index: "
+  },
+  "品牌/车系仍可浏览，刷新页面重试": {
+    "message": "You can still browse by brand/series — refresh the page to retry"
+  },
+  "汽车之家官方车型总数（含全部年款）": {
+    "message": "Autohome official total (all model years): "
+  },
+  "款，本库收录": {
+    "message": " trims; this site covers "
+  },
+  "款；差额主要是汽车之家本身没有参配表的老车系（无法取得数据）": {
+    "message": " trims. The gap is mainly older series for which Autohome itself has no spec table."
+  },
+  "输入车型 / 车系 / 品牌，如：问界M7、卡罗拉 2024": {
+    "message": "Search model / series / brand, e.g. 问界M7, Corolla 2024"
+  },
+  "按互联协议筛选": {
+    "message": "Filter by connectivity protocol"
   }
 }

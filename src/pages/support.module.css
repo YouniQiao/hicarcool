@@ -1,0 +1,615 @@
+/* 车型查询页样式 —— 配色跟站点一致（#0070f3 → #00c6ff 渐变，浅灰卡片） */
+
+/* ---------- 头部 ---------- */
+.hero {
+  background: linear-gradient(135deg, #ffffff 0%, #f8faff 100%);
+  padding: 56px 0 32px;
+  position: relative;
+  overflow: hidden;
+  border-bottom: 1px solid #eef2f7;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: -60%;
+  right: -8%;
+  width: 560px;
+  height: 560px;
+  background: radial-gradient(circle, rgba(0, 112, 243, 0.06) 0%, transparent 70%);
+  border-radius: 50%;
+}
+
+.heroTitle {
+  font-size: 2.4rem;
+  font-weight: 800;
+  color: #1a1a1a;
+  margin: 0 0 8px;
+  position: relative;
+  z-index: 2;
+}
+
+.heroDesc {
+  font-size: 1.05rem;
+  color: #666;
+  margin: 0 0 18px;
+  max-width: none;
+  white-space: nowrap;   /* 老板要求：这一行不要换行 */
+  position: relative;
+  z-index: 2;
+}
+
+/* 窄屏放不下时才允许折行（手机上没法一行塞下） */
+@media (max-width: 900px) {
+  .heroDesc {
+    white-space: normal;
+  }
+}
+
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  font-size: 0.92rem;
+  color: #4a5568;
+  position: relative;
+  z-index: 2;
+}
+
+.stats b {
+  color: #0070f3;
+  font-size: 1.05rem;
+}
+
+.statsVersion {
+  color: #98a2b3;
+  font-size: 0.85rem;
+}
+
+/* 车型数后面的「（在售 N · 停售年款 M）」 */
+.statsSub {
+  color: #98a2b3;
+  font-size: 0.85rem;
+  font-style: normal;
+}
+
+/* ---------- 主体 ---------- */
+.main {
+  padding: 24px 0 64px;
+}
+
+.notice,
+.noticeErr {
+  padding: 14px 16px;
+  border-radius: 10px;
+  background: #f5f8ff;
+  color: #475467;
+  font-size: 0.95rem;
+  margin-bottom: 16px;
+}
+
+.noticeErr {
+  background: #fff5f5;
+  color: #b42318;
+}
+
+.noticeHint {
+  font-size: 0.82rem;
+  color: #98a2b3;
+  margin-top: 6px;
+}
+
+/* ---------- 搜索 ---------- */
+.searchBar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.searchInput {
+  flex: 1;
+  height: 48px;
+  padding: 0 16px;
+  font-size: 1rem;
+  border: 1px solid #d8e0ea;
+  border-radius: 10px;
+  outline: none;
+  background: #fff;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+.searchInput:focus {
+  border-color: #0070f3;
+  box-shadow: 0 0 0 3px rgba(0, 112, 243, 0.12);
+}
+
+.clearBtn {
+  height: 48px;
+  padding: 0 18px;
+  border: 1px solid #d8e0ea;
+  background: #fff;
+  border-radius: 10px;
+  color: #475467;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.clearBtn:hover {
+  border-color: #0070f3;
+  color: #0070f3;
+}
+
+/* ---------- 协议筛选 ---------- */
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.filtersSub {
+  margin-top: -4px;
+}
+
+.filtersLabel {
+  font-size: 0.88rem;
+  color: #98a2b3;
+  margin-right: 2px;
+}
+
+.chip,
+.chipOn,
+.chipMore {
+  padding: 6px 14px;
+  border-radius: 999px;
+  border: 1px solid #d8e0ea;
+  background: #fff;
+  color: #475467;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.chip:hover {
+  border-color: #0070f3;
+  color: #0070f3;
+}
+
+.chipOn {
+  background: linear-gradient(135deg, #0070f3, #00c6ff);
+  border-color: transparent;
+  color: #fff;
+}
+
+.chipMore {
+  border-style: dashed;
+  color: #98a2b3;
+}
+
+/* ---------- 区块 ---------- */
+.section {
+  margin-top: 18px;
+}
+
+.sectionHead {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 12px;
+}
+
+.sectionCount {
+  font-size: 0.88rem;
+  font-weight: 400;
+  color: #98a2b3;
+}
+
+/* ---------- 搜索结果卡片 ---------- */
+.seriesCard {
+  border: 1px solid #eef2f7;
+  border-radius: 12px;
+  background: #fff;
+  margin-bottom: 14px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(16, 24, 40, 0.04);
+}
+
+.seriesHead {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  background: #f8faff;
+  border-bottom: 1px solid #eef2f7;
+}
+
+.seriesBrand {
+  font-size: 0.82rem;
+  color: #0070f3;
+  background: #e8f1ff;
+  border-radius: 6px;
+  padding: 2px 7px;
+}
+
+.seriesName {
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+/* ---------- 车型表 ---------- */
+.trimTable {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;      /* 固定列宽，避免「原文」列被拉出大片空白 */
+  font-size: 0.94rem;
+}
+
+.trimRow td {
+  padding: 9px 14px;
+  border-bottom: 1px solid #f2f5f9;
+  vertical-align: middle;
+}
+
+.trimName {
+  color: #344054;
+  width: 52%;
+  word-break: break-word;
+}
+
+.trimProto {
+  width: 38%;
+  white-space: normal;
+}
+
+.trimOps {
+  width: 84px;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.linkBtn {
+  border: none;
+  background: transparent;
+  color: #0070f3;
+  cursor: pointer;
+  font-size: 0.88rem;
+  padding: 2px 6px;
+  text-decoration: none;
+}
+
+.linkBtn:hover {
+  text-decoration: underline;
+}
+
+.evidenceRow td {
+  padding: 0 14px 12px;
+  background: #fcfdff;
+}
+
+.evidenceBox {
+  background: #f8faff;
+  border-left: 3px solid #0070f3;
+  border-radius: 0 8px 8px 0;
+  padding: 10px 12px;
+}
+
+.evidenceText {
+  color: #344054;
+  font-size: 0.92rem;
+  margin-bottom: 8px;
+  word-break: break-all;
+}
+
+.evidenceLinks {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  font-size: 0.84rem;
+}
+
+.evidenceLinks a {
+  color: #0070f3;
+}
+
+.evidenceMeta {
+  color: #98a2b3;
+}
+
+/* ---------- 协议徽章 ---------- */
+.badge,
+.badgeNone {
+  display: inline-block;
+  padding: 2px 9px;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  line-height: 1.6;
+  margin: 2px 4px 2px 0;
+  white-space: nowrap;
+  border: 1px solid transparent;
+}
+
+.badge_hicar {
+  background: #e8fff3;
+  color: #067647;
+  border-color: #abefc6;
+}
+
+.badge_carplay {
+  background: #eef4ff;
+  color: #175cd3;
+  border-color: #b2ddff;
+}
+
+.badge_carlife {
+  background: #eef2ff;
+  color: #3538cd;
+  border-color: #c7d7fe;
+}
+
+.badge_android_auto {
+  background: #f0fdf4;
+  color: #3b7a57;
+  border-color: #bbf7d0;
+}
+
+.badge_original {
+  background: #f8f9fb;
+  color: #475467;
+  border-color: #e4e7ec;
+}
+
+.badge_other {
+  background: #f8f9fb;
+  color: #667085;
+  border-color: #e4e7ec;
+  cursor: help;
+}
+
+.badgeNone {
+  color: #98a2b3;
+  background: #f8f9fb;
+  border-color: #eef2f7;
+}
+
+/* ---------- 品牌级联 ---------- */
+.cascade {
+  display: grid;
+  grid-template-columns: 220px 260px minmax(0, 1fr);
+  gap: 14px;
+  align-items: start;
+}
+
+.panel,
+.panelWide {
+  border: 1px solid #eef2f7;
+  border-radius: 12px;
+  background: #fff;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(16, 24, 40, 0.04);
+}
+
+.panelHead {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px;
+  font-weight: 700;
+  color: #1a1a1a;
+  background: #f8faff;
+  border-bottom: 1px solid #eef2f7;
+  font-size: 0.95rem;
+}
+
+.panelHeadSub {
+  font-weight: 400;
+  color: #98a2b3;
+  font-size: 0.85rem;
+}
+
+.panelSearch {
+  width: calc(100% - 24px);
+  margin: 10px 12px;
+  height: 34px;
+  padding: 0 10px;
+  border: 1px solid #d8e0ea;
+  border-radius: 8px;
+  font-size: 0.88rem;
+  outline: none;
+}
+
+.panelList {
+  max-height: 460px;
+  overflow-y: auto;
+  padding-bottom: 6px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 8px 14px;
+  border: none;
+  background: transparent;
+  text-align: left;
+  cursor: pointer;
+  font-size: 0.92rem;
+  color: #344054;
+}
+
+.item:hover {
+  background: #f5f8ff;
+}
+
+.itemOn {
+  background: #e8f1ff !important;
+  color: #0070f3;
+  font-weight: 700;
+}
+
+.itemName {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.itemCount {
+  color: #98a2b3;
+  font-size: 0.8rem;
+  flex: none;
+}
+
+.panelHint {
+  padding: 18px 14px;
+  color: #98a2b3;
+  font-size: 0.9rem;
+}
+
+.stopTag {
+  font-style: normal;
+  font-size: 0.72rem;
+  color: #98a2b3;
+  border: 1px solid #e4e7ec;
+  border-radius: 4px;
+  padding: 0 4px;
+  margin-left: 6px;
+}
+
+/* ---------- 其他 ---------- */
+.moreBtn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px dashed #d8e0ea;
+  border-radius: 10px;
+  background: #fff;
+  color: #0070f3;
+  cursor: pointer;
+  font-size: 0.92rem;
+}
+
+.moreBtn:hover {
+  border-color: #0070f3;
+}
+
+.legend {
+  margin-top: 26px;
+  padding: 16px 18px;
+  background: #f8faff;
+  border: 1px solid #eef2f7;
+  border-radius: 12px;
+  font-size: 0.9rem;
+  color: #475467;
+}
+
+.legendTitle {
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 6px;
+}
+
+.legend ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.legend li {
+  margin-bottom: 4px;
+}
+
+/* ---------- 窄屏 ---------- */
+@media screen and (max-width: 996px) {
+  .cascade {
+    grid-template-columns: 1fr;
+  }
+
+  .panelList {
+    max-height: 240px;
+  }
+
+  .heroTitle {
+    font-size: 1.9rem;
+  }
+
+  .trimName {
+    width: auto;
+  }
+
+  .trimProto {
+    width: auto;
+  }
+}
+
+/* ---------- 暗色模式 ---------- */
+[data-theme='dark'] .hero {
+  background: linear-gradient(135deg, #1b1b1d 0%, #14181f 100%);
+  border-bottom-color: #2b3138;
+}
+
+[data-theme='dark'] .heroTitle,
+[data-theme='dark'] .sectionHead,
+[data-theme='dark'] .panelHead,
+[data-theme='dark'] .seriesName,
+[data-theme='dark'] .legendTitle {
+  color: #f0f2f5;
+}
+
+[data-theme='dark'] .heroDesc,
+[data-theme='dark'] .stats,
+[data-theme='dark'] .itemName,
+[data-theme='dark'] .trimName,
+[data-theme='dark'] .legend {
+  color: #c6ccd4;
+}
+
+[data-theme='dark'] .searchInput,
+[data-theme='dark'] .clearBtn,
+[data-theme='dark'] .chip,
+[data-theme='dark'] .moreBtn,
+[data-theme='dark'] .panelSearch,
+[data-theme='dark'] .panel,
+[data-theme='dark'] .panelWide,
+[data-theme='dark'] .seriesCard {
+  background: #1f242b;
+  border-color: #2f3742;
+  color: #dfe4ea;
+}
+
+[data-theme='dark'] .seriesHead,
+[data-theme='dark'] .panelHead,
+[data-theme='dark'] .notice,
+[data-theme='dark'] .legend,
+[data-theme='dark'] .evidenceBox {
+  background: #191e25;
+  border-color: #2f3742;
+}
+
+[data-theme='dark'] .trimRow td {
+  border-bottom-color: #262d36;
+}
+
+[data-theme='dark'] .item:hover {
+  background: #232a33;
+}
+
+[data-theme='dark'] .itemOn {
+  background: #1d3557 !important;
+}
+
+/* 品牌列表里的拼音首字母小标 */
+.letterTag {
+  font-style: normal;
+  display: inline-block;
+  min-width: 15px;
+  margin-right: 6px;
+  font-size: 0.72rem;
+  color: #98a2b3;
+  border: 1px solid #eef2f7;
+  border-radius: 4px;
+  text-align: center;
+}

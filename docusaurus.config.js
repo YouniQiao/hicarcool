@@ -88,6 +88,10 @@ const config = {
 
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
+      // HiCar 数据服务地址（车型查询页用；可在页面地址后加 ?api= 临时覆盖）
+      customFields: {
+        hicarApiBase: 'https://api.hicar.club',
+      },
       navbar: {
         title: 'HUAWEI HiCar',
         logo: {
@@ -131,6 +135,7 @@ const config = {
             ],
           },
           {to: '/download', label: '下载', position: 'left'},
+          {to: '/support', label: '车型查询', position: 'left'},
           // {
           //   type: 'docSidebar',
           //   sidebarId: 'deviceSidebar',
