@@ -31,10 +31,6 @@
     "message": "HiCar Official",
     "description": "Navbar item with label HiCar官网"
   },
-  "item.label.支持情况": {
-    "message": "Compatibility",
-    "description": "Navbar item with label 支持情况"
-  },
   "item.label.经典 HiCar": {
     "message": "Classic HiCar",
     "description": "Navbar item with label 经典 HiCar"
@@ -66,5 +62,9 @@
   "item.label.支持的应用": {
     "message": "Supported Apps",
     "description": "Navbar item with label 支持的应用"
+  },
+  "item.label.官网信息": {
+    "message": "Official Info",
+    "description": "Navbar item with label 官网信息"
   }
 }

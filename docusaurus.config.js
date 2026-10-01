@@ -167,22 +167,21 @@ const config = {
           // },
           
           {
-            href: 'https://consumer.huawei.com/cn/phones/hicar/',
-            label: 'HiCar官网',
-            position: 'right',
-          },
-          {
             type: 'dropdown',
-            label: '支持情况',
+            label: '官网信息',
             position: 'right',
             items: [
               {
+                label: 'HiCar官网',
+                href: 'https://consumer.huawei.com/cn/phones/hicar/',
+              },
+              {
                 label: '支持的车型',
-                href: 'https://developer.huawei.com/consumer/cn/doc/development/HiCar-Guides/available-models-0000001226230373',
+                href: 'https://consumer.huawei.com/cn/phones/hicar/available-car/',
               },
               {
                 label: '支持的手机',
-                href: 'https://developer.huawei.com/consumer/cn/doc/development/HiCar-Guides/available-phones-0000001227954439',
+                href: 'https://consumer.huawei.com/cn/phones/hicar/available-phone/',
               },
               {
                 label: '支持的应用',
@@ -246,11 +245,11 @@ const config = {
             items: [
               {
                 label: '支持的车型',
-                href: 'https://developer.huawei.com/consumer/cn/doc/development/HiCar-Guides/available-models-0000001226230373',
+                href: 'https://consumer.huawei.com/cn/phones/hicar/available-car/',
               },
               {
                 label: '支持的手机',
-                href: 'https://developer.huawei.com/consumer/cn/doc/development/HiCar-Guides/available-phones-0000001227954439',
+                href: 'https://consumer.huawei.com/cn/phones/hicar/available-phone/',
               },
               {
                 label: '支持的应用',
