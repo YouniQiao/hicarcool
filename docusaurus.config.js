@@ -220,14 +220,6 @@ const config = {
                 to: '/box',
               },
               {
-                href: 'https://news.hicar.cool/',
-                label: '最新消息',
-              },
-              {
-                href: 'https://forum.hicar.cool/',
-                label: '论坛',
-              },
-              {
                 href: 'https://hicar.club/',
                 label: 'HiCar资源',
               },

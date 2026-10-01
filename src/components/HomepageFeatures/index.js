@@ -159,28 +159,6 @@ const BoxList = [
 
 const WebsiteList = [
   {
-    title: translate({message: 'HiCar论坛', description: 'Homepage website link: forum'}),
-    Svg: require('@site/static/img/undraw_forum.svg').default,
-    description: (
-      <>
-        <Translate>一个非官方论坛站点</Translate><br/>
-        <Translate>为HiCar铁粉和开发者提供交流的角落</Translate><br/>
-        <a href='https://forum.hicar.cool/' target='_blank'><Translate>点击访问HiCar论坛</Translate></a>
-      </>
-    ),
-  },
-  {
-    title: translate({message: 'HiCar最新消息', description: 'Homepage website link: latest news'}),
-    Svg: require('@site/static/img/undraw_news.svg').default,
-    description: (
-      <>
-        <Translate>一个简单形式的站点</Translate><br/>
-        <Translate>第一时间汇报感知到HiCar最新消息</Translate><br/>
-        <a href='https://news.hicar.cool/' target='_blank'><Translate>点击查看HiCar最新消息</Translate></a>
-      </>
-    ),
-  },
-  {
     title: translate({message: 'HiCar Club', description: 'Homepage website link: HiCar Club'}),
     Svg: require('@site/static/img/undraw_club.svg').default,
     description: (

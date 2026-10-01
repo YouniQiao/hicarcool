@@ -27,17 +27,9 @@
     "message": "Supported Vehicles",
     "description": "The label of footer link with label=支持的车型 linking to https://developer.huawei.com/consumer/cn/doc/development/HiCar-Guides/available-models-0000001226230373"
   },
-  "link.item.label.最新消息": {
-    "message": "Latest News",
-    "description": "The label of footer link with label=最新消息 linking to https://news.hicar.cool/"
-  },
   "link.item.label.本站通过PC浏览效果更佳，域名 hicar.cool": {
     "message": "Best viewed on PC | hicar.cool",
     "description": "Footer link: Best viewed on PC"
-  },
-  "link.item.label.论坛": {
-    "message": "Forum",
-    "description": "The label of footer link with label=论坛 linking to https://forum.hicar.cool/"
   },
   "link.title.Docs": {
     "message": "Docs",
