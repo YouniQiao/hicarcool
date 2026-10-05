@@ -1,13 +1,14 @@
 import React from 'react';
 import clsx from 'clsx';
 import Translate, {translate} from '@docusaurus/Translate';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 import Link from '@docusaurus/Link';
 
 const FeatureList = [
   {
     title: translate({message: 'HUAWEI HiCar 文档', description: 'Homepage feature: HiCar docs title'}),
-    Svg: require('@site/static/img/undraw_tutorial.svg').default,
+    img: '/img/undraw_tutorial.svg',
     description: (
       <>
         <Translate>HUAWEI HiCar具体是什么</Translate><br/>
@@ -20,7 +21,7 @@ const FeatureList = [
   },
   {
     title: translate({message: 'HUAWEI HiCar 设备', description: 'Homepage feature: HiCar devices title'}),
-    Svg: require('@site/static/img/undraw_device.svg').default,
+    img: '/img/undraw_device.svg',
     description: (
       <>
         <Translate>HiCar转换盒、车载智慧屏</Translate><br/>
@@ -33,7 +34,7 @@ const FeatureList = [
   },
   {
     title: translate({message: '本站更新说明', description: 'Homepage feature: update notes title'}),
-    Svg: require('@site/static/img/undraw_update.svg').default,
+    img: '/img/undraw_update.svg',
     description: (
       <>
         <Translate>本站并非HiCar官方站点</Translate><br/>
@@ -49,7 +50,7 @@ const FeatureList = [
 const StepList = [
   {
     title: translate({message: '检查车辆', description: 'Homepage step: check vehicle'}),
-    Svg: require('@site/static/img/1.svg').default,
+    img: '/img/1.svg',
     description: (
       <>
         <Translate>使用前确认您的车支持HiCar</Translate><br/>
@@ -61,7 +62,7 @@ const StepList = [
   },
   {
     title: translate({message: '检查手机', description: 'Homepage step: check phone'}),
-    Svg: require('@site/static/img/2.svg').default,
+    img: '/img/2.svg',
     description: (
       <>
         <Translate>只有部分华为手机以及荣耀手机支持HiCar</Translate><br/>
@@ -73,7 +74,7 @@ const StepList = [
   },
   {
     title: translate({message: '开始连接', description: 'Homepage step: start connection'}),
-    Svg: require('@site/static/img/3.svg').default,
+    img: '/img/3.svg',
     description: (
       <>
         <Translate>当车辆和手机都支持HiCar时</Translate><br/>
@@ -88,7 +89,7 @@ const StepList = [
 const DeviceList = [
   {
     title: translate({message: '盒子设备', description: 'Homepage device category: adapter boxes'}),
-    Svg: require('@site/static/img/undraw_dongle1.svg').default,
+    img: '/img/undraw_dongle1.svg',
     description: (
       <>
         <a href='/docs/devices/carplay'><Translate>CarPlay转HiCar的盒子</Translate></a><br/>
@@ -99,7 +100,7 @@ const DeviceList = [
   },
   {
     title: translate({message: '车载智慧屏/后视镜/后装车机', description: 'Homepage device category: screens/mirrors/head units'}),
-    Svg: require('@site/static/img/undraw_screen.svg').default,
+    img: '/img/undraw_screen.svg',
     description: (
       <>
         <a href='/docs/devices/smart-screen'><Translate>车载智慧屏</Translate></a><br/>
@@ -110,7 +111,7 @@ const DeviceList = [
   },
   {
     title: translate({message: 'HiCar协同设备', description: 'Homepage device category: collaborative devices'}),
-    Svg: require('@site/static/img/undraw_connect1.svg').default,
+    img: '/img/undraw_connect1.svg',
     description: (
       <>
         <a href='/docs/devices/aromatherapy'><Translate>智能香薰机</Translate></a><br/>
@@ -124,7 +125,7 @@ const DeviceList = [
 const BoxList = [
   {
     title: translate({message: '车连易', description: 'Homepage box brand: Carlinkit'}),
-    Svg: require('@site/static/img/device/box-carlinkit.svg').default,
+    img: '/img/device/box-carlinkit.svg',
     description: (
       <>
         <a href='https://hicar.club/sites/322.html'><Translate>京东店铺</Translate></a><br/>
@@ -135,7 +136,7 @@ const BoxList = [
   },
   {
     title: translate({message: '君用', description: 'Homepage box brand: JunYong'}),
-    Svg: require('@site/static/img/device/box-junyong.svg').default,
+    img: '/img/device/box-junyong.svg',
     description: (
       <>
         <a href='https://hicar.club/sites/321.html'><Translate>京东店铺</Translate></a><br/>
@@ -146,7 +147,7 @@ const BoxList = [
   },
   {
     title: translate({message: '喵驾', description: 'Homepage box brand: MiaoDrive'}),
-    Svg: require('@site/static/img/device/box-miudrive.svg').default,
+    img: '/img/device/box-miudrive.svg',
     description: (
       <>
         <a href='https://hicar.club/sites/323.html'><Translate>京东店铺</Translate></a><br/>
@@ -160,7 +161,7 @@ const BoxList = [
 const WebsiteList = [
   {
     title: translate({message: 'HiCar Club', description: 'Homepage website link: HiCar Club'}),
-    Svg: require('@site/static/img/undraw_club.svg').default,
+    img: '/img/undraw_club.svg',
     description: (
       <>
         <Translate>一个新的HiCar资源站点</Translate><br/>
@@ -171,11 +172,11 @@ const WebsiteList = [
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({img, title, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <img src={useBaseUrl(img)} className={styles.featureSvg} alt={title} />
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>

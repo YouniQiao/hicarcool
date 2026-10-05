@@ -2,8 +2,9 @@
 User-agent: *
 Allow: /
 
-# Sitemap
+# Sitemap（中英各一份，两份都要提交）
 Sitemap: https://hicar.cool/sitemap.xml
+Sitemap: https://hicar.cool/en/sitemap.xml
 
 # Crawl-delay (optional, some search engines respect this)
 Crawl-delay: 1

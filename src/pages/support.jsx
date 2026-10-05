@@ -2,6 +2,7 @@ import React, {useCallback, useEffect, useMemo, useRef, useState} from 'react';
 import Layout from '@theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Translate, {translate} from '@docusaurus/Translate';
+import Head from '@docusaurus/Head';
 import styles from './support.module.css';
 
 /**
@@ -273,6 +274,23 @@ export default function SupportPage() {
       description={translate({
         message: '查询车型的手机互联支持情况：HUAWEI HiCar、CarPlay、CarLife、Android Auto 等',
       })}>
+      <Head>
+        <script type="application/ld+json">
+          {JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'WebApplication',
+            name: 'HiCar 车型查询',
+            url: 'https://hicar.cool/support',
+            applicationCategory: 'UtilitiesApplication',
+            operatingSystem: 'Web',
+            inLanguage: 'zh-CN',
+            description:
+              '查询任意车型的手机互联支持情况：HUAWEI HiCar、CarPlay、CarLife、Android Auto 与厂商自有互联方案，可按车型、车系、品牌检索。',
+            isAccessibleForFree: true,
+            offers: {'@type': 'Offer', price: '0', priceCurrency: 'CNY'},
+          })}
+        </script>
+      </Head>
       <div className={styles.hero}>
         <div className="container">
           <h1 className={styles.heroTitle}>

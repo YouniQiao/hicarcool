@@ -8,6 +8,9 @@
 .featureSvg {
   height: 200px;
   width: 200px;
+  /* 原先是内联 <svg>（默认等比缩放）；换成 <img> 后必须显式等比，
+     否则宽幅插画会被 200×200 拉伸变形 */
+  object-fit: contain;
 }
 
 .container-lg {
