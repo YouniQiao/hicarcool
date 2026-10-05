@@ -16,6 +16,21 @@ export default function ContentUpdates() {
 
   const updates = [
     {
+      date: "2026-10-05",
+      items: [
+        {
+          text: translate({message: "新增 Next HiCar「驾驶模式」使用说明：驾驶模式简介、进入驾驶模式、与 HiCar 联动、退出驾驶模式"}),
+          link: "/docs/next-guides/dmode/driving-mode",
+          category: "NextHiCar"
+        },
+        {
+          text: translate({message: "新增 Next HiCar「截屏」说明：连接后借助驾驶模式遥控器一键截取 HiCar 界面"}),
+          link: "/docs/next-guides/function/screenshot",
+          category: "NextHiCar"
+        },
+      ]
+    },
+    {
       date: "2026-10-01",
       items: [
         {

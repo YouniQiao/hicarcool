@@ -86,5 +86,9 @@
   "sidebar.deviceSidebar.category.协同设备": {
     "message": "Collaborative Devices",
     "description": "The label for category 协同设备 in sidebar deviceSidebar"
+  },
+  "sidebar.nextSidebar.category.Next HiCar驾驶模式": {
+    "message": "Next HiCar Driving Mode",
+    "description": "The label for category Next HiCar驾驶模式 in sidebar nextSidebar"
   }
 }

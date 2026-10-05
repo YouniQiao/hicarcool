@@ -208,6 +208,17 @@ const sidebars = {
         'next-guides/function/shake-app',
         'next-guides/function/mobile-linkage-navigation',
         'next-guides/function/switch-audio-device',
+        'next-guides/function/screenshot',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Next HiCar驾驶模式',
+      items: [
+        'next-guides/dmode/driving-mode',
+        'next-guides/dmode/enter-driving-mode',
+        'next-guides/dmode/work-with-hicar',
+        'next-guides/dmode/exit-driving-mode',
       ],
     },
   ],
