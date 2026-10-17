@@ -35,11 +35,11 @@ export default function HiCarDownload() {
             <h2 className={styles.instructionsTitle}><Translate>下载</Translate><span className={styles.highlight}><Translate>手机端Next HiCar</Translate></span><Translate>应用</Translate></h2>
             <div className={styles.heroContent}>
               <div className={styles.heroBadge}>
-                <span><Translate>最新版本</Translate> 7.0.0.306</span> 
+                <span><Translate>最新版本</Translate> 7.0.2.206</span> 
               </div>
               &nbsp;&nbsp;&nbsp;
               <div className={styles.heroBadge}>
-                <span><Translate>更新日期</Translate>：2026.09.12</span> 
+                <span><Translate>更新日期</Translate>：2026.10.16</span> 
               </div>
             </div> 
 
@@ -53,8 +53,14 @@ export default function HiCarDownload() {
               <td><Translate>请在纯血鸿蒙系统中打开。</Translate></td>
               </tr>
               <tr>
+              <td>2026.10.16</td>
+              <td><font color="red">7.0.2.206 <Translate>尝鲜版本</Translate></font></td>
+              <td><Translate>1.新增沉浸光感视觉风格，提升桌面交互与视觉沉浸感。</Translate><br/><Translate>2.新增客服小艺HiCar专属服务，唤醒更灵敏。</Translate><br/><Translate>3.新增元服务应用，进一步丰富车上生态体验。</Translate><br/><Translate>1.优化部分场景下的连接稳定性。</Translate><br/><Translate>2.优化部分场景下的音频无声问题。</Translate></td>
+              <td><Translate>华为应用市场-应用尝鲜</Translate></td>
+              </tr>
+              <tr>
               <td>2026.09.12</td>
-              <td><font color="red">7.0.0.306 <Translate>正式版本</Translate></font></td>
+              <td>7.0.0.306 <Translate>正式版本</Translate></td>
               <td><Translate>1.优化部分场景下的连接稳定性。</Translate></td>
               <td><Translate>华为应用市场</Translate></td>
               </tr>

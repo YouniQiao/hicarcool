@@ -1506,5 +1506,20 @@
   },
   "新增 Next HiCar「截屏」说明：连接后借助驾驶模式遥控器一键截取 HiCar 界面": {
     "message": "Added a Next HiCar Screenshot guide: capture the HiCar screen with one tap via the Driving Mode remote control"
+  },
+  "Next HiCar版本更新至7.0.2.206尝鲜版本": {
+    "message": "Next HiCar updated to 7.0.2.206 (Trial Version)"
+  },
+  "1.新增沉浸光感视觉风格，提升桌面交互与视觉沉浸感。": {
+    "message": "1. Added an immersive light-sensing visual style for a more absorbing desktop experience."
+  },
+  "2.新增客服小艺HiCar专属服务，唤醒更灵敏。": {
+    "message": "2. Added a dedicated HiCar customer-service assistant, Xiao Yi, with more responsive wake-up."
+  },
+  "3.新增元服务应用，进一步丰富车上生态体验。": {
+    "message": "3. Added Atomic Service apps, further enriching the in-car ecosystem."
+  },
+  "2.优化部分场景下的音频无声问题。": {
+    "message": "2. Fixed audio cutting out in certain scenarios."
   }
 }
