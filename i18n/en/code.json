@@ -1521,5 +1521,14 @@
   },
   "2.优化部分场景下的音频无声问题。": {
     "message": "2. Fixed audio cutting out in certain scenarios."
+  },
+  "Next HiCar版本更新至7.0.2.301正式版本": {
+    "message": "Next HiCar updated to 7.0.2.301 (Stable Version)"
+  },
+  "1.新增客服小艺HiCar专属服务，唤醒更灵敏。": {
+    "message": "1. Added a dedicated HiCar customer-service assistant, Xiao Yi, with more responsive wake-up."
+  },
+  "2.新增元服务应用，进一步丰富车上生态体验。": {
+    "message": "2. Added Atomic Service apps, further enriching the in-car ecosystem."
   }
 }
